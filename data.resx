@@ -1,0 +1,7443 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="day1" xml:space="preserve">
+    <value>1652
+1998
+1677
+1855
+1955
+1875
+1993
+1860
+1752
+1936
+1816
+1924
+1872
+2000
+1967
+1882
+1737
+1801
+1832
+1985
+1933
+1911
+1894
+1384
+1871
+1607
+1858
+1950
+222
+1931
+1635
+1960
+1909
+1884
+1921
+1959
+1981
+1920
+1684
+1734
+1490
+1632
+1935
+1982
+217
+1874
+1646
+1943
+986
+1509
+1899
+1834
+1908
+1769
+1989
+1977
+1436
+1973
+1974
+1941
+1624
+2006
+1867
+843
+2003
+1838
+1904
+1892
+1972
+1957
+1890
+1540
+1578
+1845
+1912
+1947
+1847
+1841
+1793
+2005
+1716
+1852
+1865
+1532
+1800
+1949
+1898
+1698
+1806
+1840
+1833
+1915
+479
+1963
+1923
+1567
+1849
+1536
+1741
+1818
+1934
+1952
+1805
+1868
+1808
+955
+1954
+1712
+1797
+1472
+1807
+1673
+1601
+1883
+1869
+1969
+1886
+1491
+1572
+2010
+1796
+1870
+1946
+1938
+1813
+1825
+1944
+129
+1856
+1827
+1939
+1642
+1542
+745
+1836
+1810
+529
+1822
+1917
+486
+1953
+2008
+1991
+1628
+1937
+1987
+1837
+1820
+1922
+1850
+1893
+1942
+1928
+1990
+1589
+1970
+1986
+1925
+1902
+2009
+1565
+1610
+1857
+1889
+1901
+1790
+1880
+1999
+1964
+1948
+1824
+1877
+1916
+1978
+1839
+1659
+1846
+323
+1387
+1926
+1958
+1914
+1906
+178
+1979
+1994
+2004
+1862
+1704
+1903
+1997
+1876
+1992
+1864
+1932
+1918
+1962
+1802
+1278
+1861</value>
+  </data>
+  <data name="day2" xml:space="preserve">
+    <value>15-16 f: ffffffffffffffhf
+6-8 b: bbbnvbbb
+6-10 z: zhzzzzfzzzzzzzzzpzz
+9-13 s: dmssskssqsssssf
+5-6 v: hvvgvrm
+1-8 s: sssssssssss
+1-3 x: kxxx
+2-5 c: cckgxcnswc
+10-11 j: rjjpwdzkfjj
+8-11 r: wkrtlrxcskjglb
+3-6 l: mqrnhllxx
+5-6 z: zzzzlg
+12-13 x: qkrqxtrtsfxpnxg
+3-7 k: tsbkkkk
+4-11 j: jjjrjjjjjjjjjjj
+2-4 c: ccccc
+2-15 h: hhkhhhhhhhhhhhth
+7-8 k: hgcjkxhkskk
+3-10 s: ksxgrkcwfsxrqs
+10-14 z: hblznxdzxzzzrz
+5-8 z: mknrjhzzrjzl
+2-4 v: vqvvjhl
+3-5 q: fvzqrq
+9-13 f: flfpkfvffdfcz
+1-7 b: tbbbbbxbbbbbzbbb
+6-8 c: ccchvccccccccvzt
+4-5 w: wwwqww
+1-7 f: ffffffqf
+5-11 m: mmtmpmkrgrsm
+8-13 j: wpggctlxlwqckcsjwsn
+1-14 z: wzzzzzzzzzzzzzz
+4-6 p: pqpppsfxchwk
+10-11 d: ddddddddvkdddd
+3-7 v: vfmhccvg
+10-11 j: jjjjjcjjjfrzt
+4-6 x: xkwzdxcvkr
+1-3 k: kkkkkkkk
+1-7 l: clllllzlllllll
+4-6 n: nnnfnn
+14-15 l: lfllllxllllllllllm
+3-10 p: ppvppppppppppppppppp
+7-8 l: blbllllf
+2-6 p: pppphmpppp
+7-10 j: ppmjczjvvj
+1-9 t: dgtstttltttttvt
+10-16 w: hkhwvvwztwwwwgdb
+3-4 w: wwwn
+6-7 x: xxxxxxt
+9-10 q: gzqcbbjrbqdz
+9-17 t: qtttttttttttttttwt
+11-12 z: phtzzhqztpzz
+7-18 g: sggggggggggggggggv
+11-14 n: nnnnnnnnnnnnnsn
+8-11 q: qbcqqqqqqqqq
+1-6 t: ktwtttt
+14-16 z: zzzzzzzzzzzzzmzzzz
+5-6 m: mmmmhcm
+8-10 z: dxcpbqzbxd
+12-13 p: pppppppptpppppppppp
+16-17 p: pgwplpwpbpnppwppdspp
+8-11 s: xzsdbgvssdp
+12-13 k: zknzkgjqhpxbk
+3-5 c: ccccvc
+2-3 f: vknsqwfcqgl
+13-16 l: lllllnkllslwhsll
+2-4 z: txcz
+14-15 h: kdhhshhdhphxjshh
+10-14 p: pxpvpkprpjppvpjw
+5-8 s: slqssjszsssssl
+11-12 w: wwwwwwwwwwdtw
+2-3 r: xwrn
+15-18 d: ddbdddddddddddzddxdd
+15-16 t: ttttttktttttdvtvtt
+3-5 l: kjwpll
+13-14 w: wvwwwwwwwwwtpl
+2-5 m: mmvmwbjmmmmmmmxmmmmm
+3-4 x: qbcxpx
+4-5 k: kkjwkkbjkkkpkffjpzk
+14-16 r: drrlgrznrwmrhrnr
+8-14 p: pppppppfpppppsp
+15-19 h: hrplhhqkhhxjshhjcxl
+11-13 z: cjjxxqzdcxwww
+1-7 z: zzzzzzhxzz
+9-10 m: mfnqtmjmfm
+2-6 b: xbnnksjqdtdg
+6-8 k: vwddsprkkptksckfzv
+7-8 b: cwlmsbxs
+1-3 h: hhkhh
+8-12 j: jtgwjztfjmbj
+6-7 v: vvvvblvhv
+5-9 w: rbwkwqctpvfw
+2-4 s: szss
+6-8 m: rqmkrnhb
+9-14 q: qqcqcnqbqkqqqfq
+10-11 v: qvrbvbvvvslhvvxvp
+7-8 k: kkkkkzfk
+11-18 v: vvvvvvvvvvvvvvvvvvv
+10-12 h: hsmzqgrzhvdhpvgnhh
+3-4 t: jtdcct
+3-15 k: glbccmxglvbvkzkh
+4-5 m: gmmhm
+1-7 s: zsssssssss
+3-14 h: hhhhhhhhhhpjhhhhb
+8-17 x: xxxxxxxxxxxxxmxxxxx
+7-8 n: nnnpcrnzf
+6-12 k: kkkktjkknqkk
+5-8 r: sxrrrrrsrh
+8-9 v: fcpvvvvvg
+10-17 v: hvzvvmvvvvfvvvvbj
+6-9 m: mbvnqwrlm
+10-11 k: kkkkkkfkshk
+4-6 w: nskwtwtwgw
+1-4 t: twdtgbtjbv
+11-13 b: bbbbbbbbbbbbtbbbb
+3-6 j: jjfjjjr
+9-10 w: wwnwwvwwvww
+10-11 h: fflfhkdtqhh
+3-6 p: jhzjdpbpjppx
+16-18 x: xxxxxxxxxxxxxxxxxxx
+10-15 p: ppppgpzhpppstpb
+10-11 r: qrrrjrlkzrx
+8-12 g: gggggggrgggjg
+13-15 z: czzzzzfzzbzzqzzz
+7-17 f: fffcffffffffffffjfff
+4-7 j: mtjjhsq
+4-14 x: mxsxmtggkwjhbc
+10-11 c: cccccccccsv
+9-10 h: hqkhwhhthb
+7-8 j: mjvjjhhj
+11-15 f: ffffffffffqffrvffff
+6-11 c: ztjdccccchct
+1-12 q: jqqgqqqnqqqqqqq
+5-12 n: gttnvnbfnzznrmx
+1-8 b: zbtxblcb
+4-10 t: tttvttnttt
+4-17 p: lzhpgxpfxgvsjnzxp
+4-5 d: dfbdd
+5-15 m: mmmmmmmmchmlpmpmmmmm
+14-15 d: dcddddddddddhddldd
+3-14 w: wwwsxwcwswwpgcmqnrws
+2-9 n: nnnnnznnwtnsndhx
+1-3 z: zzqzz
+4-12 c: ccclccccccccc
+2-4 r: rrpz
+6-9 m: mmhgkqbcj
+3-4 r: vgjqh
+2-7 m: hmpfdktscc
+11-16 x: xxpxxxjqxqxxxxxsx
+6-8 h: hvdhjhdf
+1-2 g: ngxgxhgc
+1-2 b: bjmbbjnkwnt
+9-10 g: qgqggggcgr
+9-10 x: rhzwpwrkbxg
+9-11 z: wzrmhmzzfskzqlbz
+9-11 b: bbbbbbmbszbbbxbbw
+4-7 g: njgcvvv
+6-8 l: sxtlwntvrlllp
+3-4 m: mrlvs
+1-3 r: xrrr
+9-10 v: vlvtxvvqvv
+4-5 j: kskjvsn
+3-4 s: sjjs
+5-6 l: lgwlll
+2-3 k: zqkhkq
+5-10 x: lxxwggkzxxqxx
+10-16 r: rrrrrrrrrrbrzrrr
+13-14 b: bbbbbbbbbbbbcb
+4-5 c: qbjbc
+14-15 n: lsvqdmnhnbnkrnhm
+2-4 c: lrjc
+11-12 w: clwwwwwwwwwcwmw
+7-8 z: vncgxkzbzgzbsxbzrz
+5-7 w: gwmwfcw
+5-6 c: wggkwccfwkcbn
+5-6 b: gggdbpbcmhvb
+3-5 t: nvtqtzttn
+7-9 r: rrrrrrvrrrr
+1-4 r: vnrrr
+4-9 m: klmmqxmnt
+3-5 n: rsnncnj
+12-19 b: rqbbbbbtbbbtbbbkbbh
+18-19 q: hqqzxqlkqfqqqqfbjsq
+4-7 w: nvgwcjqc
+4-6 r: trrpdv
+10-14 g: gcggggggggggwn
+2-8 g: hbgrdgglqqbj
+4-5 q: qqqqmr
+3-4 x: ntrxbcr
+2-5 c: pjgxcfczcc
+8-11 b: lgpwwptbtldb
+9-12 s: sssmwlsssssrssss
+5-12 z: rlwbzczmvrzzt
+4-13 m: mmmkmphjgmlcqb
+9-10 l: vqqglfpxll
+5-8 w: wktwjvzwwmwj
+4-5 l: hrfklcllpmhnpbcnl
+6-10 m: svdjtmdccm
+12-13 k: bbvdgcfsqtmgk
+13-15 r: rrvrrrrqrrrthrr
+3-14 h: grhzxvmhqhljwm
+4-5 k: kgpkc
+1-8 q: jqqqqqqqqqq
+9-18 w: gxwxwcxswwvbtxwkfw
+7-10 g: rgsnzzvcxg
+4-14 l: ztgldqllvrrbrkm
+3-5 n: tnrndnnn
+3-9 j: jmjjhjjbmjjvjjl
+9-10 s: sszbssmsssssfs
+15-16 j: jmjjjkjjjjjjjjcpjjj
+7-10 l: lljljlssls
+2-3 n: ntnn
+6-7 m: qmvmmjmrsm
+13-20 b: bbbkbbbbbbdbbbbbbwbb
+11-14 w: gwvzwwzwvxjzmw
+13-15 k: vsckdjqnsknkkkvhk
+5-9 r: drrprlfrn
+10-11 x: xxxxxxxxxfxxxxx
+10-11 l: lfnllfqxwzghblld
+3-18 r: rrnrrrrrrrrrrrrrrpr
+4-7 m: wmjtmgm
+7-8 z: zzzmzzfz
+1-15 j: djjjjjcjjjjqjjj
+3-4 d: bvcd
+8-9 r: rrrrxdrrrrrr
+5-6 f: jqszdfbmpfdhdclg
+4-9 l: lllmllllllll
+12-16 t: ttttttttttttttttt
+10-11 d: ddfddddddddfd
+7-14 h: hhrnwhhhklcjhhmts
+5-7 q: tqqqqqfqk
+9-16 p: ppppppppbpppppppp
+3-5 r: wqtgtpmmxffrqhmf
+4-5 b: bbbfcbbxzd
+9-11 q: bmqqcqnhqsq
+1-8 j: jtkwjlzwhjjnjqjrj
+3-6 x: xxkxxxjzxndxh
+16-17 l: llllllllzllllnlvllll
+4-5 p: bmsgphslr
+4-6 b: bbbsbbbb
+13-18 l: lllllllllllllllllvll
+5-6 f: fbpfjb
+4-5 c: cdczx
+2-8 x: pxcxdvgrqgdjnrk
+13-14 w: wwswwgwwwwwwwm
+6-7 n: nnnbndnn
+4-5 g: lsgghg
+17-19 d: dzlwgqngbnktvhqzpbd
+1-4 d: dtddd
+6-9 d: dddddhddddd
+5-6 w: wwwwwww
+10-11 x: xlmxlxxmtrx
+15-16 d: dgpkrcvddfbxdrvd
+1-3 c: ccdcc
+2-3 j: bjpjj
+1-9 q: nqqqqqqqqqqqqq
+10-17 d: ddddddddddddddddtd
+7-11 g: mggglgsggggggsg
+2-5 t: tztttdtmq
+8-12 v: vvvvvvvlvvvvvvvvv
+2-7 l: llqlllbll
+6-7 g: ggggggm
+3-9 k: kkktkknxwrkkkkmhn
+8-9 b: brmbbbqbjbm
+3-7 w: hwcjxlx
+13-20 n: mptqtnvjfftfnvczjdvn
+12-13 h: hhhhhhhhhhhhvwhthhhh
+3-9 j: gjqjjjjjjj
+3-5 p: wpppv
+1-8 n: nnnnnnnlnnnn
+6-7 h: hhwtthnth
+4-7 h: vlnhkwvrtxhlbj
+11-13 q: qqtpgqqqqqwqqq
+6-7 g: gkhgggl
+1-16 h: hghsthqhhchnjhvh
+8-11 l: qllfltlzjlxllwh
+5-6 b: bbbdtrb
+2-7 m: mmdmfptmmmbmz
+8-10 h: hhhhhxhhhshhhhhh
+2-4 k: cklbktfdfpz
+2-6 q: wqjlcfpdlmfjkgbjjb
+1-3 g: zggggg
+4-8 c: wqncxcqcwdqwcn
+4-5 n: nnnnln
+2-3 m: lmbdqjf
+8-17 t: tttjttttttttttttkttt
+7-10 l: lllwllpllllflpll
+1-5 x: sxxxxx
+8-9 r: dnxjktrqr
+9-14 h: fdhghhhqhhhghh
+5-10 x: gclxxxxfxntxjnthzrq
+9-18 x: jvvlxnzmcwwcpxxtxx
+15-16 l: lllllllllllllnvllll
+5-11 q: fksqqwvrbfq
+4-8 p: pppmbzspvwqbbppp
+7-8 t: tftttttr
+9-12 k: nfhkhpthkzzkljqhkznp
+9-10 z: nxbnztvzrz
+12-15 l: lllllllllllplllll
+2-16 r: jrmlrfclhhqvfvnpb
+1-3 p: zppgpppg
+7-9 s: ssssssszxsl
+3-4 l: wllh
+12-13 r: swrsbwrwrrckr
+1-4 m: mmmmmmmmm
+3-12 r: rrhrlrgrrrrrrqrrrvcd
+6-12 k: kcpvlkrlkkdkkk
+7-19 n: nnnnnnnnnmnnnnnnnfzk
+1-5 q: qqfbqkcsqqcx
+2-5 s: nsxss
+10-12 b: bcwbbdbbbbbjb
+5-6 g: gggggtg
+2-3 x: nxxrxvwkmjxnfqrztc
+8-11 t: zhkjfttnxttt
+3-9 n: nnnnnnnknnn
+9-13 z: nzvpcztgrkzzfzs
+14-16 d: jdddddmdldbddcdd
+2-5 g: djwtgg
+2-3 w: wgww
+4-8 v: vvvxvvfvjvjv
+6-7 d: hvvfdfd
+1-5 j: jhknz
+8-10 d: ddddddddddddd
+10-11 p: ppppdpppppw
+1-9 b: bbcbbwbtj
+4-5 q: qqqqq
+2-3 j: hhxjjj
+16-18 g: gglgggggggggggghgggg
+14-15 v: vvvvvvvvvvvvvvmvv
+1-3 x: mxxxx
+3-4 q: qsqq
+4-10 m: xldvlcdmrmf
+2-3 x: xxgx
+3-4 t: tgvdtllftmnw
+4-5 h: xrhkhphhq
+7-10 j: srhslnjjjjjtn
+4-5 v: vvvsv
+9-14 g: wgggcgjgggvgjg
+1-5 w: qwnwv
+12-14 p: ppppzpsppzpjvzp
+13-14 v: vxvtvvvcsrqgxp
+1-6 k: kmskxk
+2-4 h: hnjhpgl
+3-7 t: ttttttrt
+15-17 f: ffffffffffffffhfvf
+5-7 n: nnnnnnnnn
+10-11 w: wkgqggtxbwwkc
+3-17 w: hwqvwqwwwwwzwwvww
+6-8 q: qqqqqrqtq
+1-3 n: nngfpgzcn
+6-11 h: bmzlhhhrrhvjhklpk
+6-10 b: bbbbbbbbbnb
+5-10 h: hgfvlhfdnhwhq
+2-4 g: ggzf
+2-18 j: jjjjjjjjjjjjjjjjjrj
+15-16 c: cckqchlckcnzjcct
+4-8 w: wwskwhjw
+9-12 n: nfnnnntnnkvnn
+7-10 c: rthkcjcdcct
+11-14 n: knnnnnnvnnnznrnxnnnn
+3-17 x: xdxwtxlpwnmqlxvxzh
+5-6 l: pwnflklxwgxlp
+8-11 d: ddqvddxddqk
+5-10 x: xxxxxxxxxxxxxx
+3-8 r: cmtctvlr
+4-7 d: ddcbdddddr
+6-16 g: gggggsgggggggggggggg
+1-5 l: llllzl
+2-9 c: hsfgmxnbhxclv
+2-9 h: hzhhhhchhhhhh
+1-18 h: shhhhhhhhhhhhhhhhhh
+6-8 w: fwzpwhwvqkzw
+5-12 j: wljbgpjldpjjjsslks
+7-8 h: hhhhfhhf
+3-15 p: pppppppppppppppp
+5-6 p: pzppbpvgpppppp
+11-14 j: jfjjjjjjcjzjjjjjj
+9-11 h: hhhhhhhhshh
+1-6 v: hvvvlvvvvv
+1-4 d: dddndd
+5-6 r: crrrcrrr
+1-6 m: tmmmmmm
+13-15 n: bnnngnmnnnnnnntnbnz
+2-8 x: mxxkhfwxhvtr
+10-12 j: jjjmjnjjtxjd
+3-11 h: hvnhhhhhhhhhwbhhqh
+3-6 c: ccccscccrc
+4-5 g: ggllg
+2-4 v: vvvvv
+6-7 n: jmpqnpn
+1-2 f: fwfffnj
+9-17 s: ssssssssbssssssssss
+12-16 t: htxwknmtzlptqxztn
+12-13 c: tlkcxmqhctnsc
+4-5 f: ffffgffffwfffff
+3-4 v: jlvb
+5-6 h: klhdhhv
+1-3 n: nnlnndlnn
+8-9 h: hhhhhhhrthhhhhh
+6-11 d: dddddwddddcdd
+11-14 r: rbrrrrrrrrfrrnrr
+3-10 k: jpkkvnbdmpf
+6-10 h: zzhbhcfhhghhhz
+5-6 t: ttsjtvt
+14-18 d: dtddddmdldsddvghtd
+7-9 q: qqqqqvfqlqqq
+10-18 f: ffffffffffffffffftf
+10-14 c: cckccchcrqccccjz
+2-4 q: srmqqdctnhsrzqqqhscf
+6-7 z: hwzbflz
+11-14 d: dfdgdptdddnddd
+2-3 x: xxzn
+15-18 w: wvqmwhwbhwlkmwwhmqv
+4-8 h: pvfhwhbhhqfqhzl
+6-13 l: wlczflcmlgkjtfwqvl
+11-12 k: rtdckkzzkskpx
+2-4 f: fqfrjff
+12-16 q: vqjjqxqqqmfqqqqx
+3-4 n: mtnnnnnz
+3-4 s: pmsttxst
+13-15 x: xxxxxxxxxxxxxxgzx
+6-12 p: tkcvpmgpzdppdsfv
+3-4 j: jjjsjxj
+6-9 h: hlhhhsqhnhmhhhh
+3-6 m: mmmmmmwmmm
+1-7 z: xkpkzzzgzwtfnzztw
+2-6 g: gzggkggg
+9-10 c: ccccbccccfcccccccccl
+1-2 p: pppppppp
+11-13 g: ggggggggggggzg
+1-10 w: qwzwgwgxww
+5-6 w: wwwwwg
+4-7 j: bghfqzjjnj
+1-4 q: qqqnq
+4-13 w: hwrmnnblzwjpl
+6-8 l: pllllnnll
+6-8 h: nhhhhrwh
+5-7 v: xrjbvkdvw
+10-17 x: xgxxxxxvxxxxzxxwnxhx
+1-2 b: bsbbsfkbhhbdbbcbt
+1-4 n: bnnnnnnnnnnn
+6-8 l: hdllxllj
+7-12 t: tttktztttttgttt
+3-5 m: qvmmnkjcwbjmmcmqccp
+2-7 g: xggqtzqkfckcb
+9-10 h: hwfzhqhhhwxctgpl
+7-17 z: zzzzzzzzzzzzzzzzfz
+9-12 z: zzzzzzzzzzzv
+2-3 m: msmmmmmmmmmm
+2-3 r: qrxkfmgncnrnpd
+2-3 d: dddd
+12-13 l: lllllllllllfx
+5-10 b: vjtsfbkpkps
+1-4 t: gtttttt
+5-7 c: zcdvcjw
+3-8 x: xxxxxnxxxxnx
+4-12 j: jjxdzjrmkqjjzljkdrj
+15-19 t: bprnhsbtpzkxrwwhrvth
+2-6 w: wwwqww
+5-11 k: mwkbmrcgmnkfdp
+10-13 h: zhhhhhhhhhhghhhhh
+1-5 b: bbbbp
+9-10 t: tttvtttstkt
+1-4 p: pwprpp
+11-13 b: fmtddrthmvplhqjbjzjj
+1-2 r: wrzrx
+1-6 x: vxxqsxxrxx
+7-15 h: hsscjphhrqdghhhssst
+6-7 x: hxxzxxjxxxgx
+2-3 v: vgbvv
+5-8 b: bbtgmzcfb
+4-6 l: dllqllbl
+4-5 h: wdhbq
+10-11 n: fnnvwnjklnb
+11-13 w: wlwhdfrxjwgwnwwwtwwh
+3-5 t: dtwwt
+8-10 d: fddjtwqhbbddh
+15-17 f: rfffmgfrtcpffrfjb
+1-3 b: dtbbwbzjlqbb
+6-7 f: kqpvdfr
+1-3 g: kgqggggggggg
+8-11 d: jwbzgqgqcdd
+5-8 x: xxdfsvvxxxss
+2-3 f: fpff
+4-6 r: xrrvrrrrlxrpqrnffw
+5-9 b: bzlrdtvbbltxkn
+4-9 s: ssssssssssssgssssbs
+2-5 z: zzjzdzzzzzbbz
+5-14 n: fssvnkwnfccnsrmb
+14-16 v: vvdkvvvvvnvvvgvvvv
+15-16 l: llllzllllllwlllxll
+4-7 f: ftwffffwvm
+15-16 h: hhhhhhhhhhhfhhbhhh
+3-5 d: ddddsr
+2-4 x: lpvxhnrpxh
+6-7 n: fnnndnc
+4-9 f: fskvrfskf
+8-11 m: mdmmmmcrmnmdlm
+1-8 w: wwwqwwwl
+4-12 k: drwpkvkrzglk
+8-16 n: thjxnbvnsqmqhnjnp
+13-17 k: kkkkkkkqvkkkkmjkkk
+2-3 z: zlgzzzz
+14-19 q: bqqlmqstzqqqfrqddqq
+2-4 t: vttxrq
+7-10 g: hrgsggggggqggg
+7-8 p: pppppppbs
+7-8 t: rtcmttbtttttnt
+9-10 k: kkkkkkkkgkkk
+13-15 z: zzzxkxqzknzqhdhzhrnc
+3-5 v: vvjvvvvvv
+9-12 f: fqfhvsxpfsxfjsvtkfjw
+13-14 s: xswfjdstqrsdnrsn
+1-7 z: zjzzzzw
+4-5 q: dqqnq
+2-4 n: mprnrs
+16-17 s: spssssssssgssssxcsss
+5-8 n: nnlntnnnnnn
+11-17 g: ggggggggggqgnggggggg
+8-12 s: ssssssshsssss
+3-5 w: wwwrw
+1-4 d: dddzdd
+3-5 c: mfccd
+3-4 f: sffxv
+1-9 n: nnsnnnnnt
+4-9 p: ppptpppwpgbppx
+8-10 g: gggggjgggxg
+10-11 r: xwrrrjwjxqr
+2-3 d: xxbdm
+4-5 g: ggggg
+3-15 g: ggqggggggnggggggggc
+10-13 c: scccmcccwcmcmcb
+3-5 h: hhkhhh
+8-18 h: gkfhhjmktrwsrthmhzh
+3-8 x: hlxqbnmk
+10-16 c: qjjjlwctqcbdzhmr
+1-13 s: nbsfcwpxtsxpmqpv
+11-15 x: xxxxxxxxxxxxxxzxx
+6-7 w: wfqcwmw
+3-10 f: wzfrmrfckp
+3-8 x: hlxxxxmmmcvxxdxqb
+7-18 d: dddddddddddddddddld
+13-17 f: fkgfgnftffmfffffsqff
+6-7 l: lllbqnl
+8-10 w: snwpkpwwrcxw
+1-3 z: mpzzkzzzrz
+5-6 v: vmvtgv
+4-5 n: nnngtn
+6-9 f: gffffcfffffff
+2-4 x: ckjxplxj
+1-2 t: tntt
+14-17 b: bbbbbbbzbbbmbbbtdbjb
+3-6 r: rrjmtd
+4-6 s: sssrsst
+12-15 v: vvvvvvvvvvvtvvwv
+2-3 g: wmtgzxfmhl
+3-11 t: frtfxdjhdwx
+9-12 w: gjkkwgcwkbmw
+7-14 r: rrrrrrdsrrrrrrrrrr
+3-4 c: fcck
+10-11 f: lsfsfqflwhf
+11-12 f: cjmfmfffpfhfjnbff
+2-6 k: kskkkkkkk
+2-9 s: qssmsnsshssts
+1-7 z: nhzhzdn
+2-4 g: gglfv
+3-4 k: zkkk
+10-13 v: vvvzvcvrpvvvbvvctvs
+8-9 g: ggzggqggngg
+2-3 w: wwrw
+6-11 v: vvlvvvvvdvbpvvvxsz
+6-9 n: qnnnnvcnnnnnnn
+7-17 k: kkkkkklpkkkkkkkkkkkk
+2-4 t: htxsw
+4-6 l: vplzllvlt
+1-4 x: jxxxx
+2-3 l: llll
+10-12 s: ssssssslstsg
+8-13 m: pkcfwmnmppgwstz
+1-4 l: lllh
+14-15 s: ssssssssssssrcssrs
+2-9 b: vbwpvzcqb
+6-7 s: ssssssdss
+16-17 p: wpvpbpmppvpmpmnlp
+7-8 p: pppppppt
+3-4 m: mmmmmmm
+1-8 r: rrrrrrqbhrr
+1-6 x: crrxbjgtpxxnspk
+1-8 w: wjdmkrmmmhkmqwwcvw
+6-13 v: vvvfvvrvjvvvhvvvvvvv
+7-8 g: jqggxzcgwg
+1-3 w: mwwwwww
+3-4 f: bkff
+8-10 f: ffffffzdff
+5-7 b: vbbbpbbbb
+6-9 h: hhhzhjhhzhh
+17-19 r: rrprrrbrwrqrlrkrjjr
+5-12 h: hbhlhrtjxrlqrhrkldm
+3-4 f: fwdf
+1-3 f: dfff
+17-18 l: lllllllllllllllllll
+2-10 w: wwwwwwwwwzww
+3-8 h: hshthqbqf
+4-5 j: jjxjgj
+10-11 s: khjqtnsstsshhvhls
+14-15 j: jjjjjjjjjjjjjgsjjjj
+3-5 c: mrcjr
+3-5 l: lllnnl
+2-5 m: mttmmkmmm
+4-20 l: mxplkdtwllxmnrzwhsxk
+15-16 m: mnmmmmbmfmmmmmwmmms
+19-20 w: wwwwpkdmwckqcwzhgzjw
+10-17 t: jsvttntthstttztsb
+7-11 w: wmvwwrwgcjh
+2-3 r: lrlrmw
+4-11 q: hpvqmqgdmxrv
+10-11 h: hkhhghshhghhhh
+3-4 b: bqhn
+8-10 s: sssjssczsssss
+3-7 c: pcdjjdccnshcgd
+2-5 b: hbwbnxxct
+7-9 n: ncnjlfntn
+10-11 r: dzrprrrlxrhp
+1-2 x: xlmmgxrxkb
+4-9 b: bbbbbbbbbbbbb
+2-5 v: qgbvvvrpjlvvvv
+1-5 v: vmvvtvvvhv
+4-8 w: wmwpwchvfmz
+1-5 w: lwwwww
+3-4 b: bcbzbt
+4-5 r: frjqrxhvrrkklrx
+1-4 j: hzbj
+4-5 b: bxbdb
+2-3 g: gsggg
+4-8 k: kkmrkpbfl
+3-4 r: rrdrrrr
+2-4 v: zvzd
+4-5 v: zqvvgvxvsvvv
+17-20 g: nwvklgrmkwgjcflhgnbv
+2-5 q: qqqqjqqqqqqqqqq
+8-14 h: zhhldhswhhhlhhhb
+2-3 c: ccbc
+2-17 h: fhhghdhhhhhfgdhlvh
+5-8 w: wmtwwwfwgwgw
+4-5 b: gbbhk
+15-17 f: mfqbdfzffffdtpffk
+2-4 s: wgzg
+16-19 n: nnnnnnnnnnnnnnnfnnmn
+11-13 v: vccvmxmfhmvlrmw
+9-13 p: pppppppplppppp
+3-4 v: mvlvvv
+1-9 t: tttttttcnttttxt
+1-4 n: nngn
+13-17 q: qqqgqqqqqqqqqqqqxq
+10-16 z: zzzzzbztzvzzzzlzzzzz
+5-10 r: rrrrjrrrrrr
+4-10 w: mtrwzshzcz
+10-14 z: zsfjzwgvbzmtzwb
+1-6 b: hbbbbbbbb
+11-13 h: hhhhhhhhhhhht
+2-6 h: ghsfzhk
+5-6 x: spncxdzsnx
+5-9 j: jxwwdqxpj
+1-3 n: nnndnn
+1-13 p: tqppjpppppppsqppp
+7-9 h: hhhhhhchqhs
+3-4 f: bfftjfxfffmflmtn
+11-12 m: mmmmmmmmmmhmmmmmm
+1-2 r: rwvctzp
+2-6 g: hvswzjtg
+4-13 s: jhxsvwsrhhnmmqx
+5-6 j: jfjjjjq
+1-3 k: vkkk
+3-7 c: ctcccckccjvcccccccc
+12-14 w: wwwwwwwwwwpbwvww
+14-15 b: bbbbbbbbbbbbbbpbb
+5-10 g: gdfmfzfxggggkcvn
+11-12 h: hhhhhshhhhdh
+3-8 v: vvvvvvvzv
+9-11 b: kbzbbfbbggshllgls
+3-5 k: rwkkqkbkcvks
+1-5 b: bbhbbbx
+1-13 f: pfffffffffvflffff
+2-4 q: qqqmh
+6-8 b: vjfbdbblj
+4-7 x: xxxxxxdxxxxxx
+1-9 x: lxmvxxxxxxxxj
+5-8 s: scczssdljc
+3-5 v: qvvdw
+5-10 m: mmmbcmzhzms
+2-9 r: rbrrrrrrmrr
+6-7 x: xxxxkpqqx
+16-18 b: rvbbbbjcnpbbzbbbbpx
+6-7 g: jpqdjjjrc
+2-4 m: nzjm
+2-10 v: vvvjsxvjvvvp
+2-8 b: qxsbfjtbr
+10-18 c: gbrdpfccpcgdktgxrtrr
+1-8 m: mmmmmmmq
+2-3 w: wktw
+2-7 m: mmmmmmdm
+1-8 g: ggggggghg
+3-4 s: scpsqm
+11-15 k: ppphhlmkgmkdqvfpkk
+8-9 r: pcnrjwdxrcrtqh
+6-8 n: lqnnnwnnbn
+8-9 j: bmljwjjxz
+3-7 p: wxpxpvr
+5-14 n: knbnnnnhtnnzvnknn
+2-7 l: lsmkfrhpsdnpf
+2-3 s: ssmss
+12-13 n: nnnnnmnnjnnngnn
+1-5 v: vrvcvvvv
+11-16 q: qqqqjjzqzqqqnqqd
+8-10 v: xjjpcvfvltwllrvvbtd
+1-17 q: qqqqzqqqqxqqqqqqp
+6-15 k: wvrlqvvqdrkgkkk
+2-4 s: sgrh
+5-15 b: qxdmzmqmwhpbjjbhs
+4-5 z: wzzdf
+4-8 z: vzwmzwzqr
+2-5 x: xsxxvx
+14-18 t: tttttttttttttckttttt
+9-10 r: rrrrrrrbbr
+6-7 v: vtvnnhvvqx
+12-13 g: swgggltgggjpggdkpc
+9-16 f: xcpgjqrxfdldqzwj
+2-11 d: dddddddbddddd
+8-10 m: mmjmmmmmmdml
+6-13 m: pqmbcnmmqsmjmm
+5-6 d: wgdrsdd
+10-13 r: hxrrcrbrrsqrrrrrrs
+2-3 d: gddd
+15-19 q: qqqqqqqqqqqqqqkqqqjq
+16-17 p: pppqpppppppppppnbpp
+1-6 p: rppngpnppppjpp
+2-3 v: vvvvd
+5-6 c: pccccxccc
+3-14 d: ddfddddddddddddddddd
+13-14 t: ttttjttdhwtqthq
+7-8 d: sddddddvd
+12-16 f: jgzfffhpzffffffr
+4-6 j: jjmjjj
+2-5 h: gxpvhhb
+1-14 m: mmmmmzmmmmmrmpxz
+5-6 g: gxctgm
+4-6 b: wbbfbtgl
+3-7 b: bbskxwqnkbbdbbbb
+5-7 r: rrrrvmkrrrrrr
+5-9 s: sssskssssss
+10-15 w: pnrtwkwbwwgwkwrm
+8-18 c: cjrxqxrllccfcsvccct
+14-17 v: vgslbvvnvvvvspvtv
+3-4 q: hkrq
+11-15 r: rrrrrrrrrrrrrrl
+1-17 z: czzzzzzzzzzzzzzzzz
+3-4 p: pppfpp
+8-11 w: hwswwwwwwwgwww
+18-19 s: sssssbssfsssssstwsz
+6-8 p: pfpppjppp
+4-6 w: wjrkrt
+3-5 t: tthtrctt
+3-7 t: fxvpwwttvg
+6-7 l: lllmlfl
+9-10 c: hcxxccccjkccc
+7-11 d: pdndddnkdqdqmzdb
+7-15 w: wwwwlwcwwwwxbwww
+2-3 f: ffgjfk
+8-12 h: qjmwphbhbdbrz
+2-3 s: ssxshs
+6-7 d: dddddrjqtdd
+4-9 s: sbhstssxqsscsssf
+2-4 f: fgvfhnnlwlbdcbzcgrp
+7-10 n: ghbnnnnbnngnsfnnbn
+1-12 t: dttctttttttctqt
+5-11 b: bfbbhbbbbbmtb
+2-12 g: pbmtsjfftkmqqgdfr
+16-17 m: mmmxmmmmhmdmhmsmd
+1-15 c: ccccccccccccccccc
+1-2 c: ctcc
+1-15 m: lmmmmmmmmmmmmmmm
+6-7 s: sdkksds
+5-6 x: cnxjsx
+3-5 t: tptntbnbqqc
+18-19 r: fvfvrlvdlmrjfprbrxr
+7-12 w: wwwwwwrwwwwwwwd
+15-18 j: jjjjjjjjjjjjjjpjjjj
+3-5 l: sldsllqd
+13-14 c: ccccccccccxcch
+6-10 m: mmmfmmcjsqmm
+5-9 f: ffffffffxfff
+9-13 l: llzllkgltfwlqvrllzz
+7-9 h: vhzbhhhhw
+8-11 b: bkbbbpqzjpbhbbbbx
+13-14 r: rrrrrrrrrkrrrz
+11-12 q: qdqqqqqqqqkq
+1-3 t: jqhttpttlr
+9-10 x: tnxtsfxwhx
+3-4 k: kkkkkvhpxqbk
+10-11 c: cclqkjkcchc
+3-12 t: tttttttftttdtfttt
+8-10 c: cfccvckxcm
+2-18 t: tgtttttttttttttttttt
+12-18 r: xrjjrmvgrgwwdrbjtq
+11-12 m: mcmmmmmmmmmsmmmmm
+3-5 j: jbwpjdwrppl
+6-9 d: ddddbvqdsddd
+1-2 z: pzzcz
+4-6 b: xvqbtg
+7-10 j: wsbngzzxrbwgj
+1-5 d: pdddldvd
+2-3 s: wpmqk
+3-8 p: pwpppdpw
+1-12 q: qrcqbjrpjtrxhdbq
+5-6 b: bmptbn
+16-18 m: mmmzmmmmmmlmmmmmqx
+4-17 s: sssrssssssssssssss
+8-13 x: xxxxxxxxxxxxqxxx
+3-4 w: wsvw
+4-6 x: bxtgvb
+8-10 t: tttttnttth
+1-4 m: xmmswnwvvsmm
+2-7 m: mmmmmmmx
+3-14 c: klpcktvzbvnjjcf
+1-6 p: pppppk
+3-4 d: ddjd
+2-3 w: wwxwwdwbwwww
+2-5 t: qtbht
+4-6 h: ltlhhn
+5-16 s: ssskmbbslssswsssx
+2-8 v: lkvvvrvvvvvvvvvpvmvv
+2-3 d: dzdd
+7-10 g: gqgmgsggpggg
+10-12 g: gjgggggggkhgggg
+4-5 z: hqkvm
+2-11 v: ntvvvpvvvvvvvvvvv
+3-4 d: kbddd
+3-4 q: qqqq
+1-4 w: wwnw
+4-5 p: thmmg
+2-5 n: mpdstn
+9-10 l: svhvlhqmls
+5-6 x: qhxxxx
+11-20 d: rgddnnddkjdnccrrxdsw
+2-3 k: jkxk
+5-7 z: lqlskzphbknwnzznwzj
+13-14 p: ppcpkptppjkppdkppppp
+14-17 k: kkkkkkkkkkkkkkkkw
+2-3 l: lzlll
+2-8 p: pppppppppppppppppppp
+4-10 w: wwcwwjtwwnwbklc
+10-11 r: mrrrrrrrrzrrrrr
+4-11 t: gnvpjmztlftj
+11-12 t: ttttttttttxt
+3-6 x: ckdtgxxtz
+2-3 l: lklq
+1-11 c: lccgcccczcccccxbccc
+7-8 n: nnnnnnmrn
+3-6 w: nglpdw
+7-14 l: llllllllllllllll
+11-15 x: xxxxmxxbxnwrhxx
+2-5 l: stwpllglbjg
+4-5 c: nmhnb
+4-6 l: lllglfll
+6-10 b: lgjbjwqbrb
+5-6 z: zzczzl
+1-6 f: bfffftftfff
+3-5 h: hhhhh
+5-12 h: nhhshjwmhgsnw
+14-15 w: wwwwwwwwwwwwwlw
+2-4 j: xjwsjkgdr
+16-18 j: dqjtzgdzjjvkppmjjb
+5-6 q: wgkqztqw
+1-5 m: fmmmmmm
+10-19 d: ddvndsfgddbndlrddqd
+9-14 v: jvvvvvvvwpvvvvgvvv
+2-14 m: fmzmsbkfcjfqxj
+3-12 j: jjjjjjjjjjjjjjjj
+1-2 g: gqgg
+15-19 n: pbngdnwnnnnnvnnnnjg
+10-12 j: vjjjjjjjjfjjj
+13-16 x: xxxxpxxxxxxxqtxxxx
+3-7 k: wdsklkk
+7-10 m: jmmmjmpmmmd
+5-7 j: jjjskgj
+10-16 c: qfccpzlccccdckdc
+16-17 l: lllqlqhllcljqlwlll
+9-12 j: flvjbtxnwjzj
+4-18 v: vvvvvvvvvvvvvvvvvvv
+5-9 x: tnnxxgxmvdqxxxzgxh
+3-7 c: clmdbmc
+7-14 s: ssqssssssssssnss
+3-5 d: ddqddd
+1-2 p: ptpp
+4-10 g: gggggggggdggg
+2-3 m: mqmcgmd
+1-2 w: wwwwww
+2-7 j: jjjjjkdmtbs
+3-7 q: qxsqqfqqdnjdjq
+2-11 c: cccmqccccckccccc
+2-8 c: ccccccccvc
+1-2 q: qqxjq
+5-8 m: mtmmkmsmzjdckb
+10-12 r: kthrphrfqqfr
+3-8 k: gkkddfqwsffrp
+9-10 p: kppppjcspkmpppppk
+6-9 l: rghxzzlhx
+3-4 m: wmvw
+3-7 w: mmwwdrx
+8-9 t: blhsztwft
+4-9 n: rnnnnpnxn
+8-18 v: vvvjvvvvbhvqdcfrtbxj
+2-3 t: dtdfhw
+6-15 m: mmmmmxmmmmmmmmmmm
+11-17 c: bpchqrpzxhcbcqmvh
+8-12 l: lqldlplmdjpldldfjn
+5-6 v: vvvtlv
+3-6 r: rnrgwqdbtrdc
+3-6 t: fxqldttzq
+4-5 n: nnzknnbcrbz
+6-7 n: npwmnrs
+4-7 r: rnrkqqbhrmrrrrtr
+2-7 m: mbmmgmmmmmmmmmmm
+3-8 w: wwrwwwwwwvww
+1-2 t: ttqrttmptccxwkztjtsg
+2-4 s: ssscs
+1-5 c: bcncbccc
+6-11 s: ssrvssrttsb
+1-8 z: kczcvcwl
+7-8 t: ttttttqt
+1-4 d: wdddd
+9-15 f: ffffffffffffffffff
+6-7 v: vvvvvkdgvp
+6-8 t: ttsttttp
+1-3 s: qsjssns
+3-5 r: xrrnrktrhjqlqlrhrlkr
+3-8 n: nnnnnnbx
+1-3 q: mqqqqqqv
+4-6 t: tttldvtt
+16-19 m: pmzzdmmnzrzhmfvmkms
+2-4 t: sxmth
+3-13 b: bbsbbbbxbbbbkbbbbb
+5-7 n: kkjrnnn
+1-3 b: bcbbb
+6-8 w: wwwwwwwbwwkw
+3-11 c: xccmsqcsvwv
+7-10 n: clhtfgmnfnpvwvzv
+6-7 v: vvvvvdvvzv
+1-16 k: ssckbjfgcfwgppck
+10-12 r: rrrrrrrrrfrrrr
+17-19 r: rrrrrrrrrrrrrrrrbrlr
+2-8 l: qlhgldtlbzzvt
+11-12 h: mcbpvhmtfgsh
+3-7 v: gvvvkkvkvvj
+1-9 d: ddddddddq
+4-5 v: vdlfll
+8-9 z: xjzptzzzr
+19-20 n: nlnnnnnznnnnnnnnsndk
+7-9 r: rrrrrrrrsrrr
+5-6 d: ddddwdd
+18-19 j: fjjjfjljwhjjjbjjjgr
+3-7 d: ddddtdddddddddd
+2-4 p: pbmp
+6-7 r: trrhwrb
+6-12 l: zppllllmpfwkvnh
+11-14 l: llcvllllllllsl
+1-4 k: kkkjkk
+2-6 m: mqmmmf
+3-10 b: bxbbbbbbbntbdblb
+12-13 h: nhplrlncpxzbh
+17-19 s: ssssssssssssssssfss
+3-4 x: kfxx
+7-9 l: llllllrlqwl
+2-4 q: zwrqqhrbx
+7-11 g: qpqwgbgcgkzbgn
+6-7 w: wwwwwglwwwww
+5-6 b: dbbbfb
+2-4 p: ckpp
+2-14 x: bxtgfvzxcbrqkxjqk
+2-4 x: gpfx
+2-5 g: pbglg
+7-11 w: wwrjjbjtpjwzhgsqj
+1-3 x: xgmrxcqxbpfxxxbxxxf
+7-8 r: qwrvqvqhs
+4-8 t: dtjtlhgvrxjb
+13-14 c: nvsmqzmclhwpdc
+7-10 b: xbkspdlbbbbbnfnb
+16-17 j: jjjfjjjjjjjjjjjjl
+3-4 n: snnrp
+11-15 r: rrrrrrrrrrrrrrrr
+8-10 n: mcgnngfnrjpkxdmjnnx
+9-16 x: xzxxxxxxxxxxxxxdxxxx
+9-10 x: xxxxxxxdfx
+1-11 x: gxxxxxxxxxmxxxx
+9-11 s: ssjssssgksfs
+5-6 r: pdrmrgrwrlxr
+3-6 f: fwfdsfzddj
+7-8 c: ccccccgc
+3-8 t: wttlmpdkfkf
+6-7 s: xsvmsds
+6-7 n: jbncncnn</value>
+  </data>
+  <data name="day3" xml:space="preserve">
+    <value>.........#..##..#..#........#..
+#...#..#..#...##.....##.##.#...
+....#..............#....#....#.
+#.#..#.....#...#.##..#.#.#.....
+........#..#.#..#.......#......
+.#........#.#..###.#....#.#.#..
+........#........#.......#.....
+...##..#.#.#........##.........
+#.#.##..###............#...#...
+............#....#.......###.##
+....##....##..#........#......#
+............#.#..........#.....
+#.#....#....##...#.....#.....#.
+......#.#.#...#.....###....#..#
+...........##..#.........#..#.#
+..#..#.................#..#..#.
+.#....###...#.......#.........#
+#.#.#.#...#......#.......#...#.
+.......#.#.#...#..............#
+...##.......#..##.#.......##...
+#.#.##....#..##..##..###...###.
+.#......##.##.#....#.##........
+..###.............##..##..#....
+.....#.#...........#..##..##...
+.###.#.#......#.....#........##
+...#.......#...##..#..#..#.....
+..............#.#..##.##..##..#
+#..#.#......#............#.....
+........#..#....#..............
+...#...#..............#.#####..
+...##......#........#.#...#....
+..##......#............#..#..#.
+....#.........#.#.#.....###.#..
+#....#........#........#....#.#
+.....#...#..##.....##...#.....#
+#...#.#.#...##..##.###.#.#.....
+......#.#..........#...#.##....
+..............##...#..#.......#
+........##.....#.....#.#....#..
+..............#..#..#...#.....#
+##......##.......##...#.#....#.
+.....#.............#.#.........
+#.........##..#..#.........##..
+..#..#.....#####.........##.#..
+.......##.#......#........#....
+#.................#.#...#....#.
+...#........#.###.##.##.....#..
+#.....##..#...##.#.#......#....
+.....#..#.#..........##..#.##..
+..###.............#..#..#...#..
+...###..#...#.....##..........#
+#.......#.#...#....#..##..#..#.
+.#..#.........#..............#.
+..######.....#....##......#....
+#..##...#......#..#.#....#.....
+.#...................#.#.....#.
+..#...#.#..#.#......#..#...#..#
+..##..##.#.##.........#.#.#....
+...#...#...........#..##.##...#
+#...#....#....#....#..#.##..#..
+..#.##....#....###..#..........
+#.#..##.#.#...##.#..#.##..#.#..
+#......##...#.#..........#..#..
+#.#...#..#...#.#.#..#........#.
+#.#.##.#..#...#..#.#.##........
+.....#......#........#..#......
+...#....#.#....#...............
+....#..###..#....#..#....#....#
+.#........###..........##.##.#.
+#.#......##....##...##.#......#
+#..##.##...#...........##.#.#..
+.#.....#.#...#.................
+##..........#..#....#.....#...#
+....#.#..........##..#.....#.##
+#.#..#..#..##..........#.......
+..#.#.###......................
+......##..##.....#..##.##....#.
+...#.......#.##....#......#....
+...#...#........#...#.#...#..##
+##...#....#.#...#.#.##..##...#.
+...#.....#...#...#....###.#..#.
+..#.#..#........#......#..##..#
+...#......#...#.#.##...##.#.#.#
+....#.#....#....#.....#.....##.
+.....#.#..##.#....##....##.....
+.#...###..#.....#............#.
+#..#.#.#..#..#...#....#...#....
+#.....#..#...#................#
+..........#..#.......#......#.#
+...#..#......#...#......#......
+.#.#.....#.#.#.#......#..#..#..
+.....#.........#.#.#.....##.#..
+.....#.#.....#..#..#..#.....###
+##....#......##....##.#....#.#.
+#####........#..........##.....
+.#...##...#...#.......#....#...
+#.#.##...##...##..##........#..
+#.#..............#.#...#...###.
+...#.....##..#.........#....#.#
+#.#....#....#..##.#..#...#.....
+..#....#.#..#...#...##.....#...
+....#...#......................
+..#...#.......#..#...##....#...
+.#........#...#.....##.##...#..
+#......#..............#..#..#..
+...........#.#..#.#.#....#....#
+.##..##.......#...#..#.....#..#
+...#.........#.........###..#..
+...#.##....#....#.....#.....#..
+.#.#.#.........#.#.#....#....#.
+...#..........##..#....#.#.....
+...#....##................#....
+#....##..#..#........##...#....
+#...#...##.#............#....#.
+##..#....#...#...............#.
+..........#.#...#..##..#.#.....
+..##...##..#....#.#......#.....
+.......#......#.#.....#.....##.
+#...###.....##..##....#.#....#.
+.###......#.....#.#............
+#.....#.....####.##....#..#....
+......###.............#......##
+.........##.......##..#..#..#..
+.#.......#....#...#...#.#......
+#...#..#...#........#...##..#..
+.#....#........#.........##..#.
+..............##.#...##..#.##.#
+.#....#...#....#......#..#.....
+#....##.#...#.#.....###..#....#
+#.......##.#..###..............
+#..#..#..#......#.#..#...#..#.#
+.......#.#.#..#..#...#..#......
+.#..#......#.....#......##..##.
+....#....#.......#.......#.#.##
+.......#.#................#...#
+#.#.....#.......#.#........#...
+.....#....##...#......#.....##.
+.#......#.#...#..#....#....#.##
+##...#.###.#....#..#....#.#...#
+....#.##..##.#.............#...
+#..#.............##.......#.#..
+##.#..#..#.#...........###...##
+.#.#.....#......###........#...
+#.#...#.#....##......#.#....#..
+#.........#..........#.........
+.......#....#...#..#.....#...##
+.......................#...#..#
+.###...........##...#........##
+#.#....######.#........#..##.#.
+..#.##.#...#.#.......#.##.##..#
+#.............###..#.##.#......
+...#..##......#...#..###.....#.
+..........#.....#..#...##..#...
+..##..........#.#..#.....#...#.
+...#.......#.....##.........#..
+#..#.#...#..#...###...#...#.#..
+#.##....#..#.#.......#..#..#...
+..#.##.#......#.#......#....#..
+..........#...##.....###.......
+...#...##..#......#...##.......
+....#........#.#.......#..###..
+.....#.#..........##.#..#..#.#.
+.............##.....#.#..##....
+...#...............##...#......
+....#......#..#....#...##..#...
+.##.#....#.#.....#.#.........#.
+.....#.###....#..###..#.#.....#
+.#.........##.........##...#...
+..#.....###....##..........#..#
+........#..#.#.#..#.......#..##
+..#.#..#.#............#.##.#..#
+.#....#.....#..#...#.......##..
+.#...........#.#..#..###.###...
+..#.....#..#........#.#........
+.#........##........#..#.##....
+......#.....##........##..#....
+.#..................##....#.#..
+.#..#.#..#.#...#........#......
+...#..##.#......#..#..........#
+....#.##...#....##.............
+#....#.##....##.###..#..#..#...
+..........#..#...##.##....#..#.
+.###.#.....#...#...#...#.......
+............#...............#.#
+#....#...#......#....#.#.#.#.##
+...#..........#.#.#.....###....
+#.#...##...#..#.....###...#....
+......#...#..#..#..#.##...##...
+...#..#.#....#...#.#.........##
+##....#..###.#.##.....##.......
+..#.#...#..##.......#.#.......#
+##......#...........#......#...
+.......#..###....###..##.#...##
+.........#.....#..#.......##..#
+.......#.##..#....#...#.#...#..
+#..#.#..................##.#..#
+...#..#..#.....#..#........#...
+...#.#..###..#.....##...#....#.
+..#..#......#...........#...#..
+#...##.##..###.......##........
+.#.....#..#....#.....#.##....#.
+#..#........#.#....#..#...#.###
+..#...#.#.#.....#.....#..#.....
+.##.............#.#......##...#
+.#....#####............#.....##
+#.###.......#.#...##.....#.....
+......#.##..#...#..#..##.#..##.
+......#.#...##.....#...#....##.
+....#............#...#...#....#
+.........##.#.#....#....#....##
+.#...##.#...#.......#.##....#.#
+#....#.#...#.#...#.#.#...#.....
+.#.#.........##..#..#..........
+.#.........#.#.....#..#.#..###.
+....##.#.#..........#..####....
+....#..#.#.#...#...#..#....#...
+..#.#...#...##.......#.#.#..#..
+...##...#......#.....#.#...#..#
+......#.###.#.......##...#...#.
+.....#.#.#......##..........###
+##.#.#.#..#....#...............
+.#.#.##.......#....#.#.....#..#
+.........#...#.#..#.......#....
+....#.####.#......#...#...##...
+#..#..#..#..#....#...##.....##.
+......####.#..##..#.....##.....
+##.#.........#........#..#.#...
+.#.#....#....#.......#.#....##.
+....#....#.......##..#.....#...
+.#......#..#....#.#............
+#..#.#.##.....#..#.#.#.#.#.##..
+.#.....#.....#...#..#.#...#.#..
+.#.#.##............#.#.#.#.#.#.
+.##..........#.....#...###.....
+#.#...#...#................#.#.
+##...#.##.....#.....#.#.##.....
+####.....##..........#......#..
+#.............#..............#.
+.###....#.#...#..#..#..#.......
+..#.#.....#...#..#..####.......
+...#.#..#........#..##..#..#.##
+.#........#..........#.#...##..
+.#.......#.#.#..#...#..#.#...##
+.#.....##......##..............
+......#..#.#.##...##.#.....#...
+.........#.#...##.....##....#.#
+.....##...#........#..#.#..#.#.
+.#.##..#.....##...#...###.#.#..
+...##...#...#..#.#..#..........
+##..............#...#...#.#..#.
+......#..#......#..#.....#...#.
+.......#...#..#....#.....#.....
+..##.....##..#.#........#......
+.###.#...#.....................
+..#...#.................#...#..
+#..#.##...####.............#...
+.##....#..####.......#.........
+#..#...###...#...#..#..##......
+....#.##.#.#.........#.....#..#
+.....#...#.....#.#.#.##.#...##.
+.............#........#.....#..
+...##.###.#....##.......#..#...
+#..#....#....#.#............#..
+.........#.##........##.....#..
+.........#.#.#..#..#.......#...
+.......#.#..#.......#.....#.#..
+##.#.....##...##.....#.#.......
+.#.#.#......##.##.#.........#..
+..#.##..###.....###.........##.
+.#......#..#..##...#.#...##.#.#
+......#.#............#.....#...
+###.#..#..#..#..#.##...#.......
+.#.#.##..###....#......##..###.
+#...#.#.#..#..#..##.#.##....#..
+..#...#...####...#......####.##
+..##.#.####........#..#......#.
+.#..#.......#...#.#.........#..
+........#.#....#..#####..#.....
+.#...........#..#..#..#...#....
+....#....#...#.................
+....##..#....##....#..#....#.##
+....#.##.....###...#...##.##...
+......##.#..##.#.#.#....#.#.#..
+##.#...###....#.#..#.#.###....#
+......###..#..#..........##...#
+..........#.##...##..#....##.#.
+.#...#.#..#.#.#..#.....#.......
+.#....#..#.#..#.#...##.#.#.....
+.##.....#...#..##.#........#...
+....#......#.........#....#..##
+.#..#.#.#.#..#..#.#.........#..
+.........#.....#...#....#......
+#..#..#........#...#.#.........
+...#.#.#...##.#.#...#..#......#
+#.#.#.#........#...#..#.....#..
+.###..#..#..###..#..#..........
+.....#......#.#..#...#.......#.
+##.##.........#.......##.......
+#...##.......#..#.#.......#....
+#..#..#.....#...#......#.......
+.#..#..#.##....#.#..#...#...#..
+.#...#.....#..#.........#..#...
+...#.#.#.......#....#..##.....#
+.........#..##.#..#..#.#.......
+#.##.....##..###..#..#..#.##...
+........#......#...##...###..##
+.##....##..#..#..###......#....
+............##......#...#..##..
+...##.......#......#...##.##..#
+...#..#..#.#...####.#.......#..
+..#.##..#....#......#.#.....#..
+..#.##..............#..##.....#
+.....##....#......#....#......#
+......#..#......#.........#..#.
+...#.##.###...###..#.##........
+..........####.#.##.....#..#.##
+#...##...........#...........##
+#.#..#.#....#.#..#....##......#
+.......#...#.....#......#.#.##.
+....#.##..##..........#..#.....
+#.#.#...#......#...#.....#.##.#
+........#.......#..##.....##...
+.....####.#....#.#.............</value>
+  </data>
+  <data name="day4" xml:space="preserve">
+    <value>ecl:grn
+cid:315 iyr:2012 hgt:192cm eyr:2023 pid:873355140 byr:1925 hcl:#cb2c03
+
+byr:2027 hcl:ec0cfd ecl:blu cid:120
+eyr:1937 pid:106018766 iyr:2010 hgt:154cm
+
+byr:1965 eyr:2028 hgt:157cm
+cid:236 iyr:2018 ecl:brn
+hcl:#cfa07d pid:584111467
+
+eyr:2029 ecl:hzl
+iyr:1972 byr:1966
+pid:2898897192
+hgt:59cm hcl:z
+
+pid:231652013 hcl:#602927 hgt:166
+ecl:grn eyr:2025
+byr:2008 iyr:1986
+
+byr:1928 hgt:167cm
+hcl:#18171d iyr:2012
+ecl:oth pid:237657808 eyr:1944
+
+hgt:73in ecl:grn byr:1931 pid:358388825 iyr:2020
+hcl:#602927 eyr:2020
+
+hcl:#efcc98 eyr:2024 ecl:hzl
+byr:2030 hgt:192cm
+iyr:2013 pid:7479289410
+
+pid:053467220 iyr:2012 hgt:169cm
+cid:149 hcl:#866857
+eyr:2030
+byr:1995 ecl:oth
+
+hgt:162cm hcl:#efcc98 ecl:grn byr:1985 pid:419840766
+eyr:2022
+iyr:2020
+
+pid:22086957 hcl:c69235 ecl:#c458c5 eyr:1986 byr:2014 hgt:72cm iyr:1934
+
+hcl:#866857
+ecl:brn eyr:2024
+iyr:2017
+pid:505225484 cid:144
+byr:1980
+hgt:170cm
+
+hcl:#866857 ecl:gry
+byr:1972 iyr:2019 eyr:2023
+cid:234 pid:721290041 hgt:191cm
+
+pid:346301363
+eyr:2020
+hcl:#733820 iyr:2019 hgt:177cm
+byr:1998
+
+hgt:157cm byr:1963
+pid:898055805
+hcl:#fffffd ecl:blu iyr:2017 cid:87
+eyr:2030
+
+pid:605900764 iyr:2011
+hgt:73in ecl:hzl eyr:2024
+hcl:#888785
+cid:281
+
+iyr:2010 eyr:2026 hcl:#4f7e76 pid:883386029 byr:1946 ecl:brn
+
+hcl:z
+iyr:2020 pid:9121928466 byr:2014 ecl:zzz eyr:2025
+hgt:172in
+
+hgt:151cm cid:163 pid:670884417 iyr:2012
+ecl:oth hcl:#ceb3a1
+eyr:2028
+
+hcl:z cid:92 hgt:69cm
+byr:2008 pid:492284612
+eyr:2020 iyr:2023
+ecl:hzl
+
+byr:1933
+hcl:#7d3b0c eyr:2020 hgt:170cm
+pid:949064511 iyr:2010
+ecl:oth
+
+eyr:2025 byr:1989 ecl:oth cid:100 hgt:182cm
+pid:629190040 iyr:2017 hcl:#b6652a
+
+ecl:hzl cid:76 hcl:#e71392 eyr:2021 iyr:2013 byr:1995
+pid:762177473
+hgt:179cm
+
+pid:198500564 eyr:2029 hcl:#733820 cid:51 iyr:2012
+hgt:70in byr:1938 ecl:oth
+
+hgt:190cm ecl:brn byr:1952 iyr:2015 hcl:#623a2f
+eyr:2023
+
+hgt:169cm hcl:#602927 byr:2001 pid:823979592 iyr:2016 eyr:2029
+
+iyr:2010 ecl:gry
+eyr:2022 hgt:156cm byr:1953 pid:434063393
+hcl:#733820
+
+pid:091724580 hcl:a7069e eyr:1984 ecl:#95d01e byr:2012 iyr:2005
+
+eyr:2022 byr:1972 hcl:#866857 ecl:hzl pid:227453248
+hgt:153cm cid:324 iyr:2018
+
+cid:195 pid:049871343
+eyr:2024 hgt:169cm
+byr:1952 iyr:2010 ecl:grn
+
+eyr:2035 pid:189cm
+hgt:77 iyr:1973 ecl:#dc83d5
+hcl:z byr:2004
+
+byr:2027
+pid:89338932 hcl:1de39e ecl:grn hgt:159in eyr:2034 iyr:1937
+
+pid:076534920
+hgt:152cm
+byr:1969
+ecl:blu
+hcl:#866857 iyr:2011 eyr:2024
+
+iyr:2019 eyr:2028
+ecl:blu hgt:169cm
+hcl:#888785 pid:332202163 byr:1923
+
+hgt:65in byr:1964 iyr:2019
+pid:287612987 ecl:hzl cid:213 eyr:2023 hcl:#ceb3a1
+
+hcl:#623a2f pid:182484027
+iyr:2016 ecl:brn byr:1943
+hgt:71in eyr:2021 cid:344
+
+hcl:#cdee64 iyr:2011 ecl:brn eyr:2026 hgt:176cm
+byr:1985 pid:978641227
+
+eyr:2029 ecl:brn hgt:173cm byr:1920 cid:211
+hcl:#866857
+iyr:2016 pid:289769625
+
+hcl:#7d3b0c pid:770938833 iyr:2010 byr:1941 ecl:oth eyr:2029 hgt:161cm
+
+hgt:172cm iyr:2015 ecl:gry byr:1948
+eyr:2029
+pid:466359109 hcl:#341e13
+
+cid:74 pid:405199325 ecl:blu
+hcl:#6b5442
+eyr:1980 byr:2024 hgt:174cm iyr:2011
+
+hgt:183cm pid:075760048 cid:78 byr:1960 ecl:hzl eyr:2030 hcl:#6b5442 iyr:2014
+
+cid:264 hcl:#7d3b0c
+ecl:blu iyr:2011 eyr:2020 hgt:182cm
+byr:1929
+
+pid:435338286 byr:1931
+hcl:z ecl:amb iyr:2013 hgt:73in
+cid:165 eyr:2027
+
+pid:511898552 eyr:2025 hgt:184cm hcl:#602927
+iyr:2018 byr:1989 ecl:hzl
+
+iyr:2016
+hgt:168in
+hcl:#623a2f
+eyr:2025 pid:310738569 ecl:#0c3039
+byr:2027
+
+pid:158cm byr:1946 ecl:grt
+iyr:1920 cid:189
+hcl:389bce hgt:165cm
+
+pid:973732906 hcl:#cfa07d iyr:2010 eyr:2020 hgt:180cm
+byr:1930
+ecl:brn
+
+pid:930994364 byr:1967 hgt:151cm
+iyr:2011 eyr:2022
+
+eyr:1968 hgt:75cm cid:241
+iyr:2011 pid:5493866745
+ecl:grt
+byr:1976 hcl:#a97842
+
+eyr:2026 ecl:oth
+iyr:2016 hcl:#c0946f
+byr:1929
+hgt:175cm
+pid:9421898537
+
+eyr:2028 iyr:2016 byr:1962
+ecl:grn hgt:186cm hcl:#cfa07d pid:432962396
+
+iyr:2010 byr:1934 eyr:2023 hgt:180cm hcl:#cfa07d ecl:gry
+
+cid:168
+byr:1978
+eyr:2027 hgt:189cm pid:802710287
+hcl:#2f980b iyr:2014
+ecl:grn
+
+eyr:1970
+pid:576329104
+ecl:xry iyr:1954 hcl:#341e13 byr:2026
+hgt:74in
+
+eyr:2027 hgt:153cm
+ecl:oth
+hcl:#866857
+pid:290407832 byr:1956 iyr:2017
+
+iyr:2011
+cid:128
+ecl:amb hcl:#7d3b0c hgt:68in pid:743606119 eyr:2020
+
+ecl:oth hcl:#cfa07d
+byr:2016 pid:#de98ae iyr:1984 cid:194
+hgt:170cm
+eyr:2034
+
+pid:526098672 hgt:168cm
+hcl:#7d3b0c cid:167 byr:1923 ecl:blu iyr:2016
+eyr:2030
+
+pid:495569197 hcl:#866857 hgt:193cm
+iyr:2013 eyr:2021 byr:1921 ecl:amb
+
+ecl:amb
+hcl:#a97842 pid:862249915 iyr:2012 byr:1964
+cid:325
+eyr:2021
+
+iyr:1958
+byr:2003
+hgt:160 hcl:#18171d
+ecl:hzl eyr:2020
+
+iyr:2019 byr:1997 ecl:brn
+pid:342735713 hcl:#efcc98
+hgt:181cm cid:307
+eyr:2027
+
+pid:817121616 eyr:2020
+iyr:2012
+hgt:185cm
+hcl:#18171d byr:1969 ecl:hzl
+
+pid:381399203
+ecl:oth byr:1930
+iyr:2014 hcl:#6b5442 hgt:71in cid:156 eyr:2025
+
+byr:2002 hcl:#18171d iyr:2017
+pid:398245854 hgt:64in ecl:gry eyr:2025 cid:127
+
+eyr:2028 hcl:#341e13
+ecl:amb iyr:2012
+pid:079796480 hgt:69cm
+byr:1995
+
+cid:315 iyr:2028
+pid:775929239
+hgt:162cm ecl:dne byr:1940 eyr:1952 hcl:#c0946f
+
+iyr:2015
+hgt:154cm byr:1997
+ecl:grn
+cid:125 eyr:2024 pid:834780229
+hcl:#18171d
+
+ecl:hzl hcl:#a97842 pid:553710574 eyr:2028
+hgt:183cm cid:196
+iyr:2014
+
+pid:377912488 hgt:159cm ecl:amb eyr:2024 byr:1974
+iyr:2014
+hcl:#ceb3a1
+
+eyr:2024
+byr:1947 hgt:63in ecl:brn
+cid:69
+pid:185228911 hcl:#b6652a iyr:2016
+
+eyr:2024
+hgt:168cm hcl:#602927
+iyr:2013
+byr:1993
+pid:681091728 ecl:gry cid:203
+
+pid:037922164 iyr:2020
+byr:1990 hgt:156cm eyr:2023 hcl:#866857
+cid:97 ecl:grn
+
+hgt:170cm pid:980455250
+iyr:2011 ecl:hzl byr:1957
+eyr:2030 hcl:#cfa07d
+
+hgt:158cm
+hcl:#602927
+byr:2002 ecl:hzl iyr:2013
+cid:99
+eyr:2020 pid:48646993
+
+byr:1955 pid:814033843 eyr:2030 hcl:#a97842
+hgt:191cm iyr:2019
+
+pid:111196491 hgt:191cm iyr:2012 ecl:blu hcl:#a97842
+eyr:2026 cid:131 byr:1979
+
+hcl:#fffffd hgt:68in
+cid:121 ecl:oth eyr:2024 pid:343836937
+byr:1955
+iyr:2020
+
+eyr:2025 byr:1954
+pid:737517118
+cid:343 hcl:#b6652a
+iyr:2017 ecl:hzl
+hgt:175cm
+
+ecl:brn
+iyr:2011 hgt:171cm cid:102 pid:066348279 byr:1981
+
+ecl:oth iyr:2018 byr:1975
+eyr:2029
+hgt:185cm cid:226
+pid:978243407 hcl:#341e13
+
+iyr:2015 pid:918017915 hcl:#3e52b7
+byr:1999 ecl:brn cid:314
+eyr:2025 hgt:192cm
+
+hcl:#19d1fa byr:1984 ecl:dne hgt:76in
+iyr:2015 cid:118 pid:417075672
+eyr:2020
+
+iyr:2019
+cid:120 hgt:186cm
+hcl:#733820 eyr:2024 pid:423238982 ecl:brn byr:1968
+
+hgt:70cm cid:173 pid:767014975
+hcl:#866857 eyr:2039 ecl:brn byr:1985
+
+pid:340424924
+eyr:2027 hcl:#7d3b0c
+hgt:168cm ecl:hzl iyr:2016
+byr:1994
+
+ecl:hzl byr:1933 pid:580425691
+iyr:2010 hcl:#c0946f eyr:2024
+hgt:64in
+
+hcl:#9fe6b0 pid:913184461 ecl:grn eyr:2030
+cid:262 iyr:2014
+
+ecl:amb pid:640007768 eyr:2030 byr:2017 iyr:1988 hcl:z
+
+byr:1977 cid:54
+eyr:1939 pid:882762394 iyr:2030 hcl:#ceb3a1 ecl:blu
+
+iyr:2011 hcl:#7d3b0c byr:1928
+pid:340969354 cid:199 hgt:168cm eyr:2029 ecl:hzl
+
+pid:729464282
+iyr:2012 hcl:baae60
+eyr:2026 ecl:hzl hgt:166cm byr:2019
+
+pid:930997801 iyr:2019 eyr:2030
+hcl:#866857 ecl:oth byr:1960 cid:235 hgt:73in
+
+ecl:brn
+byr:1988 hgt:179cm iyr:2017
+pid:864768439 cid:305 hcl:#c0946f
+eyr:2029
+
+hcl:#7d3b0c ecl:grn
+hgt:182cm eyr:2021 pid:719891314
+byr:1920 iyr:2017
+
+hgt:62cm
+cid:71 ecl:brn hcl:#fffffd iyr:2025 eyr:1997
+pid:175cm byr:2022
+
+hcl:#cfa07d cid:239 eyr:2025 ecl:hzl hgt:189in byr:1980 iyr:2020
+pid:703047050
+
+byr:1951
+eyr:2030
+ecl:hzl
+pid:130992467 hgt:157cm hcl:#341e13
+
+hgt:175cm
+hcl:#623a2f
+cid:68 eyr:2025
+byr:2001 ecl:oth pid:253618704 iyr:2016
+
+hcl:#fffffd pid:379344553 ecl:grn
+eyr:2026
+hgt:72in byr:1974 iyr:2013
+
+ecl:#b4e952 byr:1970 hcl:z
+eyr:2039 pid:6056894636 iyr:2021 hgt:165cm
+cid:328
+
+hcl:#602927 iyr:2014 pid:890429537 byr:1957 hgt:68in eyr:2020 ecl:hzl
+
+cid:265 byr:1961 hcl:#ceb3a1 eyr:2022 iyr:2016 hgt:184cm pid:921615309
+
+byr:1951 eyr:2024
+hcl:#341e13
+ecl:amb pid:414644982
+iyr:2010 hgt:159cm
+
+iyr:2015 cid:319
+eyr:2029 ecl:brn pid:380237898
+hcl:#efcc98 hgt:157cm byr:1972
+
+pid:237156579 ecl:#312a91
+hgt:167cm iyr:2011 hcl:#c0946f eyr:2021 byr:1953
+
+ecl:hzl iyr:2015 pid:10160221 eyr:2025 hgt:175cm hcl:z byr:1939
+
+hgt:59in hcl:#18171d byr:1962 ecl:hzl
+iyr:2019 eyr:2025
+cid:337 pid:491938615
+
+ecl:utc hgt:82 pid:51674655 byr:2020
+eyr:1954 iyr:2029 hcl:z
+
+pid:119530189
+cid:103
+iyr:2010 byr:1979
+hgt:168cm hcl:#a97842 ecl:brn eyr:2029
+
+hgt:177cm ecl:brn
+byr:1990
+pid:015089628 eyr:2028 hcl:#733820 iyr:2020
+
+ecl:blu iyr:2020 hgt:189cm
+hcl:#efcc98 byr:1982 pid:346500376 eyr:2021 cid:160
+
+ecl:brn hgt:173cm iyr:2011 cid:259 hcl:#6b5442 eyr:2026
+byr:1995
+pid:654875035
+
+ecl:grn eyr:2025 pid:147155222 byr:1942
+cid:341 hcl:#602927
+hgt:165cm
+iyr:2016
+
+pid:543171646
+hgt:153cm
+iyr:2019 hcl:#fffffd byr:1985 cid:266
+eyr:2027
+ecl:hzl
+
+ecl:blu
+eyr:2022
+pid:667939101 byr:1974
+cid:259 hcl:#888785
+
+eyr:2030 byr:2016 iyr:2022
+pid:86902982
+ecl:zzz hgt:72 hcl:ceb867
+
+hcl:#fffffd
+ecl:grn pid:046978329
+byr:1924
+eyr:2025 hgt:158cm iyr:2011
+
+hgt:150cm eyr:2028 byr:1985 ecl:gry hcl:#866857 pid:340615189
+iyr:2017
+cid:50
+
+cid:171 hcl:#18171d pid:009562218 byr:1981 hgt:175cm eyr:2024 ecl:oth iyr:2017
+
+iyr:2019
+eyr:2022
+ecl:brn hcl:#cfa07d pid:050270380 cid:159
+hgt:151cm
+byr:1951
+
+hcl:#7d3b0c hgt:176cm iyr:2015 byr:1923 pid:348188421 ecl:blu eyr:2029
+
+byr:1997 hgt:162cm eyr:2023 pid:445685977
+iyr:2012 ecl:amb hcl:#efcc98
+
+iyr:2017 ecl:oth eyr:2028 pid:791977055 hgt:170cm byr:1991
+hcl:#623a2f
+
+byr:1998 hcl:#fffffd
+eyr:2020
+ecl:gry pid:039483695 hgt:163cm iyr:2020
+cid:165
+
+ecl:hzl hgt:74in iyr:2016 pid:026214321
+cid:152 hcl:#a1f179
+eyr:2036 byr:2001
+
+pid:257900949 cid:80 byr:1956 iyr:2012 hgt:165cm eyr:2030
+
+pid:918371363
+ecl:xry
+iyr:2012
+byr:2012 hgt:65cm
+eyr:2029
+
+pid:041789006 iyr:2018 byr:1945 eyr:2024 ecl:blu
+hcl:#5ab31e hgt:171cm
+
+ecl:gry
+byr:1956 cid:318 iyr:2020 hcl:#623a2f
+eyr:2030 pid:020576506 hgt:184cm
+
+hgt:173cm iyr:2025
+eyr:2023
+ecl:amb pid:958983168 hcl:#866857 byr:1935
+
+byr:1974
+eyr:2040 pid:57104308 iyr:1980 hcl:z
+hgt:192in cid:295 ecl:amb
+
+pid:180cm hcl:1109f7 eyr:2039 byr:2020
+ecl:dne hgt:189in iyr:1921
+
+iyr:2013 byr:1961
+hcl:#866857
+eyr:2025 hgt:158cm ecl:gry
+
+ecl:brn iyr:2013 eyr:2021 pid:978650418 byr:1980
+hcl:#ceb3a1 cid:110
+hgt:166cm
+
+pid:864880558 ecl:hzl hcl:#c0946f byr:1955 eyr:2027 hgt:169cm iyr:2011
+
+eyr:2023 hgt:191cm hcl:#866857
+pid:454509887
+ecl:grn byr:1938 iyr:2015
+
+pid:793008846 eyr:2025 ecl:grn hcl:#341e13
+hgt:187cm
+byr:1973 cid:224
+iyr:2013
+
+hcl:#866857 eyr:2022 pid:802335395 hgt:171cm ecl:amb
+iyr:2015 byr:1991
+
+hcl:#888785 pid:768625886
+hgt:180cm
+eyr:2026 ecl:oth cid:178 byr:1958
+
+pid:921387245 cid:82 hgt:190cm hcl:#c0946f ecl:grn
+iyr:2015 eyr:2023
+
+pid:0704550258 hcl:1ba8f6 iyr:2010 byr:1978 cid:130
+eyr:2030 ecl:dne hgt:66cm
+
+pid:626293279 hcl:#7d3b0c hgt:185cm ecl:oth
+eyr:2020 byr:1937 iyr:2012
+
+hgt:175
+eyr:1933 ecl:gry
+hcl:#7d3b0c byr:2003 pid:#5d8fcc
+iyr:2012
+
+eyr:2027
+byr:1927 cid:154
+ecl:gry pid:683668809 hgt:164cm
+hcl:#a97842 iyr:2011
+
+byr:1940 iyr:2014 hgt:172cm eyr:2024 pid:033678324 hcl:#10fded
+cid:292 ecl:oth
+
+iyr:1970 ecl:#201515 pid:#4cd485 eyr:2034 hgt:162
+byr:2005 cid:67
+hcl:#c0946f
+
+cid:306
+byr:1948
+hcl:#efcc98
+eyr:2024 hgt:171cm pid:440657854 iyr:2015 ecl:brn
+
+hgt:172cm ecl:brn byr:1958 pid:054926969 hcl:#4b8065 iyr:2019
+
+pid:45977569 ecl:amb byr:2002 hgt:71cm hcl:z iyr:1983
+
+pid:811407848 hcl:#866857 cid:112 hgt:180cm byr:1986
+ecl:brn eyr:2026
+
+ecl:amb
+byr:1992
+cid:288 pid:417117245 hcl:#623a2f
+iyr:2011 hgt:181cm
+eyr:2021
+
+byr:1974 hgt:192cm cid:172
+eyr:2022
+ecl:blu
+hcl:#cfa07d iyr:2014
+
+eyr:2024 ecl:gry
+pid:874569675 byr:1960 iyr:2017 hgt:186cm
+hcl:#6b5442
+
+byr:1988 eyr:2024 iyr:2020 ecl:oth hcl:#866857 pid:227304269 hgt:170cm
+
+ecl:grn iyr:2019 byr:2002 cid:150 hcl:#efcc98
+pid:600740993
+hgt:167cm eyr:2027
+
+pid:553824537 iyr:2019 ecl:blu eyr:2025 hcl:#e21269 hgt:193cm
+byr:1923
+
+byr:2030 iyr:2019 ecl:#cb0911
+hcl:#cfa07d hgt:74in eyr:2012
+pid:7647207386
+
+cid:289 hgt:128 pid:178cm iyr:2025 ecl:#4ad977 byr:2020 eyr:2036 hcl:#efcc98
+
+cid:119 hgt:150in
+hcl:z
+iyr:2012
+ecl:brn eyr:1975
+byr:2007 pid:#0dcd32
+
+hcl:8a1ce7 pid:0434291854
+eyr:2034 iyr:2005
+hgt:62cm byr:2029 ecl:utc
+
+ecl:gry hcl:#ceb3a1 byr:1976 eyr:2024 iyr:2010 hgt:188cm
+pid:636312902
+
+hcl:#888785 byr:2027 hgt:178in iyr:2017 pid:973095872 eyr:1952
+
+hgt:179cm iyr:2015 hcl:#ceb3a1
+byr:1944 pid:182079308 cid:317
+eyr:2025 ecl:hzl
+
+hcl:#6b5442 ecl:grn eyr:2023 hgt:71in pid:829794667 byr:2000
+iyr:2014 cid:192
+
+iyr:2014 pid:096659610 hcl:#c0946f ecl:oth byr:1991 cid:180
+hgt:177cm
+eyr:2023
+
+byr:2017
+eyr:2036 iyr:1933
+cid:225 ecl:gmt hgt:179in
+hcl:b5c44d pid:99932231
+
+hcl:#18171d
+hgt:187cm eyr:2023 byr:1934 cid:286 pid:878541119 iyr:2020 ecl:amb
+
+hgt:185cm
+pid:754207134 ecl:oth eyr:2023
+hcl:#a97842 cid:313 byr:1966
+iyr:2015
+
+hcl:#ceb3a1 byr:1921 eyr:2022 pid:799265846 cid:285
+hgt:67in iyr:2015
+
+iyr:2011 byr:1941
+hcl:#341e13 cid:65 pid:413556937
+hgt:169cm
+ecl:amb eyr:2020
+
+iyr:2016
+hgt:158cm ecl:grn byr:1931 hcl:#7d3b0c
+
+pid:574299170 iyr:2013 byr:1961 ecl:hzl hcl:#866857 hgt:168cm eyr:2022
+
+eyr:2022 pid:245416405
+iyr:2019 hgt:173cm hcl:#c0946f
+ecl:brn
+byr:1965
+
+byr:1980 hgt:162cm ecl:brn pid:239318191
+hcl:#fffffd
+cid:58 eyr:2025 iyr:2020
+
+pid:892646915
+iyr:2012 hcl:#733820 byr:1991 eyr:2021
+hgt:157cm ecl:oth
+
+pid:310597466 eyr:2025
+hcl:#cfa07d byr:1944 iyr:2018 ecl:oth
+hgt:183cm
+
+iyr:2010 hgt:187cm ecl:oth
+pid:975763328
+hcl:#866857 eyr:2023 cid:283 byr:1997
+
+iyr:2020 cid:225 hcl:#efcc98 pid:424680047 ecl:blu
+hgt:154cm
+byr:1968 eyr:2027
+
+ecl:oth eyr:2020 hgt:183cm hcl:#623a2f
+pid:771851807
+byr:1990
+iyr:2017
+
+hcl:#efcc98 ecl:blu byr:1991 hgt:191cm pid:266021118
+cid:124
+eyr:2025
+
+byr:1993
+ecl:hzl eyr:2020
+hgt:163cm
+iyr:2015 pid:831538073 hcl:#18171d
+
+hgt:74in hcl:#420afb eyr:2028
+ecl:grn pid:264469103
+byr:1993
+
+eyr:2020
+cid:79
+byr:1972
+pid:084953331 hcl:#a97842 ecl:brn iyr:2010
+hgt:170cm
+
+iyr:2014 ecl:gry pid:094812116 eyr:2026 hgt:190cm byr:1965 hcl:#944667
+
+hcl:#fffffd byr:1953 iyr:2014 ecl:hzl hgt:164cm
+cid:123 eyr:2023 pid:546394433
+
+iyr:2012 hgt:155cm byr:1998 pid:#2c9be6 eyr:2023 hcl:#ceb3a1 ecl:gry
+
+eyr:2029 ecl:gry pid:752489331 iyr:2015 hgt:167cm hcl:#18171d cid:70 byr:2002
+
+byr:1938
+ecl:gry
+pid:764937909 iyr:2014
+hcl:#7d3b0c
+eyr:2022 cid:145 hgt:184cm
+
+cid:340
+byr:1924 hgt:169cm eyr:2026
+iyr:2013 ecl:amb
+pid:499844992 hcl:#18171d
+
+pid:838417672 hgt:175cm
+ecl:grt iyr:2017 eyr:2025 hcl:17aa1a
+
+eyr:2020
+byr:1925 hcl:#341e13
+ecl:brn cid:342 pid:047426814 hgt:156cm iyr:2012
+
+iyr:2011 hcl:#341e13 byr:1959
+ecl:amb pid:969679865
+
+byr:1978 cid:320 hgt:180cm hcl:#435ceb pid:363518544 eyr:2023 iyr:2016 ecl:blu
+
+iyr:2010 eyr:2028
+pid:183cm byr:1948
+ecl:oth cid:133
+hcl:#8d3298 hgt:190cm
+
+hcl:#6b5442 byr:1929 iyr:2019 pid:207713865 eyr:2029
+hgt:166cm ecl:gry
+
+ecl:blu iyr:2019
+byr:1985 eyr:2030 hcl:#866857 hgt:155cm pid:659180287
+
+ecl:hzl
+eyr:2020 iyr:2016 pid:440624039
+cid:147
+hgt:61in byr:1976 hcl:#733820
+
+hcl:#341e13 pid:178082907 eyr:2023
+iyr:2015 byr:1956
+ecl:amb hgt:163cm
+
+eyr:2023
+iyr:2011 hcl:#cfa07d hgt:164cm
+pid:291621559 byr:1960 ecl:gry
+
+hcl:#efcc98 byr:1976
+iyr:2017 pid:394566091 cid:248
+hgt:176cm ecl:hzl eyr:2026
+
+iyr:2013 eyr:2029 hgt:152cm ecl:gry byr:1984 hcl:#623a2f pid:511780941
+
+pid:953716819 iyr:2010 hgt:156cm ecl:amb
+byr:1947
+hcl:#18171d eyr:2025
+
+eyr:2025 ecl:amb
+iyr:2016
+hcl:#cfa07d byr:1925 pid:322787273 hgt:168cm
+
+hgt:59in iyr:2012
+pid:916978929 byr:1959
+hcl:#c0946f eyr:2021
+ecl:brn
+
+byr:2018 eyr:1929 hgt:187in
+hcl:z
+iyr:2003 pid:0377361331 ecl:utc
+
+byr:1949 hcl:#fffffd pid:071791776 eyr:2030 iyr:2015 hgt:71in ecl:hzl
+
+hcl:#341e13
+hgt:154cm byr:1927 eyr:2023 ecl:blu iyr:2017
+pid:639867283
+
+hcl:z pid:315276249 byr:2026
+hgt:151cm
+iyr:2028 eyr:2020
+ecl:hzl
+
+hcl:#341e13 eyr:2027 byr:1981 cid:342 pid:999898177 hgt:187cm
+ecl:blu iyr:2011
+
+byr:2009
+hgt:73cm iyr:1921 hcl:z
+pid:181cm
+ecl:xry
+
+ecl:hzl
+byr:1925
+pid:034183103 hcl:#341e13 hgt:158cm eyr:2029 iyr:2010
+
+byr:1976
+iyr:2011 hgt:177cm pid:833479839 hcl:#dcab9d ecl:blu eyr:2020
+
+cid:230 hcl:#7d3b0c byr:1954
+iyr:2014 eyr:2026 pid:122150889
+ecl:brn hgt:182cm
+
+hcl:#a97842
+ecl:brn hgt:187cm
+eyr:2028
+pid:427631634 iyr:2002 byr:2004
+
+pid:912516995 ecl:hzl iyr:2017 hcl:#ceb3a1 byr:1929 eyr:2028
+hgt:155cm
+
+pid:019809181
+cid:128 iyr:2013 hcl:#f5b9f7 byr:1931
+hgt:161cm
+ecl:amb
+
+hgt:64in byr:1924
+iyr:2016 eyr:2029 ecl:hzl pid:474940085 hcl:#c0946f
+
+pid:172419213
+ecl:grn
+hgt:193cm iyr:2010 byr:1973 hcl:#6b5442
+eyr:2027
+
+ecl:#7b5cfd iyr:2019
+byr:2016
+eyr:2040 hgt:191in
+cid:187 hcl:z pid:#c61084
+
+eyr:2032 iyr:2014 pid:430247344 byr:1967
+hcl:#ceb3a1
+cid:241
+ecl:brn hgt:178in
+
+hcl:#623a2f iyr:2017 cid:235
+eyr:2020 byr:1978 ecl:blu hgt:175cm
+
+iyr:2013 ecl:amb hgt:174cm hcl:#866857 pid:285533942 byr:1954
+
+hgt:152cm ecl:blu pid:952587262 eyr:2024
+iyr:2019 cid:268 hcl:#602927 byr:1947
+
+hgt:176in cid:245 byr:2011 iyr:2018
+eyr:1987
+hcl:z
+pid:346518170
+ecl:utc
+
+hgt:180cm
+iyr:2015 ecl:brn eyr:2027 pid:807494368 cid:324 byr:1980
+
+byr:1936 hcl:#866857 ecl:blu
+eyr:2021 hgt:187cm
+iyr:2016 pid:244556968
+
+byr:1950 cid:125
+iyr:2020 hgt:168cm hcl:#c0946f eyr:2030 pid:758313758 ecl:blu
+
+eyr:2021
+pid:618915663 hcl:#cfa07d iyr:2018 byr:2002
+hgt:157cm ecl:blu
+
+byr:1967
+ecl:brn hcl:#c0946f pid:200495802 eyr:2021 iyr:2020
+cid:335
+hgt:181cm
+
+byr:1996
+ecl:brn iyr:2015
+eyr:2030
+hcl:#fffffd cid:207
+pid:022460311 hgt:158cm
+
+eyr:2022 hgt:59cm iyr:2023
+byr:1974 pid:354098699 hcl:b244f7
+ecl:#219505
+
+hcl:#866857 eyr:2025
+pid:370874666
+byr:1947
+cid:162 ecl:oth hgt:186cm iyr:2011
+
+ecl:hzl eyr:2029
+byr:1981
+iyr:2012 pid:433430792 cid:252
+hgt:171cm
+
+pid:512473844 hgt:186cm iyr:2012 eyr:2028 byr:1949 ecl:hzl hcl:#18171d
+
+hgt:60cm iyr:1934
+ecl:#4a4017 pid:3067366202 hcl:1161df
+eyr:1938 byr:2008
+
+pid:119509757 hcl:#cfa07d eyr:2022 hgt:174cm byr:1983
+iyr:2015
+ecl:blu
+
+byr:1955 eyr:2023
+cid:114
+hcl:f1aa8a pid:609049659 ecl:grn hgt:177cm
+iyr:2015
+
+eyr:2027 cid:284
+pid:654627982 byr:1964 iyr:2018 hgt:168cm
+hcl:#fffffd ecl:oth
+
+iyr:1988
+hgt:191cm hcl:b87a62 byr:1990 ecl:xry
+pid:996624367 eyr:1960
+
+pid:641466821 eyr:2028 hcl:#7d3b0c
+iyr:2010 hgt:175cm ecl:gry
+
+hcl:#b6652a
+ecl:oth
+byr:1926 eyr:2030 iyr:2019 hgt:183cm
+pid:057196056
+
+iyr:2017
+eyr:2022 pid:936841429
+ecl:blu hcl:#6b5442 cid:179 byr:1927 hgt:161cm
+
+eyr:2021
+cid:289 hgt:174cm iyr:2013
+ecl:grn pid:329574701 byr:1970
+
+eyr:2021 byr:1939 ecl:gry pid:933505139 iyr:2014 hgt:173cm hcl:#7d3b0c
+
+cid:116 hcl:045bff eyr:2030 iyr:1920
+ecl:brn
+byr:2030
+pid:#38f7f3
+hgt:155in
+
+eyr:2028
+pid:225829241 byr:1928 hcl:#cfa07d iyr:2019
+ecl:oth
+hgt:166cm
+
+cid:80 byr:1936
+iyr:2017
+hgt:94 hcl:#2e7503 ecl:oth eyr:2030
+pid:597284996
+
+ecl:oth
+iyr:2019 hgt:76in
+byr:1956 pid:821874039
+
+eyr:2026 hgt:168cm
+pid:019015588
+iyr:2010
+ecl:amb byr:2009 hcl:#623a2f cid:159
+
+iyr:1980 hgt:167in
+pid:380644909 eyr:1966 ecl:blu byr:2004 hcl:z
+
+eyr:2020 iyr:2013
+hcl:#08ad66 pid:540886868
+ecl:oth byr:1980 hgt:158cm
+
+eyr:2026 hgt:186cm byr:1995
+cid:275
+hcl:z iyr:1958 ecl:blu
+
+eyr:2026 iyr:2012
+hgt:61in byr:1936 pid:390833536 cid:298 ecl:grn hcl:#623a2f
+
+pid:393878498 eyr:2023 ecl:gry byr:1943 iyr:2010 hcl:#888785 hgt:158cm
+
+hgt:191cm cid:197 iyr:2014 byr:1945
+hcl:#fffffd
+eyr:2020
+pid:183948344 ecl:amb
+
+ecl:gmt hgt:88
+cid:260 iyr:2024 byr:2022 eyr:2031 hcl:z pid:#532c6e
+
+hcl:#a97842
+hgt:160cm eyr:2024 ecl:blu iyr:2015 byr:1970
+
+byr:1964 hgt:178cm
+eyr:2025
+pid:813643223 ecl:brn iyr:2014
+hcl:#ceb3a1
+
+byr:1965 eyr:2024 iyr:2018
+hgt:165cm hcl:#18171d ecl:grn pid:475669993
+
+hgt:116
+iyr:2024 eyr:1974 hcl:504345 byr:2010 cid:206 pid:166cm ecl:zzz
+
+iyr:2014 eyr:2020 pid:096460673 byr:1948
+hgt:153cm
+ecl:blu hcl:#341e13
+
+hcl:#ceb3a1
+iyr:2017 hgt:67cm
+pid:178cm byr:2028 ecl:brn
+cid:293
+
+hgt:157cm
+hcl:#602927 byr:1941
+iyr:2012 pid:611003211 eyr:2029
+
+iyr:2019 byr:2000 pid:083917767 eyr:2024 hgt:172cm
+cid:248 hcl:#7e4d15
+
+byr:1946
+hgt:160cm iyr:2020 hcl:#559278 pid:989139577
+ecl:amb eyr:2020
+
+pid:165cm byr:1927 cid:178 hcl:#733820 iyr:2017 hgt:156in
+eyr:2029 ecl:brn
+
+hcl:#18171d hgt:163cm eyr:2022 byr:1962 pid:639124940 cid:258 ecl:hzl
+iyr:2015
+
+cid:123 pid:4542006033
+eyr:1987 byr:2010 iyr:2029 ecl:amb
+hgt:191cm hcl:#18171d
+
+hcl:z
+byr:1928 iyr:1965
+eyr:2022 hgt:75 ecl:oth pid:400765046
+
+hcl:#c0946f hgt:62in
+ecl:blu byr:1978 iyr:1923
+cid:260 eyr:2021 pid:404628742
+
+pid:#bf1611 ecl:grn
+iyr:2018 cid:146 byr:1948
+eyr:2025 hcl:#fffffd hgt:87
+
+pid:767547618
+iyr:2018 hcl:#b6652a eyr:2029 hgt:165cm ecl:hzl byr:1937
+
+ecl:blu iyr:2019 pid:960083875 eyr:2027 hgt:71in hcl:#c0946f
+byr:1921
+
+iyr:2011
+pid:9562042482
+hcl:z hgt:59cm
+eyr:1994 cid:258 ecl:#6c1bcc byr:2025
+
+eyr:2028 pid:494999718 byr:1928 hgt:176cm
+iyr:2015 ecl:oth hcl:#733820
+
+cid:78 eyr:2020 hgt:160cm byr:1947 ecl:blu
+hcl:#b6652a iyr:2016 pid:069457741
+
+hcl:#6b5442 iyr:2010
+byr:1971
+eyr:2028 hgt:169cm ecl:brn pid:528961949
+
+eyr:2028
+hcl:#7d3b0c
+byr:1952
+ecl:hzl
+cid:317 iyr:2016
+pid:832169844
+
+hcl:#c0946f
+ecl:brn
+iyr:2017 eyr:2028
+pid:161390075 byr:1993 cid:50
+hgt:171cm
+
+ecl:#ae12d3 hgt:74cm cid:239 hcl:z pid:345439730 iyr:1924 byr:2029 eyr:2031</value>
+  </data>
+  <data name="day4test" xml:space="preserve">
+    <value>pid:087499704 hgt:74in ecl:grn iyr:2012 eyr:2030 byr:1980
+hcl:#623a2f
+
+eyr:2029 ecl:blu cid:129 byr:1989
+iyr:2014 pid:896056539 hcl:#a97842 hgt:165cm
+
+hcl:#888785
+hgt:164cm byr:2001 iyr:2015 cid:88
+pid:545766238 ecl:hzl
+eyr:2022
+
+iyr:2010 hgt:158cm hcl:#b6652a ecl:blu byr:1944 eyr:2021 pid:093154719</value>
+  </data>
+  <data name="day5" xml:space="preserve">
+    <value>FFBFBBBRLR
+BBFFBFFRRR
+BFFFFBBRRR
+FFBFFBBLRR
+FFBFBFBLLL
+FFBFFBFLRR
+BFFFBBBLLR
+FFBFBFFRLR
+FFBFFFBRRR
+FFBFFFFRRL
+BFFBBFFLRL
+FFFBFFBLRR
+FBBFBFFRLR
+BFFFBFBRLR
+BFBFFBBRLR
+FFBBFBBLRR
+BFBBBFBRLR
+FFBBBFBRRL
+FFBFBBBRRR
+BFBBBBFRLL
+FBBFFFBRRR
+BFFBFBFRRR
+FFBFBBBLRL
+FBFFFFBLLR
+BBFFBFBRLL
+FBBBFFBLRL
+FBBBFFFRRR
+BFBFFBFRLR
+BFFFFBBLLL
+FBFFBBFRLR
+BFBBBBBLLR
+FFFFBBFLRR
+FBFBFBFRLR
+FBFFBFFLRR
+FFBFFBFRRR
+BFFBFBFRLL
+BFFFBBBLRR
+FFBBFFFLLR
+FBBBFBBLRR
+FFBBFBFRRL
+BFFBFFBRLL
+FBFFFBBLLR
+BFFFBFBLRL
+FFFBFBBRRL
+FBBBFBBRLL
+BFFBBBFRLL
+FBFFFFBLRR
+FFFBBBBLRR
+FFBFFBBLLL
+FBFBFBBRRL
+FFFBFBFRLR
+FBBFFFFRRR
+BFFFBBBRLR
+FBBBBFFLRR
+FFFFBBFLLR
+BFFBBBFRRR
+FBBBFFBRLL
+FBBBFBFLLR
+FBFBBFFRRL
+FFFBBFFLLR
+FFBFBFFLRL
+BFBBBFFRRL
+BFFBFBFRRL
+FFFBFBBLLL
+BFFBFFBLLR
+FBFBBFFLLL
+FFBBFBFLRR
+FFFBBBFRLR
+FBBBFBFRLL
+FBBBBBFLRR
+FFBFBFBRLR
+BBFFFFBRLR
+BFFBFBBRRL
+FBFFFFBRLL
+FFBFBFBLRR
+FBBBBFFRRR
+FBFBBBFLRL
+FBBBFFFLLL
+BFBFBFFRLL
+FBFFFBFLLR
+BFBFFBFLRL
+BFBBBFBLRR
+FBBFFBBRLR
+BFFFBBBRLL
+FBFBBBFLLL
+BFFFBFBLRR
+BFBBBFFRLR
+FFBBFFFRLL
+FFFBFBFRRL
+FBBFBFBLLR
+FBFFBFFLRL
+FBBFFBBLLR
+FBBBFBBRLR
+FBBBFBBLLR
+FBBFBBBLLL
+BFFFFBBRRL
+FBBFFBBRRR
+BFBFFBBLLR
+FFBBBBFLLR
+FFBFBFFLRR
+BBFFFBFRLL
+FFBFBBBLLL
+BFFFFBFRRL
+FBFBBBBLLL
+BFBBFFBLRR
+BFBBBFBRLL
+FBFFFFFLLL
+FBFBBFFLRL
+FFFBBFBLRL
+BFFFBFBLLR
+FBFBFFFRLL
+BBFFBFFLLL
+FFFFBBFLLL
+BFBBFBBLRR
+BFBBFBBRLR
+BFBFFFBLLL
+FBBBBFBRLL
+FFBFBBBLRR
+FFFBFBBLRL
+BFBFFBBRLL
+BFBFBBBRLL
+FFBFBBBRRL
+FFFBBBBRLR
+FFBBBBFLLL
+FBFBFBFRLL
+BFBFBBBLRL
+FFBBFFBRLL
+BFFBBFBRLR
+FFBBBBFLRR
+FFFBBBFLLL
+FFBFBBFLRL
+BFFBBFFLRR
+FFFFBBBLLL
+BFBFFFFRRL
+FBFFBBBRRR
+FBBFFBFRRR
+BFFFBFFRRR
+FFBBBFBRLL
+BBFFFBBLLL
+FFFFBBBRRR
+FFFBBFBRRL
+BBFFFBBLRR
+FBBFFFFLLR
+BFBFBBBRLR
+FFBFFBFRLR
+BFBFBFBLRR
+FBBFFBFLLL
+FBFBBFBLLR
+FBFFBBFRRR
+BFFFBBFRLR
+BFFFFFFRRR
+FFFBFFFLRR
+FBFBBFBRLR
+FFFBFBFLRL
+FFFBFFBLRL
+BFBFBFBRRR
+FFFBFFBRRL
+FFBBFFBRLR
+BFFBBFBLLR
+FFBFFFFLLR
+FBBBBBFLRL
+FBBBBFFLRL
+BFBFFBFLRR
+FFFBBBBLLL
+FFFBBFBLRR
+BFBBBFFLLR
+FBFBBFFLRR
+BBFFFBFRRR
+FBFBBFBLRL
+FFBBFFFLRL
+BFBFBFFLRR
+BFBFBFBRLL
+FBFBBBFLRR
+FBFFFFFLRR
+BFFFBBBRRL
+BFBBFFBRRR
+BBFFFBFLRL
+BFFBFFFRLL
+BBFFFBFLRR
+BFFBFBBRRR
+FBFFFBFLRL
+FBFBFBBLLR
+FFFBBFBRLR
+BFBBBFFRRR
+FBFBFBFRRL
+FBFFBFBLLR
+BFFBFBFLRL
+FBBBBFBLLL
+FFFBFBBLLR
+BFBFFFFRLR
+FBBBBBBLLL
+FBBBBFBLLR
+FFBFBBFRLL
+BFBBFFFLRL
+FFFBFFBLLL
+BFBFFFBLRL
+FBBBBFFRLL
+BFBBFFFRRL
+BFBBBBFRRR
+BFBBBBFLLL
+BFFBFBBLLL
+FBFBFFFRRR
+BFBBFFFRLL
+FBBFBBBRRR
+BFFFFFBLRL
+FBFFFBFLRR
+FBFBFBBLLL
+BFBBFFBRLL
+BFFBBFFRRL
+FBFBFFFLLR
+FBFFFBBRRL
+BFBFBBFRRL
+BBFFFFFLLR
+BFBFBFFRRR
+FFBFFFFLRL
+FBBBFBBLRL
+FFBBBFFLRR
+FBBBBFBRRL
+FFFBBBFRRL
+BFBFBFFLLL
+BFFBFBFRLR
+BFBBFBFRLR
+FBFBFBBRLL
+FBFFBBBRRL
+BBFFFFBLRR
+BFFFFFBRLR
+FBBFFBFLRL
+BFBFFBFRLL
+BFFFBBFLRL
+FBBBFBFRRR
+BBFFFFFLLL
+FBFBBFBRLL
+BFBFBFBLLL
+FBBFFBFRLR
+FBBBFBFLRR
+FBFFFFFLLR
+BBFFBBFLLL
+FFBFBBFLRR
+FFBBBBFLRL
+BFFFFBBLRL
+BFFFFFBRRL
+FBFFFFBRLR
+FFBBFBBRRR
+FFBFBBFLLR
+FBFBBBBLLR
+BFFFBFFLRR
+BFFBBBFRRL
+FBBBBBBRRL
+FBBBBFBRLR
+BFBFBBFLLL
+BFFBBBFRLR
+BFBBFBBRLL
+FBBBBBBRLL
+FFBBFFFRLR
+FFFBBFFRLL
+FBFBBBFRLL
+FBBFFBFLRR
+BFBBFFBRLR
+BFFBBFBRRR
+FFBFBBFRRL
+FFBFBBFLLL
+FFFBBFBLLL
+FBFFFBFRLL
+FFBBBFFRLR
+FFFBFBBLRR
+FBBFFBFLLR
+BBFFFBFLLL
+BBFFFBBRLR
+FFBBBFFLRL
+FBFBBFBRRR
+BFFFBBFLRR
+FBBBFFFRLL
+BFFBFFBRRL
+FBBBBBBLRR
+BFFFBFFRRL
+FFBFBBBRLL
+FBFBBFFLLR
+BFFFBBBLLL
+BFBFFFFLLR
+FBBBBBBLLR
+FFBBFBFRRR
+FBFBFBFLLL
+BFBFBFBLLR
+FFBBFBBLRL
+FFFFBBBLRR
+BFFBFBBRLR
+BFFBBBBRRL
+FBFFBFFLLL
+BFBBBBBRRR
+BFBFFFFLRL
+FFFBBBBRLL
+BFFFBFFLLR
+FBBFBFFLRR
+BFBFFBFLLR
+FBBBBFBRRR
+FFBFFBBRRR
+FFBFFFFRRR
+FBBFBFBLRR
+BFBFBBFRRR
+FBFFFBFRRR
+FBFFBFFRRR
+BFFFBBFLLL
+BFBFBBFLRR
+BFFBFFFRLR
+FFFBFFBLLR
+FFFBFFFLLR
+FBBBBBFRRL
+FBBFBBFRRL
+BFFBFFBRLR
+BBFFBFFRLR
+FFBBFFFRRR
+FBFFFFFRRR
+BBFFFBBLLR
+BBFFBBFLRL
+FFBBBBBLLR
+FFBFBBFRLR
+BFFBFFBRRR
+BFBFFFBRLL
+FFBBBBFRLR
+BFFFFFFLRL
+BFBBFBBRRL
+BFFBBFBLRR
+FFFBBBFLRL
+BFBBFBBRRR
+FFBBFFFLLL
+FFFBBFFRLR
+FBFBFFBLRR
+BFFFFBFRRR
+BBFFBFBLLL
+BFFFFBFLRL
+BFFBBBFLLR
+BFFFBFFRLR
+FBFBBBBRLL
+BBFFBFFRLL
+FBFFBBFLRL
+FFBFFBBRRL
+BFFFFBBRLL
+FFFFBBBLRL
+FFBFBFBLLR
+BFBFBBBLLL
+FBBFFBBLRR
+FFBBBBFRRR
+FFBBBFFLLL
+BFBBBFBLLR
+FFFFBBFRRR
+BFFBBBBRRR
+FFBBFFBLLL
+FBFFFFFLRL
+FBFBBBFLLR
+FFBBFFFLRR
+FBFBFBFLRR
+BFFBFBBLRL
+FBFFFFBLLL
+FFBBBBBRRL
+FBBBBFFLLL
+BBFFFFBLLL
+BFFBBFBRRL
+FFBBBFFLLR
+FBBFBFBRRR
+BBFFFBBRRR
+FBFBFFBRLL
+FBFFBFBLRR
+BFBFFBBRRL
+FBBFBBFLRR
+BBFFFFBLRL
+BFFBBBBRLR
+BFBFFBBRRR
+FBBFFFBRLR
+FBBFBBBLRL
+FBFBFBFRRR
+FFBFFFBRLR
+FFBBFBFLRL
+FFBBBBFRRL
+FFBBBFBLRR
+BFFBBFFLLR
+FFFFBBBRLL
+BFBBFBBLLR
+BBFFFFBRLL
+FBBFFFFLRR
+BFFBFBFLLR
+FBBBFBFLRL
+FBBFFFFLLL
+BFFBFFFLRR
+BFBBFBFLRR
+BFFBFBBRLL
+FBFFBBBLRL
+FBBBFFBLLL
+FBBBFFFLRL
+BFFBBBBLLL
+BFFFBFFLLL
+FFFBFFBRRR
+FFBFFFBLRL
+FBBFBBBLRR
+FFFBBFBRRR
+FBBFBFFLLL
+BFBFBBFLRL
+BFFBFFFRRL
+BFBFBBBLRR
+FFBFFBBRLL
+FFBFBFFLLR
+BFBBBBBRRL
+FBFFBFFRLR
+BBFFBFBLRL
+FFFBBFFLRR
+BBFFBBFLLR
+FFFBBBBRRR
+FFBFFBFLLR
+BFFFFBFRLR
+FFBFFFFLRR
+BBFFFFFRLR
+FBFBBBBLRL
+FBFFBBFRRL
+BFBBFBFRRR
+FBBBBFFLLR
+FFBBBFFRRR
+FBBFBFBRRL
+BFBBFBBLLL
+BBFFFBBRLL
+FBBFBFFRRL
+FBBBBBFLLL
+BFBBBFFLRR
+BFFFFFFRRL
+BBFFFBFRLR
+BFBFFFBLRR
+FBFBFFFLRR
+BBFFFBBLRL
+BFFFFBBRLR
+BFFBFBBLRR
+BFBFFFBRLR
+BFFFFBBLRR
+BBFFFFBRRL
+BFBBBFBRRR
+BFBBBBBLRL
+FFFBBBFLRR
+BFFBBFFRLL
+FBFFBFBRRR
+FFFBBFFLLL
+FFBFFBFRRL
+FBFFBFFRLL
+BFBBBFFLLL
+BFFFBFBRRL
+FFFBFFFRRL
+FFFBFBFLLL
+FFFBBBBRRL
+BFBBFFBRRL
+BFBFFBFLLL
+BBFFFBFRRL
+BFBFBFFRLR
+FFFBFBBRLR
+BFBFBFBLRL
+BFFBFFFLLR
+FBFBBBFRRL
+FBFBBBBRLR
+BFFBBBBLRL
+BFBBFBFLLL
+FFFBFFBRLL
+FBBFFFBLRR
+FFFFBBFRLR
+BFBFFFFRRR
+BFBBFBFLRL
+FFBFBFFRRR
+BFBBBBBRLL
+FBFFFFFRLR
+FBFBFFBLLL
+FFBBFFBRRR
+FFFBBBFRRR
+FBFFBBFLLR
+BFBBFFBLLL
+BFBBFFFRRR
+FBFBBFFRLL
+FFBBBBBLRR
+FBFBFBBLRR
+FBFFFBFRRL
+FBBFFFBRRL
+BFFBBBBLLR
+BFBBFFFRLR
+FBBBFFFLRR
+FBBFBBBRLR
+FFFBFBFLLR
+FFBFBFBRRR
+BFBFBBBRRL
+FBFFBFFLLR
+FFFBFFBRLR
+BFBFBBFLLR
+FBBFFFBLLL
+FBFFBFBRLL
+BFFFBBFRRL
+FBBBBBFRRR
+BBFFFFFRRL
+BFBFFFFLLL
+FBFFFFBRRR
+BFFFFFFRLR
+BFFBFFBLRL
+BFBBFBFRRL
+BFBBFFFLLL
+FFBBBFBRLR
+FFFBFBBRLL
+FBFFFBBLRR
+BFFFFFBRRR
+BBFFBFBRRL
+FFFFBBFRLL
+BFBBBBFRLR
+BFBBBFBRRL
+BFBFBFBRLR
+FFBFBFBLRL
+BFBFFFFRLL
+FBFFBBBRLR
+FBFBFFBLLR
+FFBFFFBLLR
+FBFBBBBRRR
+FFFBBBFLLR
+BBFFFFFRRR
+FBBFBBFRRR
+FBBFBBBRLL
+BFFFFFBLLR
+BFFFBBFRRR
+FBFFFFBLRL
+FFFBFBFRRR
+FFBFFFBRLL
+FBBBBBFLLR
+FFBFFFBLLL
+BFFFFBBLLR
+FBFFBFBLRL
+FFBBFFBRRL
+BFFBFFBLLL
+FBBBFBBRRR
+BFFBBFBLLL
+FBFBBBFRLR
+FFBBFBBLLL
+FFBBFFBLRR
+BFFFFFFLRR
+FFBFFBBRLR
+FBBBBBFRLL
+FFBBFFBLLR
+FBFFBBBLLR
+FBFBFFBRRL
+BFFBBBFLLL
+FFBFFFFRLR
+FBFBFBBRLR
+FBBFFFBLRL
+FFBFBFBRRL
+FBFFFBFRLR
+FBBBBBBLRL
+FFFFBBBRRL
+BFBBBBFLLR
+BBFFBFBRLR
+FBBBBFFRLR
+BFFFFFFRLL
+FBBFFBBLRL
+FBFBFBBLRL
+FBFBFBBRRR
+BFBBBBFRRL
+BFBBBBBRLR
+FFFBBFBRLL
+FBBFFBBRLL
+BFFFFFFLLL
+FBBBFBFLLL
+FBBFBBFLRL
+FFBBBBBRRR
+BFBFFBBLRL
+BFFBFBBLLR
+FBBBBFBLRR
+BFBBFFBLRL
+BBFFFFBLLR
+BFFFBFBRLL
+FBBBBFBLRL
+BFBFBFFLLR
+FBBBFBBLLL
+FBBFFBFRRL
+BBFFBFFLRR
+FBFBFBFLLR
+FBBFBBFLLL
+FBFFBFFRRL
+FFBBBBBRLR
+FBBBFFBLRR
+FBBBBBFRLR
+FBFBBBBRRL
+BBFFFBFLLR
+FBFBBFBRRL
+BFFFFFBLRR
+FFFBFFFLLL
+FBFBFFFLRL
+FFBFFBFLRL
+BFBFFBFRRR
+FBFBFFBLRL
+FFBFFBBLRL
+FFBBFBFLLR
+FBFBBFFRLR
+FFBFBFFRLL
+BFBFFBFRRL
+BFFFFFBRLL
+BFBBBFFLRL
+BBFFBFFLLR
+BFFFBBFLLR
+BFFBBBFLRR
+FBBFFFFRRL
+FFBBBFBLLR
+BFBBBFBLLL
+BFFFFFFLLR
+FBBFBBFLLR
+FBFBBFBLRR
+FFBFBBFRRR
+BFFBBFFRLR
+BFFBBBFLRL
+FBFFBFBRLR
+BFBBFFBLLR
+BFBFFFFLRR
+FFBBBBBRLL
+FBBBFBBRRL
+BFFBBFFRRR
+FBFFBBBRLL
+FFBFFFFRLL
+BFBFBFBRRL
+FBBFFBFRLL
+BFFFBFFRLL
+BFBBBBBLLL
+FBBBFFBLLR
+FFFBFBFLRR
+FFFBBFFRRL
+FFBBBFBLRL
+BFFBFBFLLL
+FFBBBFFRLL
+FFBFFBFLLL
+FBBBFBFRLR
+FFBBFBFLLL
+BFBBFFFLLR
+FBBBFFFRLR
+FBFFFFBRRL
+FFFBFBBRRR
+FBFFBBFLRR
+BBFFFFFRLL
+FBFFBBBLRR
+FBFBFFBRRR
+FBFFFFFRLL
+FFBFFFBRRL
+FFFFBBFLRL
+BFBBFBBLRL
+FFBFFBBLLR
+BFBFBBBLLR
+FFBBBFBLLL
+BBFFBFBLLR
+FFFBFFFLRL
+FBFFFBBLRL
+FBFFFBBRLL
+BFFFBFFLRL
+FBBBBBBRRR
+FBFFFBBLLL
+FFFBFFFRLR
+FBBFBBBRRL
+BFFBBFBRLL
+FFFBBFBLLR
+FBBBFFBRRL
+BFBFBBFRLR
+FBFFBFBLLL
+BFBFFFBLLR
+FFFBBBFRLL
+FBFFBBFLLL
+FBBBFFFLLR
+FBBBFBFRRL
+BFBFFFBRRR
+BFBFBBFRLL
+BFFBFFFLRL
+BFFBBBBRLL
+BBFFBFFRRL
+BFBFBFFRRL
+FBBFBBFRLL
+FFFBBBBLLR
+BFFBFFFRRR
+FFFFBBBLLR
+BFFBBFBLRL
+FBBFFFFLRL
+FBBFBFBLRL
+FBFFFBFLLL
+BFFFFBFLRR
+FBFFBBFRLL
+FFBBFBBRLR
+BFBBBBFLRL
+FFFBFBFRLL
+FBBFFFBRLL
+FFBFFBFRLL
+BFFBFBFLRR
+FFFFBBBRLR
+BFBBFFFLRR
+FBFBFBFLRL
+FFBBBBFRLL
+BBFFBFBLRR
+FFBBBFBRRR
+BFBBBFBLRL
+BFFFFFBLLL
+BFFBFFFLLL
+FBBBBFFRRL
+FFBBFFFRRL
+FBBFFBBLLL
+BBFFBFBRRR
+FBFBFFFRLR
+FFBFFFBLRR
+FBFBBFBLLL
+BFFBBBBLRR
+BFFBBFFLLL
+FFBFFFFLLL
+BBFFFFFLRR
+FBBFBFBRLR
+BBFFFBBRRL
+BFFFFBFLLR
+FBBFBFFRLL
+BFFBFFBLRR
+FFFBFFFRRR
+FBFFBFBRRL
+FBBFBFFRRR
+BFBBBBFLRR
+FBBBFFFRRL
+FFBBFBBLLR
+FFFFBBFRRL
+FFBBFBBRRL
+BFFFBBBLRL
+FBBBFFBRRR
+FBBFBFBLLL
+FBFBFFBRLR
+BFFFBBFRLL
+BBFFFFFLRL
+BFFFBFBLLL
+FFBFBFFRRL
+FBFFFBBRRR
+FFBBFFBLRL
+FBFBBBFRRR
+FFBBFBBRLL
+FFBBBBBLLL
+FFBFBFFLLL
+BFBFFBBLLL
+FFFBBBBLRL
+BBFFBFFLRL
+FBFFFFFRRL
+FFBFBBBLLR
+FBBFFFFRLR
+FFBBBFFRRL
+FBBFBFFLLR
+FBFBFFFRRL
+FBBFFFFRLL
+BFBBBFFRLL
+BBFFFFBRRR
+BFBFBBBRRR
+FBFFFBBRLR
+BFFFFBFRLL
+FFBFBFBRLL
+FBBFBFBRLL
+FBBFBBFRLR
+FFFBFFFRLL
+BFBBFBFRLL
+FBBBFFBRLR
+FFFBBFFRRR
+FBBFFFBLLR
+FBBBBBBRLR
+FFBBBBBLRL
+FBBFBFFLRL
+BFBFFFBRRL
+FBFBFFFLLL
+FFBBFBFRLL
+BFBFFBBLRR
+FBFFBBBLLL
+FBFBBFFRRR
+BFFFBBBRRR
+BFBBBBBLRR
+FBBFBBBLLR
+FFFBBFFLRL
+FBBFFBBRRL
+FFBBFBFRLR
+BFBFBFFLRL
+BFBBFBFLLR
+FBFBBBBLRR
+BFFFFBFLLL</value>
+  </data>
+  <data name="day6" xml:space="preserve">
+    <value>heqznia
+cipkn
+gvsitwynrxb
+
+auz
+zaeu
+uaz
+zau
+zua
+
+ctqaibd
+tbqlzaywvd
+bqdtcazls
+qtrdvab
+hpbtadq
+
+e
+e
+je
+e
+e
+
+ilzuqnjhrceay
+jakzylrnuqcih
+uhyqijldrzwnac
+
+lxtwyiuqerd
+sfdmpjawvolkbzqnih
+ldtiewgq
+
+absdepjhctyfzxnivom
+fdvbjnsolpztgywmaihx
+tkashzxmjbydivfnrop
+ptnsojahvxmbdzfiy
+
+hd
+dh
+hd
+dh
+
+bup
+ktul
+
+rjfzdhowqnystc
+ubfkxhagiqmvplw
+
+cvknztpwls
+cvxtwlq
+tcvwxl
+
+gnusktbacrxodwiyjmzpfhv
+dipokyjubnhfsmzxtwga
+
+lcitb
+ctli
+cilt
+ictl
+ilct
+
+gwpctaiv
+fgqvptawch
+pglictavw
+
+olsamdbycu
+yhbdascjuo
+osaytbi
+
+pwhboyvqnf
+bwfqvnymipodch
+fjpoywbxvlqhn
+nqwfybpohv
+
+ghwyxuedk
+rjnf
+vstzqpbila
+
+tgrhwndx
+rwgtdxhn
+
+spzuibywxmgtcaefhd
+tsaumexhwfyigbpcdz
+
+fagpleck
+uhm
+
+dgfxejy
+vxdjg
+wjdxg
+
+snwlrgahefdvpimqzukbty
+awkpifsbutnqlegvmzrdy
+ebgklrmtxdqaynizupwsfv
+jswycqitzupnbavgofkdmlre
+kqprveytwzlmidfabunsg
+
+espgyfqvwctjxl
+nwselxvyjfcgqpta
+ljytpvqxgsewfc
+sfgwpctyjeqxvl
+xpwfztvryqujgcesl
+
+fak
+fa
+fa
+
+ci
+ic
+ic
+ic
+ic
+
+sdrecilmpta
+nyfuvjgt
+
+rjqtkb
+nrxdcigm
+
+lqxan
+axqnl
+lqxan
+xcnlaq
+
+miawyqxujdnobkts
+jumbid
+gimpdjbu
+
+ctbdnkajfrqwm
+qjadfnrck
+rndejhqckl
+
+qtnkxgwszufcdoje
+xwqufndojckegtzs
+okgwzcqxtsfuenjd
+tfksdqncoeuxwgzj
+gqkdzjtsnofcuexw
+
+y
+nmyh
+yh
+jty
+
+nosbgtm
+fitwzkryumnv
+
+xujltc
+uljbxt
+
+phwgolsikcumx
+luihpkgomwsr
+ijsglkwuhpom
+ohwkzupslmig
+phwimvsbulokcg
+
+qtko
+qotk
+qgokte
+oqkt
+
+nqhyfivrjes
+lewsrvpnijgcdyqtuaok
+
+ilsvdkqntza
+qlzvkfnidt
+lmtivdkqzun
+
+jitegscxbvkap
+bazxeirqcwkvsjg
+
+hztimlueapq
+htquipaezml
+emqhitlzapu
+mztlhqpuaei
+meizlupqhta
+
+qmhdij
+qdw
+wxqs
+yuagpvct
+
+njkbs
+iknbjs
+jndsbkr
+smgnkjbovwext
+bsnjk
+
+xzuajegmtvbfqcs
+gftvzmjscbaxqoeu
+veafutszgmibxqjc
+bstujmzvexqcagf
+
+zqwxeofgy
+vnysixbfwzdg
+myegxfzwtch
+wzrahfyuplkxgj
+
+b
+b
+b
+b
+
+oleycqk
+zexbflycq
+
+qkvaephtyjz
+qjazpteykv
+mybspqdavjkwz
+yjqzvpkat
+
+iex
+ieo
+i
+ji
+
+lzhjktifnavmsdpeqxwryg
+gprmilyhwnvjfxdztkasq
+jqzyaglmdtirfhxvskponw
+
+qthdgyc
+dqciylgth
+tqhyscgd
+dcyqghti
+qgczhydt
+
+tsngcywhrek
+wfvzlhpmsry
+
+sdawpinot
+npiwtzoda
+ndtwsaoixp
+nopaiwzst
+itflopwmnca
+
+dvpyhcuqwfxergbosl
+pxdhfqlewuvroygc
+xohlgwvceurdqfpy
+epcywvorhxuglfdq
+
+upcxrendiozjw
+edzrjoxcinpwu
+doucrjmeiwnpxz
+wxdpuzrjoneic
+
+gvfwrpudylze
+trmxawjqifz
+kudrzsvopgwhfn
+
+tc
+ct
+mct
+tc
+tc
+
+azfkv
+afvz
+fvztas
+afvz
+
+xwotv
+tvk
+pvt
+thv
+
+x
+ix
+
+n
+f
+n
+n
+n
+
+up
+up
+wpu
+pum
+udpr
+
+yftn
+k
+
+tluherb
+tjsgwcfympo
+
+nzlhtjicvwmqr
+ljngqvtmcz
+
+yet
+yte
+tye
+
+bwmfduzpi
+qzoa
+xceznyjo
+znetgq
+aoezny
+
+pzh
+hzp
+phuz
+
+zcgflrjb
+wequkjro
+
+egiqjdmruhb
+btyjzhukgoepvqr
+abehxcqrwsudjg
+
+m
+m
+m
+m
+m
+
+mkbqhjf
+ysxoweitglpudz
+rafmvnc
+
+hfaniqydo
+fyioq
+ilypofq
+fiolyq
+qifyot
+
+isklme
+isxelmk
+keimls
+smlike
+
+lusw
+swulc
+ulkzswti
+
+jlwkngbhoytrfzva
+thqfkgonjszlbvr
+rtqlfvoxghznkb
+iorbnmvetzplkfhg
+gfzlantkobrhcv
+
+a
+a
+a
+a
+a
+
+e
+o
+nx
+g
+
+wfahbinsdylmuqjg
+mdynhwasqjcgbuilf
+qagsbwdjifhymun
+bgsfnxcdlwquiyhmaj
+qzfagjrnmksdiuyhbwv
+
+bpjutscwgzqfaihn
+qapucwjtnszikgbf
+fcntgzhsiapjubwq
+gcqhijwsfuzptnba
+nicarpmztbqyxgfjwus
+
+lo
+oucynr
+zeo
+toxjd
+oq
+
+wsgkpblczumxatyefniqjdrovh
+dxngufpsbltmickjrohewaqzv
+zbvplfugitknxchaoqdwjmser
+
+rxl
+rx
+xr
+
+jre
+je
+
+enbyurosfwa
+abyrwsnfeo
+saywbonfer
+wrkseoafnzy
+
+bwzkdgjryteq
+smlhuefcnapoixv
+
+gvyspfxwk
+pxyksgvwf
+vfdpxsgwky
+pksygvxfw
+gyixskpvwf
+
+tbdok
+botkd
+
+hmi
+mih
+mhi
+simh
+
+nkahxedcorsvtz
+knrhzesodctaxv
+txdnezcvkahors
+ortdavxsznehkc
+
+zmgpf
+zfpm
+pfzmig
+zlkexfpa
+pztf
+
+xkru
+hurkx
+rypkxu
+ukrxh
+
+bk
+kbn
+bke
+kgba
+bk
+
+lmtnxdhvgowyzajqsric
+zwmhnvqaxjtordisyglc
+hotanmwvdsgljzcqiryx
+jymwvtzsrqgildcahxno
+hjrdlamgztwsviqncyox
+
+bewovp
+woveip
+oevp
+bziepov
+vjcpoex
+
+hwcjaflktixuys
+yfithlajvxdw
+fejthailwyx
+
+ekrshnlmyp
+nplurhzb
+dhsnrlg
+ilhtqrn
+
+bpkxsqmwljyacvdhi
+lsvmypxiwjdaq
+xqpgvkyaijlsdbu
+qdrayzlvjxitps
+
+akrelujqczvgmypxoftd
+dqfroxvktejgumclpzay
+rtmcvgaulpdexkfjqyzo
+axvjludqcktyfgpomrze
+prcvdlftgmjyaozeqxuk
+
+qytchokzabsvxjd
+ifgruvwndp
+
+lgedvcobj
+zivnmxkbp
+vtinhbry
+mqwsbv
+bpv
+
+etcasrvjlounbzfy
+exzapqlkgsdnvwtcfjo
+
+gimwrkealszjuovbqdxnfp
+hxbftzedakvspqguolwn
+axsvzfqewpbkhnguloyd
+
+aldgbhwosquzp
+nmtvykhfrelwi
+
+nqvmwaultx
+qvuaxmtnwl
+xuwlqnamvt
+alxwuqmtvn
+rvuamqlwtxn
+
+rgcvzjbpyqfsudomeilwat
+eyuxfmdcjgkhzraotqwpsibl
+
+jxszndrehyflgctubwoqvapk
+zpndwkgqcmbaelxvjthusroyf
+xojrdvbkayuqfcnhzipglewts
+
+ybedivlpkhxnz
+dzxihvkebynl
+vheyxkzdnibl
+
+tdlga
+tdagl
+ghatdl
+gldat
+avtldgm
+
+myqibrfdxcgjtnp
+ufswrvkqbyj
+rjqlafby
+yalcejhfdzqnrb
+
+x
+xve
+iwsbx
+
+psftnmuxrvqzaldk
+tfqrdpmzlavxknsu
+azluxtfnsvqkpmdr
+afvpqnzdtskxrulm
+qxknwpejtbamlurszdfv
+
+wc
+cdw
+wc
+cw
+
+jkhifrmaxlq
+lqfrajxhpvndbgm
+xqleamjhfr
+merqjhlxfa
+
+csrutxfibdola
+lxgfanpvsrhjeuiobc
+oiuxazlsfbrcd
+
+ntsi
+snti
+tisn
+tnis
+
+hipdn
+peixtuf
+
+fqrbuid
+qfruibvd
+
+dizhl
+divhlzwr
+ipdzhl
+
+jf
+fj
+fj
+fj
+
+eck
+ekc
+
+bpfi
+umzqfhn
+esybfp
+
+dpne
+pnqd
+
+wncfklxtuvbqphie
+imnzgkchyouedlbtpf
+kvufcitebhalqpsn
+ulehjtrnaibpkfc
+
+wd
+wd
+wnd
+
+iv
+iv
+iv
+
+xvord
+vx
+jnsxgwqe
+
+zgcqy
+a
+zuyf
+einwjlhsrkdp
+
+mudyqaignxe
+embyihxd
+kwrgiycpedx
+umtzkecixoyd
+jsfeyxdvil
+
+syeocvmxhkibzj
+obzyvrismxgafcd
+
+bkowp
+wpkb
+wkpb
+
+rgvoyctmuejfhsdz
+hnqlmcr
+kmhrcn
+
+ohvynfuicazjrxk
+jahnyzfviorkucgx
+pnckayhjxzrvuboif
+fuyrvnazojchkxi
+jyrauzvfcxkohni
+
+i
+i
+i
+
+ltiqpcerx
+fmxpcnyliq
+plihncogeq
+vsizqpcabkuld
+
+f
+f
+f
+f
+
+batgolqr
+sogutndzjlm
+ogtl
+
+mcnxgbfqe
+yujhieafqz
+ejqfhavw
+
+omjs
+orjsa
+
+ybh
+dwv
+sezxql
+ywo
+
+bfhgurcpyz
+cqjtpyzgblufxhswi
+hcfpmrzybgu
+
+dqxzencmaukypfrvjgoh
+ypnwjgredouqzhvmkx
+xqotjyupegmvkdznrh
+tgymxrqujnpwkezdvoh
+yugrzoxjqndkmhpev
+
+ijosae
+joisea
+isaejo
+
+mys
+wqcbzfl
+
+wuekzaijhotsmdylgb
+zbewmgxkhoduysitjvalp
+
+ufxmizkey
+ixkmfyeuz
+xmfyiukez
+umyzxkeif
+exkimufzy
+
+ljuwpkgqvym
+jqxnosecrkdzfmb
+
+uko
+kuo
+kou
+oscufzkx
+umok
+
+gtlkzfaxicsdwhepumvnbjr
+pwgnsjvutfdmrlbciaekxzh
+
+xtdefmu
+gvpyalkhtnzicmbq
+omwrjst
+
+iljqwxo
+tcofqu
+rqoapv
+fgdbnzpovuyq
+
+yzbekavtxf
+dujftxka
+ktoayxf
+pthaxcmnwkrqf
+tailfuyxgkjs
+
+phubt
+ba
+
+b
+b
+
+tfjplsdkiregzhwc
+brlekzcjhwqgtsif
+kjnhztesxiogvuralwcf
+lstjzwkeyrfighc
+
+lovhdzjgqt
+oliqtdgvsjrhu
+qhgolytvdj
+ldojqhtvg
+
+ehbogrjidxwznsafltp
+njoralfmvgipebzsdtwh
+nflhiotsbauepjgrwzkd
+
+avjftxwyilcdeohqpm
+tpyzdwaqjvmxlihocebsf
+oyrtcvqdhjinwafkemuxp
+
+qorwskbifymaulehpnjg
+qcrmgsfkyihlbuepwao
+
+wqitkcgvj
+rwzcotvjkg
+
+rwvnaqdjpkosftm
+zialxgbcohuednfsyp
+
+eytzxrasvwumic
+uajwnypqi
+uanhgwydji
+
+yljhebq
+qyhnje
+jqyhe
+eyhqj
+yqjohe
+
+hlpkbfvqm
+bpqkhvlf
+blqvnkzhpjfw
+
+mwirjqzcsh
+ioenbhkdflsxgu
+
+mywbh
+hb
+vbh
+
+rpj
+im
+gea
+
+v
+v
+v
+v
+v
+
+qf
+fq
+fq
+vqfkt
+qf
+
+lsdtouk
+gsjobmxdrn
+spyzfeohwdi
+
+kmwutyqlgprjexzvoh
+ovmpetrxqklhwujgz
+otzrgwvupmljkqxeh
+hewvzlorjmtgqxpku
+
+isoayqgnfwmjxlbr
+isfqagolrwnybj
+saoywgfjxbqrlin
+qbwvnoaiefsrjldgy
+losbangqrwfyji
+
+dupjhlezswngxi
+majwghxiuzsdeblqpf
+dpxulvsgijhwez
+hwzpjsludegxi
+dwjyuxkhgpilsze
+
+rskf
+rpsdk
+ksfr
+ljgsribkv
+ksr
+
+mckegajbrpvsqiwzh
+svuozijagxeqkwhptrbmn
+rkeqzpgmshwacjbvi
+
+bqalntdri
+baqdiltrn
+naribltdq
+tdlbnirqa
+
+zjlvfxi
+lxjiv
+
+ksep
+s
+s
+s
+s
+
+ubinslqeyctmh
+beyumsjnqcti
+nfbpuvsctzqwkiem
+mrnxusqybeilcgto
+
+prnqwhky
+lbywhjpq
+pimcfuvgya
+wpybn
+
+x
+x
+x
+x
+kt
+
+auvpzefg
+uazpgv
+ouzgpva
+oupagzv
+
+wqrhmzskpbyf
+zwobqgsyfmhkr
+qkwyjmhzrbsf
+
+beiyrdpuacwt
+bsmvp
+vlqphnbz
+jpbghxok
+
+ailjrzkvyd
+ardjlvzeyiq
+adkcjzryivel
+jvradlxziky
+giosfvntjpdylzbwmra
+
+ylbwsizepuxdcvrjh
+zrsljdpubvehciw
+bkevhdrsmwplziujc
+wpclhvbfiujzserd
+hiczvlbeswrujpd
+
+vfptxjoua
+axfkutovpj
+xuopvtfja
+fvxtpjoau
+
+qbndli
+qbwdla
+
+tvhwmursi
+dwtmuishrv
+rivhwstmu
+uhsvwmtir
+
+zobec
+oxznab
+oqtlbzy
+obcwsz
+wuxzob
+
+ia
+lcf
+aq
+yxepztur
+qjsf
+
+vsqg
+gs
+gs
+sg
+
+t
+t
+d
+t
+t
+
+f
+f
+ntfc
+
+abxpgzonuldwhfjyk
+zainyphtkrlxjdfbgw
+abndpoflxkywjgzhc
+bphazdxjglkywnf
+ynghblxjqpkufadzw
+
+lmcxjpyiqag
+ngpdzujlociqm
+pmcqyj
+pkejcfqmrvw
+
+nr
+yiran
+vnr
+njr
+
+hdrl
+dlcmq
+
+esqxdrjpu
+djgsrmq
+
+rspftxyhlkevi
+ylvsktxrifhpe
+esrlptfvywxihk
+
+ngm
+fuvyjbngmhk
+nrmg
+
+m
+ck
+a
+m
+
+hc
+bytowf
+p
+n
+
+mdexcsnhzkv
+jbzucr
+uiytcz
+paoczg
+
+otlxcp
+z
+efdv
+qz
+yjv
+
+sdbknm
+nsdmbk
+rmbsnkd
+mbdkns
+dskmnb
+
+umlokveradhcntgqzbjpwy
+enchjraufzvwpytoqg
+oevjinyzpgrumtwqachx
+
+hfg
+ef
+elf
+
+kqxtfgs
+tekngxfqb
+xgqmfvkt
+tkqfxyg
+xktqfgm
+
+qdyz
+dzsyuq
+zdqy
+pdozqyi
+qbyndz
+
+idnpythreuxf
+fprethyidu
+fqdprtuiehy
+herfydutpi
+
+cdpbmon
+rawhqg
+
+mbdsvyctkfqwoin
+cwekqsmonhafvidybt
+
+tfeukhxbylpvwigamc
+ygkfqirpmbdzuwxhelocav
+ikmpvcewngxualbyfh
+vcjfwnailyskbeupghxm
+
+xickua
+aickux
+kxcaius
+iuxack
+kuhcfaimx
+
+hxbule
+bhluex
+uhelx
+lzxhue
+
+dkzxhwjqnlgsumciypb
+hwognlupqvfzcmbkyars
+
+efdoxlmcpaytrbuh
+bjwhcteomykxdl
+qhcbmxdleyto
+
+d
+q
+d
+
+bhfat
+uvlb
+
+twfhsjrgopzqydu
+goupftshjrwqbzeyd
+hgwrintjdsyofqpz
+mjortzlsfdvywhqap
+
+pvmhaeuqdnkzfy
+uezhysmqokpa
+
+dveyafokgmrjclp
+zvoygwbqirseapmf
+
+jkowpdlginzmc
+hlnzojpcmgdiw
+wczdilpjmsyngo
+
+uahlztofcpimqrdwkjgbn
+fuzhebpndmglkrwxjtiqa
+tlfqnwizbkpxuavhmjgrd
+
+lsjcy
+cjylas
+ylsc
+yscal
+smlyc
+
+mih
+hdiumkq
+himt
+
+otxsqver
+mofgyxr
+jubnhdorcw
+rsliopqke
+
+dqaxlovt
+twavx
+
+pbgy
+hpnar
+myp
+
+jtzsplhfbvqocwuemx
+jqmobpexzlutswfc
+cipxtzqfmwlosbjedu
+pzxqlbwtcfjkoumse
+
+sizhfjnrql
+rylzfinh
+fnrlhizgvd
+flhrinzp
+
+ytcraijhfpbkzlxu
+qfuxrjclgoytiabzkph
+jhtklbpzxuinarcyfg
+hmjuliayvsfzktpxcbwr
+
+gvciksejwpx
+hpfgtmkexcrqjv
+gxskpjcev
+cpxjgaekv
+jcxvkpge
+
+axdftocrsbhup
+fpxhobqactr
+
+tybocwmnvxq
+cqvsnwxmty
+yxwtvcmnq
+twyxnoqmvc
+
+yujodbhfxcqrv
+jqobfyhdvxcnru
+ofhbeujvcrqyxd
+
+eakgq
+gakqe
+akgqe
+ekgaq
+qekag
+
+melvoydtazcfqki
+kamyzodfvclietq
+amqkfygntdliovezch
+idkqmyactzfevol
+akiqdtymvczfeol
+
+ni
+inac
+iny
+ink
+
+j
+jl
+oj
+
+x
+k
+k
+k
+k
+
+saiozgntjulkh
+augth
+tgarufheq
+ahtxgu
+epbhaugt
+
+joquah
+ausoqh
+khajoqu
+
+fmrwjtpqyebaixc
+cqebxjwpfaryitm
+fqmrtjxebicypaw
+
+w
+w
+j
+qo
+n
+
+thlpbumvgq
+pcgrinesl
+
+p
+p
+d
+s
+p
+
+vslzthkf
+tkhczfnsv
+tkfhvzs
+
+qremnidlvkhugzftyjsopab
+dvmgxfeqwurhcnp
+
+tjc
+ijc
+
+xejycvfhbq
+ebjfnyvxcq
+pfedtbyvjqcx
+yvqecfbxjn
+
+gprnslzexdthauqfim
+anlgukphzrtxe
+
+bpxgoqlvushjwnt
+wpklduyngfoezvrhts
+wjnhioqsxpctvgul
+
+sdp
+ups
+ptucs
+
+owscyrlhzn
+qszonlymh
+gonsdpzhyl
+
+xeo
+eox
+
+pdblxaetg
+aptdxlg
+
+uecnzlk
+vznctul
+eunsxrv
+wyibmqnudjha
+
+rwfokecv
+ekwfor
+rskoen
+qrkuloaepyz
+evdkbrso
+
+zogvdr
+hzgvrdp
+agwjytdebi
+
+ugkxzwyt
+xncpgwbkt
+
+l
+il
+blm
+ilv
+
+nubve
+eunbv
+vnbe
+bmevdn
+envb
+
+vebyf
+fsbjvy
+lsvm
+tuihvwoqn
+xfv
+
+evodlaryn
+xynlave
+nvlearyf
+snyadlev
+
+xfdvm
+vxmfd
+
+bug
+bgruv
+ugb
+gub
+
+cet
+aflq
+ej
+bryc
+
+nohgldscazxrpyim
+srznmdplaycioghx
+gmxodyprnhcsialz
+
+tonbhvsxqedykjapg
+rewcvimxlnzujfd
+
+zuvelkx
+elkzbuvx
+bvlzukxe
+qvkexulz
+
+mn
+hom
+dm
+
+japidxzgs
+pgsijdfx
+mekyliuorbvcn
+
+dunbzyopim
+iugxobzsny
+nyqtebkroiu
+
+ih
+tih
+ih
+
+raxp
+r
+
+syapwhiklvdcnfzgur
+zdkchaswfbnuyirpvgl
+
+lcudqgsexvrtfhinzpkyjwo
+uqerwhnsjkyfdtilvgxcozp
+jfeclvodtwkyushrpiqzgn
+mirkjzabqhgvnlsewdpocufty
+
+dxwjlvfrmks
+dwrvjmxksl
+
+sfqcdlwtjiv
+jsdicfwtqvl
+dqfjvcilwts
+jdqvwcslfit
+
+jibxdpkanysqlvceh
+cvnxwydjpaqbksleh
+fpdnqvaxuckhbylse
+
+usajkywgoem
+ogesuajyvk
+
+y
+y
+
+xaqrhcojtdnzysufb
+bhxfuozcansdtjyqr
+nydfstobzrcjqmaxuh
+
+hozjminaverc
+mpsarehivzn
+mnvdxprziehfalw
+hievykrwmznaqg
+
+ubaimoqltevpkcn
+rfzwejsgtvyxbdq
+
+qrz
+z
+yz
+
+gdx
+dxgi
+
+vncstgo
+javc
+pbkevc
+pvc
+
+rxlpku
+lmkxsu
+
+kzp
+zkp
+zpk
+
+kjeqiahytozcg
+yjzqthgfkae
+hzaytejpgkq
+azyjgheqtk
+agtzhkfjyqe
+
+erzmkohpb
+zkeobrhmp
+morhbzpek
+zkerbphmo
+pkbzermovh
+
+jblidhtnermq
+emblhtndqir
+ildnhteqmbr
+tbqewhilnrdm
+nitmqrdlehb
+
+gzsjwoedqyn
+weogqjsdyz
+wezqydjgso
+eojsyqgwdz
+eydwojzsqg
+
+nwbjemxcfvagdluhk
+euamwhfdgnvkjcblx
+gbvelhfakmujtxndcw
+lhnfxcmgavjkdbewu
+endfbkpxuljhcwavmg
+
+hdcvzsygoemla
+ktbfdiqjwnxur
+
+uvw
+uvrw
+uvw
+
+yexhwqvbzor
+xqberuiwphy
+xqyrjegwbhs
+
+xqrasilmvczjn
+saqxmivjzflc
+vmixfkjaclzqs
+
+jsximkbwlvanq
+nadixwkvslb
+icanwkphebsvlx
+lnkyxaguitrbvws
+
+owqbulsmaxtezyvgj
+qobastglyxzwumj
+fzsxtulmqgyojwba
+wysxltjqbogkfauzm
+
+zjtmghkprixqbduwav
+dprkxhwzibgvtmuqja
+
+bn
+nb
+bn
+bn
+rnb
+
+xuchertd
+rxcze
+
+umx
+wxm
+kxdm
+mx
+
+msvr
+ykiqse
+lsqfi
+sfz
+slefkq
+
+duiqworatzmfehgy
+sotydehqufiwazgrb
+
+lwosrqtknhjayxcv
+iyxgqntrhskd
+hayokstqncxrj
+
+o
+or
+
+sb
+sb
+sb
+
+ftyecprw
+cprwy
+ylpbcwzr
+cwpyr
+bdyorcwzp
+
+zuilqrtvo
+ujvotniw
+iwvontu
+avisokut
+
+mhbzakospnf
+famsugheytkopvn
+bmpaslnifhzok
+ocfqswnhkapm
+jaorpsknmdfh
+
+rjxepmakhtvgwyzulqodsnc
+udolsqhtxmprnzbeacgkj
+ajdtmuyxoszernlhcgkpq
+oesjfmqxugirdkhclatnp
+xmjtpawnrehqogkcduls
+
+vwtzqilospxmnbhdr
+qrkcmgdapvohetsfzwyl
+
+mduoq
+uqomdf
+
+fzuwmjltyxvdagecikpbhor
+qwzdnmsxhrlefctoaiupk
+
+xluzmjowiafbkyps
+mfsnjuapbwoyxikzvl
+auifrkzxsgbwolymp
+abxzukpswymolif
+
+uengwta
+kngts
+
+d
+jd
+d
+dab
+d
+
+enjcqx
+ncqjxeu
+jeqncx
+cjeqxn
+
+lm
+lpm
+lhum
+lqmv
+
+beyfkhxvp
+pefvbkyhx
+pykefhxbv
+xbkupyvhe
+
+mqxgvohazrfybjcp
+piyxdejohmqvbfz
+
+vbzjgqhft
+zvujtbqhfg
+hvfjeqbzgt
+bhqgvftjz
+htzqgbjfv
+
+sfltzmbjgecriwxkh
+wjesmhrkiqltbxzcgf
+
+dqjmgwroystpnab
+oqmycsgidaptbjnl
+zuvydaxbstgopqmn
+ngytpsimbadoq
+
+weotrpjaxlyqkd
+pkxwrsljzqeytdo
+roxakpmjqewtld
+worjtpdxlekq
+rukepndlxvqjtwbo
+
+gskrftnxaow
+hnziodkfvt
+
+zctyihajwk
+kvwhjiszcatye
+ychijkuzatw
+ijyhckwtza
+
+rtyldsvjnckpz
+rndlcysvzktpj
+zsrvcytdklpjn
+
+vzmoxkuseptgr
+wkxreogtvupz
+
+oebdwusyzfpn
+eidnzygub
+bzdyunes
+jhdzxuyqnerb
+uenbydz
+
+hqifzwampdgjxvbncso
+svoblpfdxcnzwirahmjkq
+aqodwenhvxmsbfzikypcj
+
+fnvg
+gnt
+seng
+fng
+
+wcfgudlrsp
+wrpldhsfugc
+
+awrmnoptquslfxdg
+zdyptmwlrabgfseouq
+
+czhne
+eczk
+gwelcuf
+
+kz
+z
+z
+z
+z
+
+xbkgjfdpamylhqws
+mpwkgilhxaybdtjqesf
+xfbvjyduzqrpngsmklhoa
+bqamskichdfltgyxpj
+
+t
+t
+
+bgtf
+bftg
+bifmtg
+bgtf
+
+enom
+eon
+
+hsgwm
+msgvncaoe
+kstrdlufp
+
+pwdsbif
+aiemt
+
+adcvfrseuypibqzlgo
+zebpcvogarquflyisdh
+cadfqiuzbgylrwnepsvo
+ouseigmzyqplbdafvcr
+pyqzvrkdxoaesfcbuljgi
+
+p
+p
+po
+p
+
+rknoufbe
+ixatyzcqm
+jlesufp
+vuwnofg
+
+xudvlzqckjiwpergnfmoa
+umgfvarnioqpecjdzwlk
+
+mtqpxdrgyiujkh
+dpjymirtkuqhgx
+xkhtpmyirqujgd
+mtijghkopudqxyr
+
+swobxzmlfvacp
+atupbcwmz
+pacwbzm
+bpmczaw
+czbampw
+
+mecbjzxthldokvwr
+mbszuxwdrfclqkjnvta
+
+ar
+ra
+
+sqlcrbvagdh
+hrvqydcbegsx
+umvfhrckqpsbg
+hrdbcyqjsgv
+
+tarvqx
+qbri
+
+elzrapiufomjs
+ujcriszamlfoe
+euraiozmjlfs
+gmjoaiszlerfu
+
+zisv
+wvszi
+ivqfzs
+isvz
+zivs
+
+nhbzgqirmpe
+ojcta
+yzpfsv
+
+qgzi
+gqifz
+izgq
+
+tedxocajnwb
+zdyvxtfkhgrcqs
+
+i
+i
+i
+
+snuaw
+wsu
+wsuo
+osuw
+
+ywedhx
+jwypitehxq
+
+jd
+j
+j
+j
+j
+
+miwxhuftya
+emlgtyrop
+mvybzqdktns
+
+fdrnsgxctzwbyl
+rctpdzuyxnwgfsl
+zkwnsfglcdtxpry
+ethrgnoqjxzfdayclvsw
+sgdyrfpxwnltcz
+
+pmqf
+mpl
+
+glabuzr
+gbzula
+gzaubl
+bulzag
+ulgzba
+
+hgaifknzbdyoceqwjt
+bzmswrqonijlvtykea
+
+cpjlbahiekfrmuzsndtgqyowvx
+qgrtsdijmpfabxkweuzyvhlnco
+
+vbgq
+tdhs
+
+iqzvluae
+eaqvi
+
+tgcqhufklsniozjrdp
+rozpqhjugiclfdtnk
+tdhoijqlfpugnrczk
+
+pmcjodek
+odjmelcp
+ojdqmptnvgi
+
+mwzhqrancjixtvlouydb
+aocjupytmwnxdrvhbqz
+
+mtgfuljbynkheoawr
+qmljgbkenfhuarztwo
+bfjhuemklgtarnoq
+vkrcganiltfeoshjmbu
+
+f
+d
+r
+d
+
+blkiqxw
+lbixk
+kblxi
+
+tygbuvlsqzdcwjfmphor
+fjvqkyuhdmlrgbat
+
+eawoshikf
+lcynruzxvajmpbtkd
+
+lqnjxavz
+vqxjnlaz
+nlvjzaqx
+
+zcetsupmg
+csgztmup
+cptsgzumjn
+
+v
+v
+v
+v
+vh
+
+smw
+wkm
+mkw
+
+jznk
+gfhi
+gh
+qlym
+
+ryncitzgwj
+tpgfavxeqsbnjz
+jzngrtm
+yotjznklg
+
+ks
+csp
+sk
+
+wrq
+h
+swvf
+wpj
+notbazycm
+
+vgqxwbruetaynispjh
+mkxbqyljiphsuwvned
+vnpwuqixhybejs
+ejqsyhpxbniwvu
+
+tbvngcxkzluowmfd
+bzktxmvdlwocnguf
+kmdzvwuxnlofbctg
+dtfbxckvuoznwmlg
+vcxogmndfuzwblkt
+
+begtyqocndxfikjlpr
+ndrbehqgptfjyko
+beryqugtndofkjp
+eobqphdntgjrkfy
+botjdhfgrepkyqn
+
+hq
+dv
+
+cxvfaprgiksneduzbj
+kgaenulpdqiwcvjmfxy
+
+cnlrmw
+gmn
+pymqh
+
+xvpcbhflyan
+hlaypfncxbv
+
+aoluxvjcfdhmtyb
+tnahjxvlubdmyfco
+fyjmdhxatlubcvo
+hcuaolvpmxjbydfrt
+
+egtqbrkhvzj
+trbyzvhgckl
+rzgitvkhbdw
+
+nshdqipy
+
+u
+yu
+vu
+tiu
+uv
+
+qiauofxksbpdygrljntw
+rodkyqglbtixjnpfasuw
+gorwdunfljqxitybpks
+rtygakqpxsfowiujbdnl
+qdwrfntpkguyjblhxios
+
+elinckrvajxofdwu
+mlktzwjnrpaxofiq
+
+lynoba
+akdprjmbn
+bja
+gzeab
+
+oqpmxd
+ouds
+zodiu
+dozjwauqx
+kerdhob
+
+kbfzid
+khfi
+wykefui
+
+zetdacmfxg
+aijvmxcptboze
+mnzktlaxchqye
+zxwmucgesta
+
+zoxbtyj
+plhug
+sukp
+dqi
+lpc
+
+u
+u
+u
+w
+u
+
+yiqfdmwlp
+fgewipylqm
+pilwyqmf
+lzmwnyptifq
+lwpmtfiyq
+
+oaqwidsuztk
+fjbsglrmxnvapyh
+sudecatwo
+
+cbhzygwtfr
+hrfcwtbyzgx
+zywifrctgb
+
+qawljghbftu
+ouxmapdlfirgsjw
+
+doxz
+zrwhm
+z
+zd
+
+hsry
+rys
+ryst
+
+eyosib
+oebrsdy
+
+ezranh
+ayftjvn
+
+iwsnt
+sitcwn
+itowns
+
+aemipyl
+kdnqwucol
+svoluh
+
+tb
+b
+b
+
+nhyprdzjfkx
+yxrfojnhzdkp
+rmylunxfkjhdzpab
+yfnjpxkzrdh
+rpqkxyznjdfh
+
+qtpfgnkwmz
+erykph
+
+rcknbzgplv
+ljidmrpvgsynhfxcw
+ualqcovet
+
+pmjfqvw
+wqi
+
+cnrfbmpx
+qcrmbpx
+qxbkcrmp
+pdcembrxh
+kcxpvrbm
+
+vzjsqergibonfpcwxdu
+wsjzqeyfxrpidgbv
+hvdzojwqfxespbgir
+iafjvkbzdpgwxmsreq
+
+unhm
+hunm
+
+xszhfvrg
+rhfvsxzg
+fhzxrsgv
+fhsvrzgx
+
+fsczkoeltjnaxyqgv
+oqagsvntxjz
+xtnzvasgqojp
+
+dvwir
+iwdvr
+wrdiv
+rwvid
+
+zgimtew
+tdxkab
+
+ngyvcmklw
+nbwkclgym
+
+efznbqgxkr
+zkfrbgqxen
+grxqbfznek
+fegqzkxpbnr
+
+for
+for
+rfo
+fro
+orf
+
+hmjunqdopzebrtfgsaycxk
+hxqunoswjyfaezmcdrgkpbt
+
+rvsbolmafxzjugw
+fjhoxarsuyzpbegcvw
+jwforbvdugaxzst
+
+xv
+oxhd
+x
+
+wgz
+yzwgr
+
+uvyq
+uvqy
+vqyu
+yvuq
+vquy
+
+l
+v
+l
+kewx
+lu
+
+xliyjcvkpesbqmt
+clxobwftkj
+tbfkjxlczn
+
+vxfos
+obcxsh
+loisq
+mxovs
+yosbncfk
+
+lgmbfvn
+fmrnbivlg
+gnflbvm
+bnmlfgv
+
+gmyqnj
+snmjgq
+mgdqj
+gjmeqw
+gomvsjq
+
+jlfwpg
+fzntmes
+
+neuagywtl
+exnyjtulgwa
+nysltwaueg
+hatenlvuywdcg
+
+rdklg
+rlgk
+gkrl
+kwcxrgl
+
+ykqdrlcnsvtj
+yqvrdksjncmt
+
+dtrugibvznex
+nertvzuidsxg
+vnrdegxtziq
+ivgrlxndtze
+vgadxrtynzeif
+
+hlrqu
+ngd
+
+vknisul
+uiaxnvde
+vqlukoin
+
+pan
+vnamp
+
+ah
+fyck
+dsglmrwvobqeizxjun
+pty
+hkp
+
+ydermuatbqc
+heqtzu
+
+azsl
+jvazulsg
+vtjlzsa
+madphqbzflkws
+
+nocuqyxh
+oucyhxqn
+ouncqyhx
+xuncyhoq
+
+j
+e
+e
+e
+
+qyrmwabifdtgjszh
+rdjtywamsgibhzqf
+tszrqmwjagbydhf
+sqhlgajmnydvtzfucwbrk
+ahsfwqtmrbdzjyg
+
+iqhlxyofejm
+bloxehyifj
+xjfieyhlo
+
+skblf
+fkl
+
+ygstldmxfweuzq
+tmuvzfqysxeglwi
+czqxoemgyustfrb
+
+garndlcxfuw
+wrdulxgqfac
+gfloiuzhwdcxvar
+
+dwqxfekvtn
+wknsetqdfxv
+dfqknxevtw
+edtwfqxvnk
+wtfkmrdhevqnx</value>
+  </data>
+  <data name="day7" xml:space="preserve">
+    <value>vibrant purple bags contain 3 shiny lavender bags, 1 mirrored gray bag, 4 muted bronze bags.
+posh crimson bags contain 4 drab plum bags, 5 dotted purple bags, 3 vibrant lavender bags, 2 striped plum bags.
+pale cyan bags contain 5 drab violet bags, 2 dotted crimson bags.
+dim lime bags contain 1 muted purple bag, 2 striped silver bags.
+clear aqua bags contain 2 plaid green bags.
+bright teal bags contain 4 shiny crimson bags, 3 faded red bags, 2 posh lavender bags.
+clear white bags contain 1 pale olive bag, 2 vibrant plum bags, 4 clear cyan bags.
+dull plum bags contain 1 bright yellow bag, 5 bright tomato bags.
+dark crimson bags contain 3 dotted gray bags.
+shiny green bags contain 4 pale violet bags, 3 muted teal bags.
+clear salmon bags contain 1 light yellow bag.
+dull salmon bags contain 1 dim lavender bag, 3 faded teal bags, 4 dotted beige bags, 1 faded red bag.
+pale black bags contain 4 drab maroon bags, 4 dotted orange bags, 1 shiny black bag, 4 mirrored yellow bags.
+vibrant olive bags contain 5 clear chartreuse bags, 4 clear blue bags, 4 mirrored orange bags, 1 posh tomato bag.
+shiny blue bags contain 3 light green bags, 5 dark chartreuse bags.
+dark teal bags contain 1 posh maroon bag.
+vibrant brown bags contain no other bags.
+striped crimson bags contain 2 shiny gold bags, 4 pale indigo bags, 4 light maroon bags.
+bright fuchsia bags contain 1 posh purple bag, 4 clear gold bags, 5 dark teal bags, 2 plaid orange bags.
+bright black bags contain 1 bright teal bag, 4 dull olive bags, 5 posh turquoise bags, 3 dotted teal bags.
+striped beige bags contain 3 dark indigo bags, 1 drab aqua bag.
+dim crimson bags contain 5 striped turquoise bags, 4 faded brown bags.
+vibrant black bags contain 2 mirrored gray bags, 5 light maroon bags, 5 pale plum bags, 3 mirrored black bags.
+muted chartreuse bags contain 4 dim indigo bags.
+dotted bronze bags contain 3 clear aqua bags, 2 bright tan bags, 4 muted brown bags, 1 bright maroon bag.
+posh cyan bags contain 1 vibrant black bag, 3 vibrant coral bags.
+mirrored brown bags contain 5 pale gray bags, 4 dim beige bags.
+vibrant indigo bags contain 5 mirrored maroon bags, 3 drab purple bags.
+clear maroon bags contain 5 dotted teal bags, 4 wavy black bags.
+faded silver bags contain 2 plaid red bags, 1 posh green bag, 3 vibrant magenta bags, 2 bright magenta bags.
+light coral bags contain 5 dull turquoise bags.
+wavy beige bags contain 2 shiny yellow bags, 1 shiny lavender bag, 3 plaid bronze bags.
+faded fuchsia bags contain 5 light maroon bags, 2 mirrored cyan bags, 3 light aqua bags.
+dark fuchsia bags contain 2 dotted blue bags, 5 muted olive bags, 5 posh coral bags, 4 clear salmon bags.
+vibrant white bags contain 1 dim lavender bag.
+bright plum bags contain 2 shiny tan bags.
+wavy green bags contain 1 light beige bag, 5 mirrored blue bags, 1 pale turquoise bag.
+posh magenta bags contain 4 dim violet bags, 3 clear aqua bags.
+plaid coral bags contain 3 wavy salmon bags, 2 dark gold bags.
+dull orange bags contain 1 dull green bag.
+shiny aqua bags contain 1 plaid yellow bag, 3 shiny green bags, 5 vibrant bronze bags, 2 striped olive bags.
+dotted teal bags contain 1 light gray bag, 1 dotted beige bag, 3 shiny gold bags, 3 faded tan bags.
+dotted red bags contain 3 mirrored gray bags, 1 mirrored lime bag.
+muted fuchsia bags contain 4 drab tan bags.
+striped tomato bags contain 1 wavy silver bag, 3 bright blue bags, 5 drab silver bags, 5 dim orange bags.
+vibrant coral bags contain 5 shiny plum bags, 5 pale aqua bags.
+plaid gold bags contain 1 mirrored cyan bag, 2 dull lavender bags.
+posh olive bags contain 1 shiny coral bag, 4 clear beige bags, 4 light bronze bags, 2 striped olive bags.
+posh teal bags contain 1 drab yellow bag.
+bright green bags contain 4 drab purple bags, 5 shiny yellow bags.
+pale lavender bags contain 3 drab olive bags, 2 muted beige bags, 4 muted blue bags, 1 dim fuchsia bag.
+faded green bags contain 1 dim turquoise bag, 5 drab cyan bags, 2 clear tomato bags, 2 light brown bags.
+wavy blue bags contain 2 striped red bags, 5 dark gold bags, 5 clear white bags.
+plaid olive bags contain 5 pale aqua bags.
+muted purple bags contain 4 bright bronze bags.
+vibrant turquoise bags contain 1 dark silver bag, 5 plaid teal bags, 5 posh turquoise bags.
+striped chartreuse bags contain 5 muted bronze bags, 2 wavy salmon bags.
+drab cyan bags contain 2 posh tomato bags, 1 wavy turquoise bag.
+vibrant silver bags contain 3 light violet bags, 4 vibrant brown bags, 2 light beige bags, 5 dark indigo bags.
+faded salmon bags contain 5 dim beige bags, 5 dotted beige bags.
+light cyan bags contain 4 plaid beige bags, 5 vibrant black bags, 4 pale chartreuse bags, 4 plaid gray bags.
+light aqua bags contain 5 faded red bags.
+vibrant lavender bags contain 1 bright black bag, 5 plaid indigo bags.
+drab salmon bags contain 1 dotted gray bag, 5 mirrored silver bags, 1 shiny bronze bag, 1 faded bronze bag.
+striped coral bags contain 4 light silver bags.
+vibrant gray bags contain 5 striped green bags, 2 light turquoise bags.
+dark aqua bags contain 3 dark teal bags, 5 clear bronze bags, 5 dotted tan bags.
+dark olive bags contain 5 light gold bags, 3 dark green bags.
+clear lime bags contain 5 dull red bags, 3 mirrored salmon bags, 1 bright crimson bag, 4 vibrant black bags.
+dull gold bags contain 1 dark violet bag, 1 dim chartreuse bag, 1 vibrant lavender bag, 2 clear red bags.
+dim black bags contain 5 dull black bags, 3 faded silver bags, 5 pale red bags.
+clear yellow bags contain 2 clear beige bags, 2 shiny fuchsia bags, 1 plaid coral bag.
+mirrored gold bags contain 5 dotted plum bags.
+dotted maroon bags contain 3 dotted purple bags.
+dim bronze bags contain 2 wavy magenta bags, 2 drab red bags.
+wavy white bags contain 3 dull lime bags, 4 drab tan bags.
+vibrant aqua bags contain 1 drab tan bag, 3 light crimson bags.
+mirrored cyan bags contain 2 dull olive bags.
+faded crimson bags contain 3 bright fuchsia bags, 5 dotted chartreuse bags, 4 striped plum bags.
+faded purple bags contain 5 faded lime bags, 3 drab lavender bags.
+striped black bags contain 1 vibrant tan bag, 1 drab maroon bag.
+striped magenta bags contain 2 drab lavender bags, 2 shiny bronze bags, 2 posh salmon bags.
+shiny olive bags contain 1 posh violet bag, 4 dotted orange bags, 1 drab maroon bag, 5 drab lavender bags.
+dull tan bags contain 1 wavy violet bag, 2 plaid plum bags, 4 bright lavender bags.
+pale indigo bags contain 1 striped chartreuse bag, 4 bright magenta bags, 5 wavy salmon bags.
+dotted magenta bags contain 4 posh red bags, 2 light lime bags, 2 dull fuchsia bags.
+vibrant blue bags contain 2 drab brown bags, 3 muted orange bags.
+clear turquoise bags contain 2 muted crimson bags, 2 drab bronze bags, 4 drab white bags, 1 clear white bag.
+drab bronze bags contain 1 faded olive bag, 4 dim indigo bags, 3 pale black bags.
+shiny white bags contain 5 pale plum bags, 1 mirrored aqua bag.
+striped teal bags contain 1 dull lime bag.
+light lavender bags contain 2 mirrored brown bags, 3 bright orange bags.
+light magenta bags contain 3 striped silver bags, 1 drab yellow bag, 4 bright orange bags, 5 dotted lavender bags.
+mirrored salmon bags contain 2 bright magenta bags, 3 drab aqua bags, 3 shiny gold bags.
+muted lavender bags contain 5 wavy chartreuse bags, 1 dark coral bag, 2 plaid gray bags.
+muted yellow bags contain 1 dim lavender bag, 5 faded gold bags, 3 clear beige bags.
+vibrant maroon bags contain 1 faded salmon bag, 2 vibrant tan bags, 1 posh fuchsia bag, 5 plaid gold bags.
+bright lavender bags contain 2 pale gray bags.
+plaid salmon bags contain 5 dull fuchsia bags, 4 faded gold bags, 2 dark teal bags, 1 bright teal bag.
+dark turquoise bags contain 1 dull fuchsia bag, 3 dull tomato bags, 1 striped cyan bag.
+dark indigo bags contain 1 dotted red bag.
+light green bags contain 4 vibrant bronze bags, 1 wavy black bag, 1 dark black bag.
+drab magenta bags contain 5 mirrored beige bags, 1 faded brown bag.
+clear coral bags contain 5 posh green bags, 5 dull yellow bags, 2 dim salmon bags.
+light red bags contain 1 light silver bag, 1 mirrored lime bag.
+muted beige bags contain 2 drab yellow bags, 4 light maroon bags, 2 shiny yellow bags.
+pale blue bags contain 5 mirrored crimson bags, 1 drab salmon bag, 2 posh lime bags.
+drab crimson bags contain 2 light salmon bags, 5 pale gray bags, 2 wavy beige bags.
+faded maroon bags contain 5 mirrored gold bags.
+bright indigo bags contain 5 pale gray bags.
+dull teal bags contain 3 faded silver bags, 1 vibrant lime bag, 1 mirrored crimson bag.
+shiny salmon bags contain 3 bright magenta bags, 4 dotted blue bags, 1 dotted maroon bag, 3 bright beige bags.
+mirrored beige bags contain 1 vibrant magenta bag, 5 light silver bags, 5 shiny lavender bags.
+pale tan bags contain 4 striped magenta bags, 1 clear cyan bag, 1 clear beige bag, 1 mirrored purple bag.
+drab tan bags contain 5 mirrored maroon bags.
+dark yellow bags contain 2 dull olive bags, 4 dull teal bags, 4 light yellow bags, 1 faded fuchsia bag.
+drab green bags contain 1 clear magenta bag.
+pale turquoise bags contain 2 drab chartreuse bags.
+plaid silver bags contain 3 dotted beige bags, 2 plaid orange bags.
+vibrant red bags contain 5 muted magenta bags, 4 drab white bags, 1 drab aqua bag.
+muted maroon bags contain 2 shiny coral bags.
+mirrored purple bags contain 4 mirrored aqua bags.
+muted white bags contain 2 plaid green bags, 2 posh green bags, 5 faded gray bags.
+bright chartreuse bags contain 2 bright lavender bags, 1 muted tan bag.
+vibrant orange bags contain 4 muted bronze bags, 5 vibrant magenta bags.
+clear chartreuse bags contain 2 plaid red bags, 2 striped teal bags, 5 dotted fuchsia bags.
+clear gray bags contain 1 dull beige bag, 3 light aqua bags.
+striped indigo bags contain 2 faded chartreuse bags, 4 dull white bags, 5 mirrored maroon bags, 1 plaid coral bag.
+posh green bags contain 1 bright tan bag.
+dark salmon bags contain 5 wavy yellow bags.
+muted tomato bags contain 3 muted beige bags, 2 faded gray bags, 2 clear gold bags.
+posh silver bags contain 2 dotted beige bags, 2 pale fuchsia bags, 1 dark brown bag.
+mirrored white bags contain 5 dim white bags, 3 light aqua bags, 2 faded gray bags, 3 shiny gold bags.
+drab chartreuse bags contain 5 mirrored plum bags, 2 dim aqua bags, 1 vibrant brown bag, 5 vibrant orange bags.
+light blue bags contain 3 dim chartreuse bags, 1 bright green bag, 3 clear chartreuse bags.
+posh white bags contain 1 dull brown bag, 3 bright magenta bags.
+dotted violet bags contain 3 plaid gray bags, 5 pale white bags, 5 wavy blue bags, 1 mirrored magenta bag.
+drab plum bags contain 1 dull salmon bag, 2 muted magenta bags.
+plaid violet bags contain 3 bright olive bags.
+wavy crimson bags contain 2 bright purple bags, 3 shiny yellow bags, 3 posh bronze bags.
+dull yellow bags contain 1 plaid red bag, 1 plaid maroon bag.
+dull magenta bags contain 4 dark olive bags, 3 faded olive bags.
+faded brown bags contain 4 light yellow bags, 3 drab red bags.
+bright crimson bags contain 4 posh lime bags, 1 mirrored gray bag, 5 pale indigo bags.
+bright lime bags contain 3 faded violet bags.
+dotted white bags contain 2 pale fuchsia bags, 4 light red bags, 3 dull gold bags, 1 wavy salmon bag.
+dull cyan bags contain 2 dark indigo bags, 5 muted black bags, 4 wavy aqua bags.
+light plum bags contain 4 wavy beige bags, 2 clear crimson bags, 5 striped beige bags.
+wavy chartreuse bags contain 1 dark indigo bag.
+clear cyan bags contain 1 mirrored lime bag, 4 light silver bags.
+striped salmon bags contain 3 dotted silver bags, 1 shiny turquoise bag, 3 mirrored tan bags.
+bright cyan bags contain 1 wavy tomato bag, 4 dotted yellow bags, 2 pale tan bags.
+muted red bags contain 2 vibrant chartreuse bags, 1 dim indigo bag, 5 muted aqua bags.
+mirrored plum bags contain 1 light black bag, 3 vibrant brown bags.
+mirrored lime bags contain 5 bright violet bags, 4 light maroon bags, 1 dotted beige bag, 2 plaid maroon bags.
+dotted chartreuse bags contain 5 light black bags, 3 shiny turquoise bags, 5 drab lavender bags, 3 shiny silver bags.
+plaid brown bags contain 2 drab gold bags, 5 clear cyan bags, 2 drab gray bags, 2 vibrant magenta bags.
+clear olive bags contain 5 shiny cyan bags, 1 dark teal bag, 3 striped bronze bags, 2 striped olive bags.
+light beige bags contain 5 pale plum bags.
+dark cyan bags contain 5 posh tomato bags, 3 clear magenta bags, 2 shiny olive bags.
+dark maroon bags contain 1 shiny turquoise bag, 2 dotted brown bags, 3 dark lime bags.
+vibrant teal bags contain 2 pale purple bags.
+dotted turquoise bags contain 5 vibrant magenta bags, 3 dark chartreuse bags.
+dark red bags contain 2 striped chartreuse bags.
+pale purple bags contain 4 drab gold bags, 1 drab violet bag, 3 muted black bags.
+vibrant fuchsia bags contain 2 shiny purple bags.
+dotted gold bags contain 2 shiny gold bags, 2 plaid coral bags.
+striped aqua bags contain 3 dark chartreuse bags.
+light orange bags contain 1 plaid red bag, 3 wavy salmon bags, 4 dotted indigo bags.
+dotted lavender bags contain 4 dotted tomato bags, 3 plaid cyan bags.
+light bronze bags contain 3 drab purple bags, 4 dotted crimson bags, 1 posh bronze bag.
+dim tomato bags contain 4 dotted tan bags, 2 vibrant brown bags, 5 vibrant orange bags, 2 dotted silver bags.
+striped plum bags contain 4 wavy indigo bags, 5 dim indigo bags, 3 vibrant green bags.
+clear beige bags contain 3 muted bronze bags.
+shiny coral bags contain 2 posh silver bags.
+dull violet bags contain 5 bright teal bags, 3 plaid violet bags, 3 drab turquoise bags, 3 dull maroon bags.
+posh yellow bags contain 2 light maroon bags, 3 light fuchsia bags, 1 shiny indigo bag.
+dark tan bags contain 3 plaid yellow bags, 2 striped salmon bags.
+shiny fuchsia bags contain 2 faded red bags, 3 dim violet bags, 4 wavy crimson bags.
+clear purple bags contain 3 shiny chartreuse bags.
+dim turquoise bags contain 5 vibrant magenta bags, 2 striped tomato bags.
+light turquoise bags contain 5 wavy crimson bags, 3 dim beige bags, 2 bright teal bags, 3 posh maroon bags.
+mirrored magenta bags contain 1 shiny turquoise bag.
+clear blue bags contain 3 dark black bags, 4 faded fuchsia bags.
+muted gray bags contain 1 light chartreuse bag.
+wavy maroon bags contain 4 bright magenta bags, 1 vibrant orange bag.
+shiny silver bags contain 4 dull white bags, 5 striped aqua bags.
+clear silver bags contain 3 vibrant coral bags, 4 light gray bags, 4 shiny maroon bags.
+wavy magenta bags contain 5 clear red bags, 4 shiny yellow bags, 2 dark green bags, 1 shiny cyan bag.
+dull green bags contain 2 vibrant salmon bags.
+wavy red bags contain 4 bright indigo bags.
+wavy turquoise bags contain 4 clear gray bags, 4 dark chartreuse bags, 4 dark lavender bags.
+faded tomato bags contain 5 wavy salmon bags, 1 muted salmon bag, 2 muted black bags.
+dark orange bags contain 3 dim red bags, 3 dim silver bags, 2 muted beige bags, 5 bright silver bags.
+shiny tomato bags contain 3 bright green bags, 3 dark blue bags, 2 wavy chartreuse bags.
+clear fuchsia bags contain 2 dotted tan bags, 4 posh plum bags, 3 light green bags, 4 drab crimson bags.
+pale tomato bags contain 3 faded bronze bags.
+dull coral bags contain 5 plaid magenta bags, 1 mirrored cyan bag, 1 dark black bag.
+pale gray bags contain 1 bright tan bag.
+drab olive bags contain 2 posh blue bags, 1 dim salmon bag, 3 posh orange bags, 5 posh maroon bags.
+plaid beige bags contain 3 muted olive bags, 2 drab fuchsia bags.
+dotted coral bags contain 2 dark magenta bags.
+bright magenta bags contain no other bags.
+striped violet bags contain 1 plaid gray bag, 5 dull white bags, 3 dark indigo bags, 1 shiny orange bag.
+plaid tomato bags contain 1 dotted orange bag, 5 bright silver bags.
+wavy silver bags contain no other bags.
+wavy bronze bags contain 5 plaid beige bags, 5 dark coral bags, 5 vibrant orange bags.
+clear black bags contain 3 wavy beige bags.
+drab teal bags contain 5 dull gray bags, 1 light yellow bag, 3 drab indigo bags, 1 bright maroon bag.
+dim lavender bags contain 4 shiny lavender bags.
+pale olive bags contain 4 wavy olive bags, 4 faded olive bags.
+shiny turquoise bags contain 5 clear magenta bags, 1 mirrored aqua bag, 2 light lime bags, 2 dark indigo bags.
+clear brown bags contain 1 dotted fuchsia bag, 4 clear white bags.
+pale red bags contain 4 clear beige bags.
+bright maroon bags contain 4 clear black bags, 2 vibrant white bags.
+pale teal bags contain 3 pale silver bags, 2 wavy tomato bags.
+plaid orange bags contain 5 shiny magenta bags.
+posh plum bags contain 2 clear beige bags, 5 faded silver bags, 5 drab beige bags, 4 dim crimson bags.
+pale maroon bags contain 1 posh maroon bag, 4 wavy magenta bags.
+shiny black bags contain 1 dotted tomato bag, 1 mirrored silver bag, 5 plaid maroon bags, 5 clear salmon bags.
+shiny lavender bags contain 5 muted bronze bags.
+wavy violet bags contain 2 dotted tomato bags, 5 bright black bags, 4 clear cyan bags.
+dotted tan bags contain 4 plaid teal bags.
+drab tomato bags contain 5 dark black bags.
+dull olive bags contain 1 clear salmon bag.
+faded orange bags contain 2 light maroon bags, 3 posh lime bags, 4 dotted tan bags.
+plaid purple bags contain 5 drab aqua bags, 3 clear plum bags, 2 pale purple bags.
+wavy fuchsia bags contain 3 faded orange bags, 1 muted purple bag.
+pale white bags contain 5 dark indigo bags, 1 pale tan bag.
+bright olive bags contain 1 dull lime bag, 3 light fuchsia bags.
+drab black bags contain 4 muted violet bags, 2 vibrant violet bags.
+drab lime bags contain 5 dark brown bags, 5 striped indigo bags.
+striped green bags contain 5 vibrant green bags, 3 striped silver bags, 2 dull turquoise bags, 4 drab indigo bags.
+wavy olive bags contain 3 mirrored gray bags, 1 light lime bag, 2 bright indigo bags.
+posh indigo bags contain 2 dotted fuchsia bags, 3 dotted purple bags, 2 wavy brown bags, 2 dotted blue bags.
+clear crimson bags contain 5 drab gray bags, 2 plaid beige bags, 4 dark gold bags, 2 pale chartreuse bags.
+pale lime bags contain 1 dotted plum bag, 2 vibrant maroon bags.
+pale gold bags contain 4 posh tomato bags.
+posh tomato bags contain 4 mirrored lime bags.
+muted indigo bags contain 5 wavy fuchsia bags, 3 clear orange bags, 3 shiny green bags.
+clear green bags contain 3 drab salmon bags, 4 pale turquoise bags.
+mirrored yellow bags contain 5 dim red bags.
+pale bronze bags contain 1 dotted chartreuse bag, 1 drab teal bag, 4 shiny cyan bags, 5 faded brown bags.
+shiny maroon bags contain 2 wavy turquoise bags, 5 light turquoise bags, 5 wavy cyan bags.
+dark magenta bags contain 4 mirrored lime bags, 3 drab aqua bags, 4 bright blue bags, 2 posh silver bags.
+drab gold bags contain 2 light gray bags, 3 bright magenta bags, 2 vibrant magenta bags, 4 light lime bags.
+drab brown bags contain 2 wavy salmon bags, 5 posh plum bags, 4 shiny orange bags.
+dull gray bags contain 2 dim violet bags.
+muted magenta bags contain 5 posh lavender bags, 2 dotted orange bags, 4 pale turquoise bags.
+vibrant bronze bags contain 5 dim blue bags, 3 mirrored silver bags.
+pale crimson bags contain 2 dark coral bags.
+dotted cyan bags contain 2 clear salmon bags, 4 dark white bags.
+light white bags contain 5 clear silver bags, 4 clear olive bags.
+dim coral bags contain 3 drab silver bags, 5 shiny teal bags, 4 faded bronze bags, 4 muted plum bags.
+dotted beige bags contain 1 light yellow bag, 4 light lime bags.
+faded turquoise bags contain 4 dotted tomato bags, 3 pale magenta bags, 2 dim brown bags.
+shiny brown bags contain 5 faded red bags.
+striped yellow bags contain 3 mirrored crimson bags, 4 dark magenta bags, 3 pale crimson bags, 2 mirrored black bags.
+shiny magenta bags contain 1 vibrant tomato bag, 3 mirrored lavender bags.
+clear indigo bags contain 4 muted tomato bags, 3 posh red bags, 5 pale turquoise bags, 3 dim olive bags.
+striped silver bags contain 4 drab maroon bags, 2 drab chartreuse bags, 2 dotted gray bags.
+mirrored black bags contain 1 wavy beige bag, 1 dim silver bag.
+faded cyan bags contain 3 dim crimson bags, 3 drab aqua bags.
+posh lavender bags contain 2 light gray bags, 1 dim orange bag.
+dim violet bags contain 2 posh maroon bags, 4 clear salmon bags.
+plaid tan bags contain 5 shiny indigo bags, 1 shiny fuchsia bag.
+posh maroon bags contain 5 dark magenta bags, 1 drab silver bag, 5 drab red bags.
+striped turquoise bags contain 1 dull lime bag.
+wavy tomato bags contain 3 dotted gray bags, 5 dull blue bags, 3 dotted purple bags.
+drab fuchsia bags contain 5 drab red bags, 2 mirrored lime bags.
+dotted green bags contain 5 posh turquoise bags.
+pale chartreuse bags contain 1 striped beige bag, 5 dark chartreuse bags.
+plaid cyan bags contain 3 drab gold bags, 1 light gray bag, 2 bright violet bags, 3 dark chartreuse bags.
+dull blue bags contain 4 dotted yellow bags.
+vibrant crimson bags contain 1 dotted beige bag.
+light crimson bags contain 2 light black bags, 2 dotted beige bags.
+posh turquoise bags contain 1 posh lavender bag, 4 vibrant orange bags, 4 shiny lavender bags.
+dull beige bags contain 5 dull salmon bags.
+shiny orange bags contain 5 drab gray bags, 1 plaid chartreuse bag, 5 dim crimson bags.
+muted crimson bags contain 3 light cyan bags, 3 dull fuchsia bags, 2 bright red bags.
+shiny gray bags contain 2 bright fuchsia bags, 5 vibrant maroon bags, 1 bright teal bag, 3 striped magenta bags.
+bright brown bags contain 3 mirrored violet bags, 1 light aqua bag, 5 bright maroon bags.
+faded teal bags contain 5 faded gray bags, 5 pale indigo bags, 5 plaid cyan bags.
+faded violet bags contain 1 shiny fuchsia bag, 5 faded gray bags.
+striped purple bags contain 2 wavy olive bags.
+muted tan bags contain 1 clear red bag, 1 shiny crimson bag, 3 faded violet bags.
+light chartreuse bags contain 5 faded turquoise bags.
+mirrored bronze bags contain 4 wavy indigo bags.
+plaid turquoise bags contain 5 pale aqua bags, 4 faded indigo bags.
+drab aqua bags contain 1 light silver bag, 2 plaid bronze bags, 2 light black bags, 3 muted bronze bags.
+posh red bags contain 5 faded aqua bags, 2 posh coral bags, 5 light lime bags, 3 faded gray bags.
+bright aqua bags contain 5 faded orange bags, 2 bright silver bags, 1 posh fuchsia bag, 3 pale blue bags.
+faded yellow bags contain 1 mirrored olive bag.
+faded red bags contain 4 drab gold bags, 5 shiny turquoise bags.
+wavy gray bags contain 1 dull salmon bag, 5 posh brown bags, 1 drab bronze bag.
+striped fuchsia bags contain 3 faded tan bags, 5 posh turquoise bags, 2 dotted turquoise bags.
+vibrant chartreuse bags contain 2 posh lavender bags, 1 plaid cyan bag, 3 muted brown bags.
+faded chartreuse bags contain 4 drab gold bags, 3 faded gray bags.
+dim chartreuse bags contain 3 dark maroon bags, 5 dim brown bags.
+clear plum bags contain 2 dotted indigo bags, 5 dark white bags, 3 plaid indigo bags, 5 bright beige bags.
+faded gold bags contain 4 dim beige bags, 3 light maroon bags, 4 vibrant brown bags, 3 muted olive bags.
+dull fuchsia bags contain 5 dark white bags, 3 pale magenta bags, 1 bright blue bag, 3 drab salmon bags.
+bright yellow bags contain 1 clear indigo bag, 5 dark white bags, 4 shiny indigo bags, 5 light orange bags.
+faded aqua bags contain 3 drab red bags, 1 muted olive bag, 3 vibrant green bags.
+shiny red bags contain 4 faded chartreuse bags, 1 plaid salmon bag, 5 clear crimson bags.
+vibrant salmon bags contain 2 drab magenta bags.
+vibrant plum bags contain 5 drab maroon bags, 3 plaid coral bags.
+dull black bags contain 3 posh indigo bags, 4 light gray bags, 3 wavy salmon bags.
+muted black bags contain 1 faded salmon bag, 4 dark blue bags.
+dim cyan bags contain 1 posh salmon bag, 5 bright teal bags, 3 shiny olive bags.
+posh blue bags contain 3 bright magenta bags, 4 light black bags, 2 vibrant orange bags.
+light silver bags contain 2 shiny yellow bags.
+drab coral bags contain 1 shiny chartreuse bag, 1 pale blue bag.
+drab blue bags contain 1 bright lavender bag, 3 vibrant violet bags, 5 shiny yellow bags.
+bright bronze bags contain 5 posh tomato bags, 5 plaid beige bags.
+faded gray bags contain 1 vibrant brown bag, 3 posh lavender bags.
+dark plum bags contain 3 dull bronze bags, 3 light coral bags.
+light yellow bags contain 3 drab silver bags.
+dim aqua bags contain 4 wavy beige bags, 5 light maroon bags.
+dim orange bags contain no other bags.
+light olive bags contain 5 pale olive bags, 5 pale violet bags.
+shiny indigo bags contain 4 plaid brown bags, 1 vibrant teal bag, 4 light black bags, 3 faded bronze bags.
+light teal bags contain 5 dull cyan bags, 2 dim salmon bags.
+dotted aqua bags contain 4 bright orange bags, 3 drab fuchsia bags, 3 dotted gray bags.
+pale beige bags contain 3 wavy maroon bags.
+posh lime bags contain 3 striped chartreuse bags, 4 drab gold bags, 3 light gray bags, 3 dim lavender bags.
+mirrored silver bags contain 1 wavy salmon bag, 2 drab yellow bags, 2 dotted gray bags.
+muted bronze bags contain 5 vibrant magenta bags, 4 light gray bags, 4 light lime bags.
+bright violet bags contain no other bags.
+dotted fuchsia bags contain 1 dark indigo bag, 4 vibrant brown bags, 4 plaid olive bags, 5 muted olive bags.
+posh tan bags contain 4 plaid beige bags, 4 dark indigo bags.
+faded tan bags contain 4 bright tan bags, 4 mirrored plum bags, 5 striped tomato bags.
+plaid fuchsia bags contain 1 wavy purple bag, 4 shiny teal bags, 3 shiny plum bags, 2 wavy white bags.
+pale silver bags contain 3 plaid green bags, 3 drab chartreuse bags, 4 posh bronze bags.
+plaid yellow bags contain 1 pale aqua bag, 2 drab chartreuse bags.
+dark gold bags contain 3 wavy salmon bags.
+mirrored tan bags contain 3 bright violet bags.
+dotted crimson bags contain 3 dark magenta bags, 1 posh tomato bag.
+bright beige bags contain 2 dark indigo bags, 5 dotted beige bags, 1 drab beige bag, 3 striped aqua bags.
+plaid teal bags contain 1 dotted gold bag, 1 posh bronze bag.
+vibrant magenta bags contain no other bags.
+clear tomato bags contain 5 pale indigo bags.
+light violet bags contain 5 drab indigo bags, 1 pale violet bag, 5 drab purple bags, 2 vibrant tomato bags.
+pale salmon bags contain 2 posh plum bags.
+plaid gray bags contain 1 vibrant gray bag, 1 bright gold bag.
+muted blue bags contain 1 shiny white bag, 4 pale teal bags, 4 dim crimson bags, 4 vibrant chartreuse bags.
+muted aqua bags contain 5 wavy teal bags.
+dim teal bags contain 4 plaid blue bags.
+dim olive bags contain 4 dim silver bags, 1 faded brown bag.
+posh coral bags contain 3 striped blue bags, 2 plaid olive bags, 3 plaid teal bags, 3 clear beige bags.
+wavy lime bags contain 4 dull green bags, 1 posh maroon bag, 5 dotted lavender bags.
+dark chartreuse bags contain no other bags.
+dotted yellow bags contain 5 bright magenta bags.
+light fuchsia bags contain 1 plaid coral bag, 1 posh silver bag, 3 light orange bags.
+dark purple bags contain 2 plaid bronze bags, 3 posh chartreuse bags, 1 light magenta bag.
+striped tan bags contain 1 clear black bag, 1 posh blue bag, 4 faded salmon bags.
+vibrant tan bags contain 1 pale red bag, 2 dull lime bags, 4 posh plum bags.
+bright turquoise bags contain 4 drab aqua bags, 5 dull blue bags.
+dull purple bags contain 1 striped fuchsia bag, 3 dark lavender bags.
+light purple bags contain 3 bright blue bags, 5 mirrored beige bags, 2 muted beige bags.
+plaid aqua bags contain 4 dotted indigo bags, 1 muted aqua bag.
+shiny tan bags contain 3 pale magenta bags, 5 drab salmon bags, 2 dotted gold bags.
+light brown bags contain 5 posh tomato bags, 1 light gray bag, 1 bright gold bag, 4 posh violet bags.
+posh bronze bags contain 2 light black bags, 5 dim lavender bags.
+dim red bags contain no other bags.
+pale yellow bags contain 3 bright tan bags, 3 plaid magenta bags.
+dim salmon bags contain 4 dark white bags, 5 dotted brown bags, 1 striped aqua bag.
+muted green bags contain 4 dim brown bags, 3 posh tan bags, 4 shiny olive bags, 4 clear fuchsia bags.
+drab maroon bags contain 4 dull olive bags, 2 dotted black bags.
+dotted black bags contain 2 dotted fuchsia bags, 3 dim aqua bags, 4 light orange bags, 5 light red bags.
+striped lime bags contain 1 clear crimson bag.
+dim gray bags contain 4 striped lavender bags, 1 wavy salmon bag, 3 posh violet bags, 3 dotted brown bags.
+drab red bags contain 2 dim brown bags, 4 light lime bags.
+muted olive bags contain 1 dark coral bag, 2 wavy silver bags, 5 drab silver bags, 5 pale fuchsia bags.
+shiny crimson bags contain 5 light crimson bags, 2 clear magenta bags.
+vibrant green bags contain 4 light orange bags.
+wavy purple bags contain 5 dull brown bags.
+mirrored indigo bags contain 3 clear bronze bags, 1 pale tan bag, 1 faded tomato bag.
+dull white bags contain 3 dim beige bags, 2 light yellow bags, 2 dark indigo bags, 2 muted bronze bags.
+bright tan bags contain 2 posh blue bags, 3 striped chartreuse bags.
+mirrored olive bags contain 1 wavy maroon bag, 5 wavy silver bags, 5 shiny beige bags.
+faded white bags contain 4 bright bronze bags, 1 plaid brown bag, 5 vibrant yellow bags, 2 drab indigo bags.
+muted teal bags contain 2 striped crimson bags, 1 dim orange bag, 5 posh green bags.
+faded coral bags contain 1 dim beige bag, 1 striped brown bag, 4 pale indigo bags, 1 posh fuchsia bag.
+dim green bags contain 3 dark maroon bags, 4 striped chartreuse bags, 1 wavy purple bag.
+wavy gold bags contain 3 clear aqua bags, 2 dim orange bags.
+dotted purple bags contain 4 dotted indigo bags, 4 drab aqua bags, 2 dark coral bags, 3 muted beige bags.
+dark beige bags contain 5 shiny fuchsia bags.
+posh fuchsia bags contain 3 vibrant white bags.
+mirrored maroon bags contain 3 dull white bags, 2 plaid gold bags, 4 plaid maroon bags, 2 bright crimson bags.
+dim tan bags contain 1 dark white bag, 5 posh black bags, 3 plaid brown bags, 1 posh bronze bag.
+posh purple bags contain 5 clear tomato bags.
+dark tomato bags contain 1 posh lime bag.
+dim gold bags contain 1 posh salmon bag, 5 dark red bags, 4 dark black bags, 2 faded orange bags.
+plaid white bags contain 2 clear olive bags, 2 mirrored cyan bags, 3 muted white bags.
+dull brown bags contain 5 plaid tomato bags, 2 dotted black bags.
+light gold bags contain 3 plaid gold bags, 4 posh salmon bags, 2 dotted blue bags, 5 dull gray bags.
+dark silver bags contain 2 light gray bags, 3 dotted fuchsia bags, 2 light red bags.
+plaid green bags contain 4 light maroon bags, 1 striped tomato bag, 4 drab beige bags.
+dull turquoise bags contain 2 light maroon bags, 3 posh silver bags, 5 dim lavender bags, 5 vibrant orange bags.
+dark violet bags contain 3 wavy maroon bags, 1 clear salmon bag, 5 light yellow bags.
+wavy brown bags contain 3 dim white bags.
+faded magenta bags contain 3 dark silver bags, 4 vibrant purple bags, 1 dark white bag.
+muted cyan bags contain 5 shiny beige bags, 3 muted white bags.
+mirrored chartreuse bags contain 3 mirrored maroon bags, 2 faded indigo bags, 1 pale red bag.
+mirrored turquoise bags contain 1 drab gold bag.
+shiny purple bags contain 3 faded yellow bags, 2 pale aqua bags, 5 vibrant red bags.
+faded lavender bags contain 2 dim gray bags, 3 dim blue bags, 4 dark black bags.
+dotted blue bags contain 2 posh lime bags, 1 dotted beige bag, 4 mirrored aqua bags.
+wavy cyan bags contain 3 dotted turquoise bags, 2 dark lime bags, 4 dotted crimson bags, 1 dotted lime bag.
+faded lime bags contain 1 faded bronze bag, 5 dotted purple bags, 4 light orange bags.
+striped red bags contain 1 shiny teal bag.
+light indigo bags contain 5 shiny olive bags, 4 dim magenta bags, 5 plaid magenta bags, 5 dark violet bags.
+wavy yellow bags contain 3 bright aqua bags, 1 dull blue bag, 1 bright olive bag.
+posh beige bags contain 2 posh orange bags, 3 dotted olive bags, 3 dull yellow bags, 1 wavy white bag.
+muted turquoise bags contain 4 bright silver bags, 4 wavy silver bags.
+drab purple bags contain 5 bright tan bags.
+vibrant lime bags contain 3 plaid magenta bags, 2 vibrant white bags, 2 dark gold bags, 1 light green bag.
+clear violet bags contain 3 muted red bags, 4 posh yellow bags, 2 pale indigo bags.
+pale fuchsia bags contain 2 wavy beige bags, 2 plaid bronze bags, 2 wavy silver bags.
+plaid black bags contain 4 pale olive bags, 3 pale fuchsia bags.
+vibrant violet bags contain 1 plaid red bag, 5 drab red bags, 5 pale gray bags.
+mirrored crimson bags contain 1 dotted fuchsia bag.
+posh aqua bags contain 3 plaid teal bags.
+shiny teal bags contain 4 dotted black bags.
+drab orange bags contain 5 dotted teal bags, 4 drab white bags, 3 pale olive bags.
+posh chartreuse bags contain 3 drab gray bags.
+plaid indigo bags contain 2 striped tomato bags.
+plaid lime bags contain 5 drab purple bags.
+dull tomato bags contain 2 wavy turquoise bags.
+wavy black bags contain 5 mirrored blue bags, 5 striped tan bags.
+posh brown bags contain 3 wavy purple bags, 1 mirrored violet bag.
+dim purple bags contain 5 clear gray bags, 1 plaid green bag, 3 light green bags.
+dotted indigo bags contain 4 drab silver bags.
+striped cyan bags contain 5 light orange bags, 1 dim chartreuse bag, 1 bright blue bag, 5 dim coral bags.
+striped brown bags contain 1 light turquoise bag, 1 mirrored coral bag.
+wavy salmon bags contain 2 vibrant orange bags, 2 drab silver bags, 3 bright blue bags, 1 vibrant brown bag.
+drab lavender bags contain 5 dotted fuchsia bags, 1 plaid green bag, 4 posh salmon bags.
+drab silver bags contain 4 muted bronze bags, 2 drab gold bags.
+plaid maroon bags contain 1 vibrant brown bag, 4 shiny yellow bags, 3 bright blue bags, 5 drab gold bags.
+vibrant beige bags contain 2 drab indigo bags, 2 dim aqua bags.
+mirrored green bags contain 1 dim coral bag, 5 muted orange bags, 1 dotted purple bag.
+drab indigo bags contain 4 dotted magenta bags, 3 drab lavender bags, 4 dotted lime bags, 5 wavy aqua bags.
+faded black bags contain 4 plaid gold bags.
+muted violet bags contain 2 drab aqua bags, 2 light crimson bags, 2 posh tomato bags.
+posh orange bags contain 3 shiny salmon bags.
+bright gray bags contain 1 mirrored gray bag, 3 mirrored magenta bags, 1 clear salmon bag.
+plaid plum bags contain 3 striped magenta bags, 1 drab fuchsia bag.
+posh black bags contain 5 dotted orange bags, 2 muted beige bags.
+striped maroon bags contain 5 clear gold bags, 5 clear tomato bags, 4 muted cyan bags, 1 pale coral bag.
+dim indigo bags contain 1 shiny lavender bag, 2 posh blue bags, 3 drab silver bags.
+clear magenta bags contain 3 dark magenta bags, 2 drab gold bags, 4 dull white bags, 5 light maroon bags.
+plaid red bags contain 4 drab violet bags, 4 vibrant brown bags.
+light gray bags contain no other bags.
+clear red bags contain 3 drab purple bags, 2 pale magenta bags, 2 bright violet bags.
+pale coral bags contain 5 muted chartreuse bags, 4 plaid olive bags.
+dull red bags contain 4 drab lavender bags, 5 bright orange bags, 5 dull white bags.
+clear lavender bags contain 4 wavy brown bags, 1 faded bronze bag.
+dim beige bags contain 3 dotted tomato bags, 4 bright magenta bags.
+striped orange bags contain 4 vibrant lime bags, 1 vibrant tomato bag, 1 faded plum bag.
+drab beige bags contain 1 light lime bag, 1 shiny lavender bag, 2 striped tomato bags, 1 dim orange bag.
+mirrored tomato bags contain 2 posh bronze bags.
+mirrored violet bags contain 3 dotted lime bags, 2 dotted teal bags.
+muted silver bags contain 1 bright salmon bag, 3 shiny crimson bags, 1 dim tomato bag.
+clear gold bags contain 1 dark violet bag.
+faded beige bags contain 1 dull fuchsia bag, 4 shiny yellow bags.
+mirrored red bags contain 5 wavy lavender bags, 2 wavy silver bags.
+wavy coral bags contain 4 drab yellow bags.
+shiny yellow bags contain 1 shiny lavender bag, 5 drab silver bags, 4 drab gold bags.
+shiny chartreuse bags contain 5 faded brown bags.
+light black bags contain 1 plaid cyan bag, 5 dark chartreuse bags, 5 muted bronze bags.
+bright blue bags contain 3 drab silver bags, 5 dim orange bags.
+mirrored gray bags contain 4 pale indigo bags.
+shiny gold bags contain 1 dim lavender bag, 5 mirrored gray bags, 1 light maroon bag.
+faded plum bags contain 2 shiny orange bags, 1 pale plum bag, 2 posh coral bags, 3 shiny white bags.
+dotted olive bags contain 1 drab aqua bag, 4 posh black bags, 3 pale salmon bags, 2 dotted yellow bags.
+vibrant tomato bags contain 3 muted brown bags, 4 faded teal bags, 4 dotted brown bags.
+vibrant yellow bags contain 1 drab coral bag, 3 dark purple bags, 1 wavy crimson bag.
+muted coral bags contain 1 dark plum bag, 3 wavy blue bags, 3 bright yellow bags, 4 dark maroon bags.
+dark white bags contain 1 dim brown bag, 2 drab gray bags, 3 clear cyan bags.
+light salmon bags contain 4 dim violet bags, 2 shiny gold bags, 5 pale turquoise bags.
+dark green bags contain 1 pale yellow bag, 5 shiny gold bags.
+dark lime bags contain 2 plaid red bags, 4 dotted tomato bags, 4 posh bronze bags.
+light tan bags contain 5 light coral bags.
+striped gold bags contain 3 vibrant maroon bags, 4 clear lime bags.
+dotted silver bags contain 3 striped aqua bags, 2 mirrored aqua bags, 1 vibrant brown bag.
+dull aqua bags contain 4 pale gray bags, 4 mirrored cyan bags, 2 shiny turquoise bags, 5 striped crimson bags.
+shiny plum bags contain 2 plaid green bags, 3 light crimson bags.
+faded indigo bags contain 5 light tomato bags, 3 pale indigo bags, 1 shiny magenta bag, 5 muted tomato bags.
+striped blue bags contain 2 shiny crimson bags, 3 wavy crimson bags, 4 dotted red bags.
+muted salmon bags contain 1 faded red bag, 1 dim gray bag, 2 dotted gray bags.
+pale aqua bags contain 5 clear magenta bags, 3 dim beige bags.
+pale plum bags contain 5 bright indigo bags, 2 light crimson bags, 1 muted white bag.
+pale green bags contain 5 bright aqua bags, 1 dull fuchsia bag.
+wavy tan bags contain 2 posh tomato bags.
+wavy teal bags contain 2 mirrored violet bags.
+dim maroon bags contain 3 drab fuchsia bags.
+bright silver bags contain 5 dull black bags.
+plaid magenta bags contain 2 muted olive bags, 5 mirrored plum bags, 1 posh lavender bag.
+wavy lavender bags contain 3 pale salmon bags, 4 wavy green bags, 5 posh yellow bags.
+striped olive bags contain 2 pale fuchsia bags, 1 pale silver bag, 4 dull brown bags, 4 dim blue bags.
+shiny cyan bags contain 2 light tomato bags, 2 faded indigo bags, 3 drab lime bags.
+bright white bags contain 4 dark orange bags.
+mirrored lavender bags contain 3 drab gold bags, 4 mirrored white bags, 4 bright orange bags, 1 pale gray bag.
+dark brown bags contain 1 dark chartreuse bag, 2 muted bronze bags, 3 bright magenta bags, 5 striped chartreuse bags.
+dark blue bags contain 5 vibrant brown bags, 4 drab maroon bags, 5 wavy brown bags, 3 drab silver bags.
+bright gold bags contain 5 dark silver bags.
+dotted gray bags contain 1 posh bronze bag, 5 drab fuchsia bags, 3 mirrored gray bags, 1 clear cyan bag.
+clear teal bags contain 1 dim beige bag.
+drab yellow bags contain 3 bright blue bags.
+bright purple bags contain 2 posh lavender bags.
+shiny bronze bags contain 1 faded red bag.
+dark black bags contain 2 mirrored beige bags, 3 wavy silver bags.
+mirrored coral bags contain 3 drab beige bags, 3 wavy silver bags, 4 dim lavender bags, 4 drab silver bags.
+dim white bags contain 4 posh bronze bags.
+dim brown bags contain 1 muted bronze bag, 2 drab gold bags, 4 striped tomato bags, 5 drab silver bags.
+striped white bags contain 1 dotted crimson bag, 4 pale indigo bags, 2 dark chartreuse bags, 1 dotted brown bag.
+dark coral bags contain 2 dark brown bags, 4 mirrored plum bags, 4 bright tan bags, 5 posh blue bags.
+faded bronze bags contain 4 drab fuchsia bags, 1 plaid yellow bag.
+dim fuchsia bags contain 3 plaid yellow bags, 1 wavy coral bag, 2 dotted blue bags.
+mirrored blue bags contain 5 dull crimson bags, 1 pale chartreuse bag, 3 vibrant plum bags.
+wavy plum bags contain 1 pale olive bag, 1 bright red bag, 3 clear tan bags, 2 drab gray bags.
+plaid bronze bags contain 5 wavy silver bags, 4 bright magenta bags, 1 dim orange bag.
+dotted tomato bags contain 1 vibrant brown bag, 5 mirrored gray bags.
+dim yellow bags contain 1 vibrant teal bag, 5 plaid white bags.
+faded olive bags contain 4 wavy beige bags.
+bright coral bags contain 2 muted maroon bags, 2 posh indigo bags.
+mirrored aqua bags contain 1 light gray bag.
+faded blue bags contain 1 vibrant tomato bag, 1 mirrored salmon bag.
+mirrored fuchsia bags contain 5 plaid beige bags, 5 clear violet bags.
+bright orange bags contain 3 dull turquoise bags, 3 striped blue bags, 3 posh maroon bags, 5 dotted brown bags.
+drab white bags contain 5 drab maroon bags, 3 shiny coral bags, 1 drab gray bag.
+plaid blue bags contain 5 light turquoise bags, 4 dark violet bags, 1 bright indigo bag, 3 dull fuchsia bags.
+bright tomato bags contain 4 vibrant tomato bags, 1 dull purple bag, 4 clear tomato bags, 2 dotted yellow bags.
+dark gray bags contain 3 light green bags, 3 dull teal bags, 2 wavy chartreuse bags, 1 vibrant coral bag.
+light lime bags contain no other bags.
+dim magenta bags contain 2 light gold bags, 4 dotted teal bags, 3 dull crimson bags.
+vibrant cyan bags contain 2 dark brown bags, 1 dim crimson bag.
+dotted salmon bags contain 2 shiny magenta bags, 4 dark orange bags, 3 striped lavender bags, 3 mirrored violet bags.
+plaid chartreuse bags contain 3 dull crimson bags, 1 dull red bag, 4 posh white bags, 5 bright indigo bags.
+muted plum bags contain 1 clear salmon bag, 3 mirrored lime bags.
+dark bronze bags contain 4 clear chartreuse bags.
+dim blue bags contain 4 light yellow bags, 5 mirrored beige bags.
+vibrant gold bags contain 4 muted bronze bags, 4 plaid gold bags.
+drab gray bags contain 1 dark chartreuse bag.
+dotted lime bags contain 1 dotted indigo bag, 4 dull gray bags, 3 drab gray bags, 4 shiny bronze bags.
+mirrored orange bags contain 5 mirrored tan bags.
+dark lavender bags contain 3 dim chartreuse bags, 4 posh black bags, 1 clear beige bag.
+muted lime bags contain 1 vibrant violet bag.
+dull indigo bags contain 3 faded indigo bags, 5 bright orange bags, 4 posh turquoise bags, 1 dim gray bag.
+pale magenta bags contain 5 dotted gray bags, 3 drab silver bags, 2 wavy salmon bags.
+plaid lavender bags contain 5 vibrant tomato bags.
+clear bronze bags contain 3 shiny crimson bags.
+bright salmon bags contain 5 mirrored bronze bags, 2 clear black bags, 4 plaid green bags, 5 faded red bags.
+wavy indigo bags contain 3 shiny lavender bags, 3 vibrant brown bags, 2 dotted beige bags, 4 wavy brown bags.
+light maroon bags contain 3 light black bags, 3 plaid maroon bags, 2 wavy silver bags, 5 vibrant brown bags.
+muted gold bags contain 5 posh black bags.
+dull lavender bags contain 3 plaid beige bags, 4 clear cyan bags, 5 striped aqua bags, 4 dotted gray bags.
+muted brown bags contain 1 faded olive bag, 2 drab gray bags, 5 wavy salmon bags.
+dotted orange bags contain 2 dotted red bags.
+dim plum bags contain 5 drab lime bags, 1 plaid tan bag.
+muted orange bags contain 3 plaid green bags.
+dull chartreuse bags contain 4 dark maroon bags, 5 vibrant tan bags, 1 mirrored coral bag, 5 dull lime bags.
+striped gray bags contain 2 vibrant crimson bags.
+posh gray bags contain 3 dark orange bags.
+shiny lime bags contain 4 muted yellow bags, 2 wavy cyan bags.
+dull lime bags contain 1 drab purple bag.
+striped bronze bags contain 2 dim white bags, 1 dim coral bag, 3 light maroon bags, 5 dim blue bags.
+wavy orange bags contain 2 pale blue bags, 3 muted violet bags.
+pale brown bags contain 3 wavy indigo bags, 1 bright green bag.
+dull silver bags contain 5 wavy aqua bags, 5 shiny maroon bags, 5 dotted chartreuse bags.
+bright red bags contain 2 dark gold bags, 5 dark tan bags.
+dotted brown bags contain 1 striped turquoise bag.
+plaid crimson bags contain 3 posh white bags, 4 pale plum bags, 3 dark orange bags, 3 shiny magenta bags.
+dotted plum bags contain 5 posh blue bags, 5 dark indigo bags, 5 wavy silver bags.
+light tomato bags contain 3 light purple bags, 5 clear plum bags.
+dull bronze bags contain 3 clear magenta bags, 1 faded tan bag.
+drab turquoise bags contain 2 posh lavender bags, 2 faded tomato bags, 5 mirrored tomato bags.
+striped lavender bags contain 2 dotted turquoise bags, 5 plaid indigo bags.
+pale violet bags contain 5 light red bags, 1 striped chartreuse bag, 1 drab chartreuse bag, 1 bright silver bag.
+posh gold bags contain 2 bright blue bags.
+dull maroon bags contain 4 dotted teal bags, 2 faded silver bags, 3 posh gray bags.
+shiny beige bags contain 3 light orange bags, 4 drab fuchsia bags, 3 muted beige bags.
+dim silver bags contain 1 dotted gold bag.
+pale orange bags contain 5 dotted orange bags, 3 dim white bags.
+wavy aqua bags contain 5 vibrant purple bags.
+posh salmon bags contain 2 drab red bags.
+clear tan bags contain 4 bright plum bags, 4 faded fuchsia bags, 1 mirrored crimson bag, 1 faded salmon bag.
+clear orange bags contain 1 drab aqua bag.
+posh violet bags contain 2 vibrant magenta bags, 3 mirrored plum bags, 5 light orange bags.
+dull crimson bags contain 5 faded violet bags, 3 dim indigo bags, 2 light red bags, 2 clear red bags.
+mirrored teal bags contain 1 drab teal bag.
+drab violet bags contain 2 mirrored plum bags, 4 drab red bags.
+shiny violet bags contain 5 shiny aqua bags, 1 striped brown bag, 1 dark blue bag, 5 wavy white bags.</value>
+  </data>
+  <data name="day7test" xml:space="preserve">
+    <value>vibrant purple bags contain 3 shiny lavender bags, 1 mirrored gray bag, 4 muted bronze bags.
+posh crimson bags contain 4 drab plum bags, 5 dotted purple bags, 3 vibrant lavender bags, 2 striped plum bags.
+pale cyan bags contain 5 drab violet bags, 2 dotted crimson bags.
+dim lime bags contain 1 muted purple bag, 2 striped silver bags.
+clear aqua bags contain 2 plaid green bags.
+bright teal bags contain 4 shiny crimson bags, 3 faded red bags, 2 posh lavender bags.
+clear white bags contain 1 pale olive bag, 2 vibrant plum bags, 4 clear cyan bags.
+dull plum bags contain 1 bright yellow bag, 5 bright tomato bags.
+dark crimson bags contain 3 dotted gray bags.
+shiny green bags contain 4 pale violet bags, 3 muted teal bags.
+clear salmon bags contain 1 light yellow bag.
+dull salmon bags contain 1 dim lavender bag, 3 faded teal bags, 4 dotted beige bags, 1 faded red bag.
+pale black bags contain 4 drab maroon bags, 4 dotted orange bags, 1 shiny black bag, 4 mirrored yellow bags.
+vibrant olive bags contain 5 clear chartreuse bags, 4 clear blue bags, 4 mirrored orange bags, 1 posh tomato bag.
+shiny blue bags contain 3 light green bags, 5 dark chartreuse bags.
+dark teal bags contain 1 posh maroon bag.
+vibrant brown bags contain no other bags.
+striped crimson bags contain 2 shiny gold bags, 4 pale indigo bags, 4 light maroon bags.
+bright fuchsia bags contain 1 posh purple bag, 4 clear gold bags, 5 dark teal bags, 2 plaid orange bags.
+bright black bags contain 1 bright teal bag, 4 dull olive bags, 5 posh turquoise bags, 3 dotted teal bags.
+striped beige bags contain 3 dark indigo bags, 1 drab aqua bag.
+dim crimson bags contain 5 striped turquoise bags, 4 faded brown bags.
+vibrant black bags contain 2 mirrored gray bags, 5 light maroon bags, 5 pale plum bags, 3 mirrored black bags.
+muted chartreuse bags contain 4 dim indigo bags.
+dotted bronze bags contain 3 clear aqua bags, 2 bright tan bags, 4 muted brown bags, 1 bright maroon bag.
+posh cyan bags contain 1 vibrant black bag, 3 vibrant coral bags.
+mirrored brown bags contain 5 pale gray bags, 4 dim beige bags.
+vibrant indigo bags contain 5 mirrored maroon bags, 3 drab purple bags.
+clear maroon bags contain 5 dotted teal bags, 4 wavy black bags.
+faded silver bags contain 2 plaid red bags, 1 posh green bag, 3 vibrant magenta bags, 2 bright magenta bags.
+light coral bags contain 5 dull turquoise bags.
+wavy beige bags contain 2 shiny yellow bags, 1 shiny lavender bag, 3 plaid bronze bags.
+faded fuchsia bags contain 5 light maroon bags, 2 mirrored cyan bags, 3 light aqua bags.
+dark fuchsia bags contain 2 dotted blue bags, 5 muted olive bags, 5 posh coral bags, 4 clear salmon bags.
+vibrant white bags contain 1 dim lavender bag.
+bright plum bags contain 2 shiny tan bags.
+wavy green bags contain 1 light beige bag, 5 mirrored blue bags, 1 pale turquoise bag.
+posh magenta bags contain 4 dim violet bags, 3 clear aqua bags.
+plaid coral bags contain 3 wavy salmon bags, 2 dark gold bags.
+dull orange bags contain 1 dull green bag.
+shiny aqua bags contain 1 plaid yellow bag, 3 shiny green bags, 5 vibrant bronze bags, 2 striped olive bags.
+dotted teal bags contain 1 light gray bag, 1 dotted beige bag, 3 shiny gold bags, 3 faded tan bags.
+dotted red bags contain 3 mirrored gray bags, 1 mirrored lime bag.
+muted fuchsia bags contain 4 drab tan bags.
+striped tomato bags contain 1 wavy silver bag, 3 bright blue bags, 5 drab silver bags, 5 dim orange bags.
+vibrant coral bags contain 5 shiny plum bags, 5 pale aqua bags.
+plaid gold bags contain 1 mirrored cyan bag, 2 dull lavender bags.
+posh olive bags contain 1 shiny coral bag, 4 clear beige bags, 4 light bronze bags, 2 striped olive bags.
+posh teal bags contain 1 drab yellow bag.
+bright green bags contain 4 drab purple bags, 5 shiny yellow bags.
+pale lavender bags contain 3 drab olive bags, 2 muted beige bags, 4 muted blue bags, 1 dim fuchsia bag.
+faded green bags contain 1 dim turquoise bag, 5 drab cyan bags, 2 clear tomato bags, 2 light brown bags.
+wavy blue bags contain 2 striped red bags, 5 dark gold bags, 5 clear white bags.
+plaid olive bags contain 5 pale aqua bags.
+muted purple bags contain 4 bright bronze bags.
+vibrant turquoise bags contain 1 dark silver bag, 5 plaid teal bags, 5 posh turquoise bags.
+striped chartreuse bags contain 5 muted bronze bags, 2 wavy salmon bags.
+drab cyan bags contain 2 posh tomato bags, 1 wavy turquoise bag.
+vibrant silver bags contain 3 light violet bags, 4 vibrant brown bags, 2 light beige bags, 5 dark indigo bags.
+faded salmon bags contain 5 dim beige bags, 5 dotted beige bags.
+light cyan bags contain 4 plaid beige bags, 5 vibrant black bags, 4 pale chartreuse bags, 4 plaid gray bags.
+light aqua bags contain 5 faded red bags.
+vibrant lavender bags contain 1 bright black bag, 5 plaid indigo bags.
+drab salmon bags contain 1 dotted gray bag, 5 mirrored silver bags, 1 shiny bronze bag, 1 faded bronze bag.
+striped coral bags contain 4 light silver bags.
+vibrant gray bags contain 5 striped green bags, 2 light turquoise bags.
+dark aqua bags contain 3 dark teal bags, 5 clear bronze bags, 5 dotted tan bags.
+dark olive bags contain 5 light gold bags, 3 dark green bags.
+clear lime bags contain 5 dull red bags, 3 mirrored salmon bags, 1 bright crimson bag, 4 vibrant black bags.
+dull gold bags contain 1 dark violet bag, 1 dim chartreuse bag, 1 vibrant lavender bag, 2 clear red bags.
+dim black bags contain 5 dull black bags, 3 faded silver bags, 5 pale red bags.
+clear yellow bags contain 2 clear beige bags, 2 shiny fuchsia bags, 1 plaid coral bag.
+mirrored gold bags contain 5 dotted plum bags.
+dotted maroon bags contain 3 dotted purple bags.
+dim bronze bags contain 2 wavy magenta bags, 2 drab red bags.
+wavy white bags contain 3 dull lime bags, 4 drab tan bags.
+vibrant aqua bags contain 1 drab tan bag, 3 light crimson bags.
+mirrored cyan bags contain 2 dull olive bags.
+faded crimson bags contain 3 bright fuchsia bags, 5 dotted chartreuse bags, 4 striped plum bags.
+faded purple bags contain 5 faded lime bags, 3 drab lavender bags.
+striped black bags contain 1 vibrant tan bag, 1 drab maroon bag.
+striped magenta bags contain 2 drab lavender bags, 2 shiny bronze bags, 2 posh salmon bags.
+shiny olive bags contain 1 posh violet bag, 4 dotted orange bags, 1 drab maroon bag, 5 drab lavender bags.
+dull tan bags contain 1 wavy violet bag, 2 plaid plum bags, 4 bright lavender bags.
+pale indigo bags contain 1 striped chartreuse bag, 4 bright magenta bags, 5 wavy salmon bags.
+dotted magenta bags contain 4 posh red bags, 2 light lime bags, 2 dull fuchsia bags.
+vibrant blue bags contain 2 drab brown bags, 3 muted orange bags.
+clear turquoise bags contain 2 muted crimson bags, 2 drab bronze bags, 4 drab white bags, 1 clear white bag.
+drab bronze bags contain 1 faded olive bag, 4 dim indigo bags, 3 pale black bags.
+shiny white bags contain 5 pale plum bags, 1 mirrored aqua bag.
+striped teal bags contain 1 dull lime bag.
+light lavender bags contain 2 mirrored brown bags, 3 bright orange bags.
+light magenta bags contain 3 striped silver bags, 1 drab yellow bag, 4 bright orange bags, 5 dotted lavender bags.
+mirrored salmon bags contain 2 bright magenta bags, 3 drab aqua bags, 3 shiny gold bags.
+muted lavender bags contain 5 wavy chartreuse bags, 1 dark coral bag, 2 plaid gray bags.
+muted yellow bags contain 1 dim lavender bag, 5 faded gold bags, 3 clear beige bags.
+vibrant maroon bags contain 1 faded salmon bag, 2 vibrant tan bags, 1 posh fuchsia bag, 5 plaid gold bags.
+bright lavender bags contain 2 pale gray bags.
+plaid salmon bags contain 5 dull fuchsia bags, 4 faded gold bags, 2 dark teal bags, 1 bright teal bag.
+dark turquoise bags contain 1 dull fuchsia bag, 3 dull tomato bags, 1 striped cyan bag.
+dark indigo bags contain 1 dotted red bag.
+light green bags contain 4 vibrant bronze bags, 1 wavy black bag, 1 dark black bag.
+drab magenta bags contain 5 mirrored beige bags, 1 faded brown bag.
+clear coral bags contain 5 posh green bags, 5 dull yellow bags, 2 dim salmon bags.
+light red bags contain 1 light silver bag, 1 mirrored lime bag.
+muted beige bags contain 2 drab yellow bags, 4 light maroon bags, 2 shiny yellow bags.
+pale blue bags contain 5 mirrored crimson bags, 1 drab salmon bag, 2 posh lime bags.
+drab crimson bags contain 2 light salmon bags, 5 pale gray bags, 2 wavy beige bags.
+faded maroon bags contain 5 mirrored gold bags.
+bright indigo bags contain 5 pale gray bags.
+dull teal bags contain 3 faded silver bags, 1 vibrant lime bag, 1 mirrored crimson bag.
+shiny salmon bags contain 3 bright magenta bags, 4 dotted blue bags, 1 dotted maroon bag, 3 bright beige bags.
+mirrored beige bags contain 1 vibrant magenta bag, 5 light silver bags, 5 shiny lavender bags.
+pale tan bags contain 4 striped magenta bags, 1 clear cyan bag, 1 clear beige bag, 1 mirrored purple bag.
+drab tan bags contain 5 mirrored maroon bags.
+dark yellow bags contain 2 dull olive bags, 4 dull teal bags, 4 light yellow bags, 1 faded fuchsia bag.
+drab green bags contain 1 clear magenta bag.
+pale turquoise bags contain 2 drab chartreuse bags.
+plaid silver bags contain 3 dotted beige bags, 2 plaid orange bags.
+vibrant red bags contain 5 muted magenta bags, 4 drab white bags, 1 drab aqua bag.
+muted maroon bags contain 2 shiny coral bags.
+mirrored purple bags contain 4 mirrored aqua bags.
+muted white bags contain 2 plaid green bags, 2 posh green bags, 5 faded gray bags.
+bright chartreuse bags contain 2 bright lavender bags, 1 muted tan bag.
+vibrant orange bags contain 4 muted bronze bags, 5 vibrant magenta bags.
+clear chartreuse bags contain 2 plaid red bags, 2 striped teal bags, 5 dotted fuchsia bags.
+clear gray bags contain 1 dull beige bag, 3 light aqua bags.
+striped indigo bags contain 2 faded chartreuse bags, 4 dull white bags, 5 mirrored maroon bags, 1 plaid coral bag.
+posh green bags contain 1 bright tan bag.
+dark salmon bags contain 5 wavy yellow bags.
+muted tomato bags contain 3 muted beige bags, 2 faded gray bags, 2 clear gold bags.
+posh silver bags contain 2 dotted beige bags, 2 pale fuchsia bags, 1 dark brown bag.
+mirrored white bags contain 5 dim white bags, 3 light aqua bags, 2 faded gray bags, 3 shiny gold bags.
+drab chartreuse bags contain 5 mirrored plum bags, 2 dim aqua bags, 1 vibrant brown bag, 5 vibrant orange bags.
+light blue bags contain 3 dim chartreuse bags, 1 bright green bag, 3 clear chartreuse bags.
+posh white bags contain 1 dull brown bag, 3 bright magenta bags.
+dotted violet bags contain 3 plaid gray bags, 5 pale white bags, 5 wavy blue bags, 1 mirrored magenta bag.
+drab plum bags contain 1 dull salmon bag, 2 muted magenta bags.
+plaid violet bags contain 3 bright olive bags.
+wavy crimson bags contain 2 bright purple bags, 3 shiny yellow bags, 3 posh bronze bags.
+dull yellow bags contain 1 plaid red bag, 1 plaid maroon bag.
+dull magenta bags contain 4 dark olive bags, 3 faded olive bags.
+faded brown bags contain 4 light yellow bags, 3 drab red bags.
+bright crimson bags contain 4 posh lime bags, 1 mirrored gray bag, 5 pale indigo bags.
+bright lime bags contain 3 faded violet bags.
+dotted white bags contain 2 pale fuchsia bags, 4 light red bags, 3 dull gold bags, 1 wavy salmon bag.
+dull cyan bags contain 2 dark indigo bags, 5 muted black bags, 4 wavy aqua bags.
+light plum bags contain 4 wavy beige bags, 2 clear crimson bags, 5 striped beige bags.
+wavy chartreuse bags contain 1 dark indigo bag.
+clear cyan bags contain 1 mirrored lime bag, 4 light silver bags.
+striped salmon bags contain 3 dotted silver bags, 1 shiny turquoise bag, 3 mirrored tan bags.
+bright cyan bags contain 1 wavy tomato bag, 4 dotted yellow bags, 2 pale tan bags.
+muted red bags contain 2 vibrant chartreuse bags, 1 dim indigo bag, 5 muted aqua bags.
+mirrored plum bags contain 1 light black bag, 3 vibrant brown bags.
+mirrored lime bags contain 5 bright violet bags, 4 light maroon bags, 1 dotted beige bag, 2 plaid maroon bags.
+dotted chartreuse bags contain 5 light black bags, 3 shiny turquoise bags, 5 drab lavender bags, 3 shiny silver bags.
+plaid brown bags contain 2 drab gold bags, 5 clear cyan bags, 2 drab gray bags, 2 vibrant magenta bags.
+clear olive bags contain 5 shiny cyan bags, 1 dark teal bag, 3 striped bronze bags, 2 striped olive bags.
+light beige bags contain 5 pale plum bags.
+dark cyan bags contain 5 posh tomato bags, 3 clear magenta bags, 2 shiny olive bags.
+dark maroon bags contain 1 shiny turquoise bag, 2 dotted brown bags, 3 dark lime bags.
+vibrant teal bags contain 2 pale purple bags.
+dotted turquoise bags contain 5 vibrant magenta bags, 3 dark chartreuse bags.
+dark red bags contain 2 striped chartreuse bags.
+pale purple bags contain 4 drab gold bags, 1 drab violet bag, 3 muted black bags.
+vibrant fuchsia bags contain 2 shiny purple bags.
+dotted gold bags contain 2 shiny gold bags, 2 plaid coral bags.
+striped aqua bags contain 3 dark chartreuse bags.
+light orange bags contain 1 plaid red bag, 3 wavy salmon bags, 4 dotted indigo bags.
+dotted lavender bags contain 4 dotted tomato bags, 3 plaid cyan bags.
+light bronze bags contain 3 drab purple bags, 4 dotted crimson bags, 1 posh bronze bag.
+dim tomato bags contain 4 dotted tan bags, 2 vibrant brown bags, 5 vibrant orange bags, 2 dotted silver bags.
+striped plum bags contain 4 wavy indigo bags, 5 dim indigo bags, 3 vibrant green bags.
+clear beige bags contain 3 muted bronze bags.
+shiny coral bags contain 2 posh silver bags.
+dull violet bags contain 5 bright teal bags, 3 plaid violet bags, 3 drab turquoise bags, 3 dull maroon bags.
+posh yellow bags contain 2 light maroon bags, 3 light fuchsia bags, 1 shiny indigo bag.
+dark tan bags contain 3 plaid yellow bags, 2 striped salmon bags.
+shiny fuchsia bags contain 2 faded red bags, 3 dim violet bags, 4 wavy crimson bags.
+clear purple bags contain 3 shiny chartreuse bags.
+dim turquoise bags contain 5 vibrant magenta bags, 2 striped tomato bags.
+light turquoise bags contain 5 wavy crimson bags, 3 dim beige bags, 2 bright teal bags, 3 posh maroon bags.
+mirrored magenta bags contain 1 shiny turquoise bag.
+clear blue bags contain 3 dark black bags, 4 faded fuchsia bags.
+muted gray bags contain 1 light chartreuse bag.
+wavy maroon bags contain 4 bright magenta bags, 1 vibrant orange bag.
+shiny silver bags contain 4 dull white bags, 5 striped aqua bags.
+clear silver bags contain 3 vibrant coral bags, 4 light gray bags, 4 shiny maroon bags.
+wavy magenta bags contain 5 clear red bags, 4 shiny yellow bags, 2 dark green bags, 1 shiny cyan bag.
+dull green bags contain 2 vibrant salmon bags.
+wavy red bags contain 4 bright indigo bags.
+wavy turquoise bags contain 4 clear gray bags, 4 dark chartreuse bags, 4 dark lavender bags.
+faded tomato bags contain 5 wavy salmon bags, 1 muted salmon bag, 2 muted black bags.
+dark orange bags contain 3 dim red bags, 3 dim silver bags, 2 muted beige bags, 5 bright silver bags.
+shiny tomato bags contain 3 bright green bags, 3 dark blue bags, 2 wavy chartreuse bags.
+clear fuchsia bags contain 2 dotted tan bags, 4 posh plum bags, 3 light green bags, 4 drab crimson bags.
+pale tomato bags contain 3 faded bronze bags.
+dull coral bags contain 5 plaid magenta bags, 1 mirrored cyan bag, 1 dark black bag.
+pale gray bags contain 1 bright tan bag.
+drab olive bags contain 2 posh blue bags, 1 dim salmon bag, 3 posh orange bags, 5 posh maroon bags.
+plaid beige bags contain 3 muted olive bags, 2 drab fuchsia bags.
+dotted coral bags contain 2 dark magenta bags.
+bright magenta bags contain no other bags.
+striped violet bags contain 1 plaid gray bag, 5 dull white bags, 3 dark indigo bags, 1 shiny orange bag.
+plaid tomato bags contain 1 dotted orange bag, 5 bright silver bags.
+wavy silver bags contain no other bags.
+wavy bronze bags contain 5 plaid beige bags, 5 dark coral bags, 5 vibrant orange bags.
+clear black bags contain 3 wavy beige bags.
+drab teal bags contain 5 dull gray bags, 1 light yellow bag, 3 drab indigo bags, 1 bright maroon bag.
+dim lavender bags contain 4 shiny lavender bags.
+pale olive bags contain 4 wavy olive bags, 4 faded olive bags.
+shiny turquoise bags contain 5 clear magenta bags, 1 mirrored aqua bag, 2 light lime bags, 2 dark indigo bags.
+clear brown bags contain 1 dotted fuchsia bag, 4 clear white bags.
+pale red bags contain 4 clear beige bags.
+bright maroon bags contain 4 clear black bags, 2 vibrant white bags.
+pale teal bags contain 3 pale silver bags, 2 wavy tomato bags.
+plaid orange bags contain 5 shiny magenta bags.
+posh plum bags contain 2 clear beige bags, 5 faded silver bags, 5 drab beige bags, 4 dim crimson bags.
+pale maroon bags contain 1 posh maroon bag, 4 wavy magenta bags.
+shiny black bags contain 1 dotted tomato bag, 1 mirrored silver bag, 5 plaid maroon bags, 5 clear salmon bags.
+shiny lavender bags contain 5 muted bronze bags.
+wavy violet bags contain 2 dotted tomato bags, 5 bright black bags, 4 clear cyan bags.
+dotted tan bags contain 4 plaid teal bags.
+drab tomato bags contain 5 dark black bags.
+dull olive bags contain 1 clear salmon bag.
+faded orange bags contain 2 light maroon bags, 3 posh lime bags, 4 dotted tan bags.
+plaid purple bags contain 5 drab aqua bags, 3 clear plum bags, 2 pale purple bags.
+wavy fuchsia bags contain 3 faded orange bags, 1 muted purple bag.
+pale white bags contain 5 dark indigo bags, 1 pale tan bag.
+bright olive bags contain 1 dull lime bag, 3 light fuchsia bags.
+drab black bags contain 4 muted violet bags, 2 vibrant violet bags.
+drab lime bags contain 5 dark brown bags, 5 striped indigo bags.
+striped green bags contain 5 vibrant green bags, 3 striped silver bags, 2 dull turquoise bags, 4 drab indigo bags.
+wavy olive bags contain 3 mirrored gray bags, 1 light lime bag, 2 bright indigo bags.
+posh indigo bags contain 2 dotted fuchsia bags, 3 dotted purple bags, 2 wavy brown bags, 2 dotted blue bags.
+clear crimson bags contain 5 drab gray bags, 2 plaid beige bags, 4 dark gold bags, 2 pale chartreuse bags.
+pale lime bags contain 1 dotted plum bag, 2 vibrant maroon bags.
+pale gold bags contain 4 posh tomato bags.
+posh tomato bags contain 4 mirrored lime bags.
+muted indigo bags contain 5 wavy fuchsia bags, 3 clear orange bags, 3 shiny green bags.
+clear green bags contain 3 drab salmon bags, 4 pale turquoise bags.
+mirrored yellow bags contain 5 dim red bags.
+pale bronze bags contain 1 dotted chartreuse bag, 1 drab teal bag, 4 shiny cyan bags, 5 faded brown bags.
+shiny maroon bags contain 2 wavy turquoise bags, 5 light turquoise bags, 5 wavy cyan bags.
+dark magenta bags contain 4 mirrored lime bags, 3 drab aqua bags, 4 bright blue bags, 2 posh silver bags.
+drab gold bags contain 2 light gray bags, 3 bright magenta bags, 2 vibrant magenta bags, 4 light lime bags.
+drab brown bags contain 2 wavy salmon bags, 5 posh plum bags, 4 shiny orange bags.
+dull gray bags contain 2 dim violet bags.
+muted magenta bags contain 5 posh lavender bags, 2 dotted orange bags, 4 pale turquoise bags.
+vibrant bronze bags contain 5 dim blue bags, 3 mirrored silver bags.
+pale crimson bags contain 2 dark coral bags.
+dotted cyan bags contain 2 clear salmon bags, 4 dark white bags.
+light white bags contain 5 clear silver bags, 4 clear olive bags.
+dim coral bags contain 3 drab silver bags, 5 shiny teal bags, 4 faded bronze bags, 4 muted plum bags.
+dotted beige bags contain 1 light yellow bag, 4 light lime bags.
+faded turquoise bags contain 4 dotted tomato bags, 3 pale magenta bags, 2 dim brown bags.
+shiny brown bags contain 5 faded red bags.
+striped yellow bags contain 3 mirrored crimson bags, 4 dark magenta bags, 3 pale crimson bags, 2 mirrored black bags.
+shiny magenta bags contain 1 vibrant tomato bag, 3 mirrored lavender bags.
+clear indigo bags contain 4 muted tomato bags, 3 posh red bags, 5 pale turquoise bags, 3 dim olive bags.
+striped silver bags contain 4 drab maroon bags, 2 drab chartreuse bags, 2 dotted gray bags.
+mirrored black bags contain 1 wavy beige bag, 1 dim silver bag.
+faded cyan bags contain 3 dim crimson bags, 3 drab aqua bags.
+posh lavender bags contain 2 light gray bags, 1 dim orange bag.
+dim violet bags contain 2 posh maroon bags, 4 clear salmon bags.
+plaid tan bags contain 5 shiny indigo bags, 1 shiny fuchsia bag.
+posh maroon bags contain 5 dark magenta bags, 1 drab silver bag, 5 drab red bags.
+striped turquoise bags contain 1 dull lime bag.
+wavy tomato bags contain 3 dotted gray bags, 5 dull blue bags, 3 dotted purple bags.
+drab fuchsia bags contain 5 drab red bags, 2 mirrored lime bags.
+dotted green bags contain 5 posh turquoise bags.
+pale chartreuse bags contain 1 striped beige bag, 5 dark chartreuse bags.
+plaid cyan bags contain 3 drab gold bags, 1 light gray bag, 2 bright violet bags, 3 dark chartreuse bags.
+dull blue bags contain 4 dotted yellow bags.
+vibrant crimson bags contain 1 dotted beige bag.
+light crimson bags contain 2 light black bags, 2 dotted beige bags.
+posh turquoise bags contain 1 posh lavender bag, 4 vibrant orange bags, 4 shiny lavender bags.
+dull beige bags contain 5 dull salmon bags.
+shiny orange bags contain 5 drab gray bags, 1 plaid chartreuse bag, 5 dim crimson bags.
+muted crimson bags contain 3 light cyan bags, 3 dull fuchsia bags, 2 bright red bags.
+shiny gray bags contain 2 bright fuchsia bags, 5 vibrant maroon bags, 1 bright teal bag, 3 striped magenta bags.
+bright brown bags contain 3 mirrored violet bags, 1 light aqua bag, 5 bright maroon bags.
+faded teal bags contain 5 faded gray bags, 5 pale indigo bags, 5 plaid cyan bags.
+faded violet bags contain 1 shiny fuchsia bag, 5 faded gray bags.
+striped purple bags contain 2 wavy olive bags.
+muted tan bags contain 1 clear red bag, 1 shiny crimson bag, 3 faded violet bags.
+light chartreuse bags contain 5 faded turquoise bags.
+mirrored bronze bags contain 4 wavy indigo bags.
+plaid turquoise bags contain 5 pale aqua bags, 4 faded indigo bags.
+drab aqua bags contain 1 light silver bag, 2 plaid bronze bags, 2 light black bags, 3 muted bronze bags.
+posh red bags contain 5 faded aqua bags, 2 posh coral bags, 5 light lime bags, 3 faded gray bags.
+bright aqua bags contain 5 faded orange bags, 2 bright silver bags, 1 posh fuchsia bag, 3 pale blue bags.
+faded yellow bags contain 1 mirrored olive bag.
+faded red bags contain 4 drab gold bags, 5 shiny turquoise bags.
+wavy gray bags contain 1 dull salmon bag, 5 posh brown bags, 1 drab bronze bag.
+striped fuchsia bags contain 3 faded tan bags, 5 posh turquoise bags, 2 dotted turquoise bags.
+vibrant chartreuse bags contain 2 posh lavender bags, 1 plaid cyan bag, 3 muted brown bags.
+faded chartreuse bags contain 4 drab gold bags, 3 faded gray bags.
+dim chartreuse bags contain 3 dark maroon bags, 5 dim brown bags.
+clear plum bags contain 2 dotted indigo bags, 5 dark white bags, 3 plaid indigo bags, 5 bright beige bags.
+faded gold bags contain 4 dim beige bags, 3 light maroon bags, 4 vibrant brown bags, 3 muted olive bags.
+dull fuchsia bags contain 5 dark white bags, 3 pale magenta bags, 1 bright blue bag, 3 drab salmon bags.
+bright yellow bags contain 1 clear indigo bag, 5 dark white bags, 4 shiny indigo bags, 5 light orange bags.
+faded aqua bags contain 3 drab red bags, 1 muted olive bag, 3 vibrant green bags.
+shiny red bags contain 4 faded chartreuse bags, 1 plaid salmon bag, 5 clear crimson bags.
+vibrant salmon bags contain 2 drab magenta bags.
+vibrant plum bags contain 5 drab maroon bags, 3 plaid coral bags.
+dull black bags contain 3 posh indigo bags, 4 light gray bags, 3 wavy salmon bags.
+muted black bags contain 1 faded salmon bag, 4 dark blue bags.
+dim cyan bags contain 1 posh salmon bag, 5 bright teal bags, 3 shiny olive bags.
+posh blue bags contain 3 bright magenta bags, 4 light black bags, 2 vibrant orange bags.
+light silver bags contain 2 shiny yellow bags.
+drab coral bags contain 1 shiny chartreuse bag, 1 pale blue bag.
+drab blue bags contain 1 bright lavender bag, 3 vibrant violet bags, 5 shiny yellow bags.
+bright bronze bags contain 5 posh tomato bags, 5 plaid beige bags.
+faded gray bags contain 1 vibrant brown bag, 3 posh lavender bags.
+dark plum bags contain 3 dull bronze bags, 3 light coral bags.
+light yellow bags contain 3 drab silver bags.
+dim aqua bags contain 4 wavy beige bags, 5 light maroon bags.
+dim orange bags contain no other bags.
+light olive bags contain 5 pale olive bags, 5 pale violet bags.
+shiny indigo bags contain 4 plaid brown bags, 1 vibrant teal bag, 4 light black bags, 3 faded bronze bags.
+light teal bags contain 5 dull cyan bags, 2 dim salmon bags.
+dotted aqua bags contain 4 bright orange bags, 3 drab fuchsia bags, 3 dotted gray bags.
+pale beige bags contain 3 wavy maroon bags.
+posh lime bags contain 3 striped chartreuse bags, 4 drab gold bags, 3 light gray bags, 3 dim lavender bags.
+mirrored silver bags contain 1 wavy salmon bag, 2 drab yellow bags, 2 dotted gray bags.
+muted bronze bags contain 5 vibrant magenta bags, 4 light gray bags, 4 light lime bags.
+bright violet bags contain no other bags.
+dotted fuchsia bags contain 1 dark indigo bag, 4 vibrant brown bags, 4 plaid olive bags, 5 muted olive bags.
+posh tan bags contain 4 plaid beige bags, 4 dark indigo bags.
+faded tan bags contain 4 bright tan bags, 4 mirrored plum bags, 5 striped tomato bags.
+plaid fuchsia bags contain 1 wavy purple bag, 4 shiny teal bags, 3 shiny plum bags, 2 wavy white bags.
+pale silver bags contain 3 plaid green bags, 3 drab chartreuse bags, 4 posh bronze bags.
+plaid yellow bags contain 1 pale aqua bag, 2 drab chartreuse bags.
+dark gold bags contain 3 wavy salmon bags.
+mirrored tan bags contain 3 bright violet bags.
+dotted crimson bags contain 3 dark magenta bags, 1 posh tomato bag.
+bright beige bags contain 2 dark indigo bags, 5 dotted beige bags, 1 drab beige bag, 3 striped aqua bags.
+plaid teal bags contain 1 dotted gold bag, 1 posh bronze bag.
+vibrant magenta bags contain no other bags.
+clear tomato bags contain 5 pale indigo bags.
+light violet bags contain 5 drab indigo bags, 1 pale violet bag, 5 drab purple bags, 2 vibrant tomato bags.
+pale salmon bags contain 2 posh plum bags.
+plaid gray bags contain 1 vibrant gray bag, 1 bright gold bag.
+muted blue bags contain 1 shiny white bag, 4 pale teal bags, 4 dim crimson bags, 4 vibrant chartreuse bags.
+muted aqua bags contain 5 wavy teal bags.
+dim teal bags contain 4 plaid blue bags.
+dim olive bags contain 4 dim silver bags, 1 faded brown bag.
+posh coral bags contain 3 striped blue bags, 2 plaid olive bags, 3 plaid teal bags, 3 clear beige bags.
+wavy lime bags contain 4 dull green bags, 1 posh maroon bag, 5 dotted lavender bags.
+dark chartreuse bags contain no other bags.
+dotted yellow bags contain 5 bright magenta bags.
+light fuchsia bags contain 1 plaid coral bag, 1 posh silver bag, 3 light orange bags.
+dark purple bags contain 2 plaid bronze bags, 3 posh chartreuse bags, 1 light magenta bag.
+striped tan bags contain 1 clear black bag, 1 posh blue bag, 4 faded salmon bags.
+vibrant tan bags contain 1 pale red bag, 2 dull lime bags, 4 posh plum bags.
+bright turquoise bags contain 4 drab aqua bags, 5 dull blue bags.
+dull purple bags contain 1 striped fuchsia bag, 3 dark lavender bags.
+light purple bags contain 3 bright blue bags, 5 mirrored beige bags, 2 muted beige bags.
+plaid aqua bags contain 4 dotted indigo bags, 1 muted aqua bag.
+shiny tan bags contain 3 pale magenta bags, 5 drab salmon bags, 2 dotted gold bags.
+light brown bags contain 5 posh tomato bags, 1 light gray bag, 1 bright gold bag, 4 posh violet bags.
+posh bronze bags contain 2 light black bags, 5 dim lavender bags.
+dim red bags contain no other bags.
+pale yellow bags contain 3 bright tan bags, 3 plaid magenta bags.
+dim salmon bags contain 4 dark white bags, 5 dotted brown bags, 1 striped aqua bag.
+muted green bags contain 4 dim brown bags, 3 posh tan bags, 4 shiny olive bags, 4 clear fuchsia bags.
+drab maroon bags contain 4 dull olive bags, 2 dotted black bags.
+dotted black bags contain 2 dotted fuchsia bags, 3 dim aqua bags, 4 light orange bags, 5 light red bags.
+striped lime bags contain 1 clear crimson bag.
+dim gray bags contain 4 striped lavender bags, 1 wavy salmon bag, 3 posh violet bags, 3 dotted brown bags.
+drab red bags contain 2 dim brown bags, 4 light lime bags.
+muted olive bags contain 1 dark coral bag, 2 wavy silver bags, 5 drab silver bags, 5 pale fuchsia bags.
+shiny crimson bags contain 5 light crimson bags, 2 clear magenta bags.
+vibrant green bags contain 4 light orange bags.
+wavy purple bags contain 5 dull brown bags.
+mirrored indigo bags contain 3 clear bronze bags, 1 pale tan bag, 1 faded tomato bag.
+dull white bags contain 3 dim beige bags, 2 light yellow bags, 2 dark indigo bags, 2 muted bronze bags.
+bright tan bags contain 2 posh blue bags, 3 striped chartreuse bags.
+mirrored olive bags contain 1 wavy maroon bag, 5 wavy silver bags, 5 shiny beige bags.
+faded white bags contain 4 bright bronze bags, 1 plaid brown bag, 5 vibrant yellow bags, 2 drab indigo bags.
+muted teal bags contain 2 striped crimson bags, 1 dim orange bag, 5 posh green bags.
+faded coral bags contain 1 dim beige bag, 1 striped brown bag, 4 pale indigo bags, 1 posh fuchsia bag.
+dim green bags contain 3 dark maroon bags, 4 striped chartreuse bags, 1 wavy purple bag.
+wavy gold bags contain 3 clear aqua bags, 2 dim orange bags.
+dotted purple bags contain 4 dotted indigo bags, 4 drab aqua bags, 2 dark coral bags, 3 muted beige bags.
+dark beige bags contain 5 shiny fuchsia bags.
+posh fuchsia bags contain 3 vibrant white bags.
+mirrored maroon bags contain 3 dull white bags, 2 plaid gold bags, 4 plaid maroon bags, 2 bright crimson bags.
+dim tan bags contain 1 dark white bag, 5 posh black bags, 3 plaid brown bags, 1 posh bronze bag.
+posh purple bags contain 5 clear tomato bags.
+dark tomato bags contain 1 posh lime bag.
+dim gold bags contain 1 posh salmon bag, 5 dark red bags, 4 dark black bags, 2 faded orange bags.
+plaid white bags contain 2 clear olive bags, 2 mirrored cyan bags, 3 muted white bags.
+dull brown bags contain 5 plaid tomato bags, 2 dotted black bags.
+light gold bags contain 3 plaid gold bags, 4 posh salmon bags, 2 dotted blue bags, 5 dull gray bags.
+dark silver bags contain 2 light gray bags, 3 dotted fuchsia bags, 2 light red bags.
+plaid green bags contain 4 light maroon bags, 1 striped tomato bag, 4 drab beige bags.
+dull turquoise bags contain 2 light maroon bags, 3 posh silver bags, 5 dim lavender bags, 5 vibrant orange bags.
+dark violet bags contain 3 wavy maroon bags, 1 clear salmon bag, 5 light yellow bags.
+wavy brown bags contain 3 dim white bags.
+faded magenta bags contain 3 dark silver bags, 4 vibrant purple bags, 1 dark white bag.
+muted cyan bags contain 5 shiny beige bags, 3 muted white bags.
+mirrored chartreuse bags contain 3 mirrored maroon bags, 2 faded indigo bags, 1 pale red bag.
+mirrored turquoise bags contain 1 drab gold bag.
+shiny purple bags contain 3 faded yellow bags, 2 pale aqua bags, 5 vibrant red bags.
+faded lavender bags contain 2 dim gray bags, 3 dim blue bags, 4 dark black bags.
+dotted blue bags contain 2 posh lime bags, 1 dotted beige bag, 4 mirrored aqua bags.
+wavy cyan bags contain 3 dotted turquoise bags, 2 dark lime bags, 4 dotted crimson bags, 1 dotted lime bag.
+faded lime bags contain 1 faded bronze bag, 5 dotted purple bags, 4 light orange bags.
+striped red bags contain 1 shiny teal bag.
+light indigo bags contain 5 shiny olive bags, 4 dim magenta bags, 5 plaid magenta bags, 5 dark violet bags.
+wavy yellow bags contain 3 bright aqua bags, 1 dull blue bag, 1 bright olive bag.
+posh beige bags contain 2 posh orange bags, 3 dotted olive bags, 3 dull yellow bags, 1 wavy white bag.
+muted turquoise bags contain 4 bright silver bags, 4 wavy silver bags.
+drab purple bags contain 5 bright tan bags.
+vibrant lime bags contain 3 plaid magenta bags, 2 vibrant white bags, 2 dark gold bags, 1 light green bag.
+clear violet bags contain 3 muted red bags, 4 posh yellow bags, 2 pale indigo bags.
+pale fuchsia bags contain 2 wavy beige bags, 2 plaid bronze bags, 2 wavy silver bags.
+plaid black bags contain 4 pale olive bags, 3 pale fuchsia bags.
+vibrant violet bags contain 1 plaid red bag, 5 drab red bags, 5 pale gray bags.
+mirrored crimson bags contain 1 dotted fuchsia bag.
+posh aqua bags contain 3 plaid teal bags.
+shiny teal bags contain 4 dotted black bags.
+drab orange bags contain 5 dotted teal bags, 4 drab white bags, 3 pale olive bags.
+posh chartreuse bags contain 3 drab gray bags.
+plaid indigo bags contain 2 striped tomato bags.
+plaid lime bags contain 5 drab purple bags.
+dull tomato bags contain 2 wavy turquoise bags.
+wavy black bags contain 5 mirrored blue bags, 5 striped tan bags.
+posh brown bags contain 3 wavy purple bags, 1 mirrored violet bag.
+dim purple bags contain 5 clear gray bags, 1 plaid green bag, 3 light green bags.
+dotted indigo bags contain 4 drab silver bags.
+striped cyan bags contain 5 light orange bags, 1 dim chartreuse bag, 1 bright blue bag, 5 dim coral bags.
+striped brown bags contain 1 light turquoise bag, 1 mirrored coral bag.
+wavy salmon bags contain 2 vibrant orange bags, 2 drab silver bags, 3 bright blue bags, 1 vibrant brown bag.
+drab lavender bags contain 5 dotted fuchsia bags, 1 plaid green bag, 4 posh salmon bags.
+drab silver bags contain 4 muted bronze bags, 2 drab gold bags.
+plaid maroon bags contain 1 vibrant brown bag, 4 shiny yellow bags, 3 bright blue bags, 5 drab gold bags.
+vibrant beige bags contain 2 drab indigo bags, 2 dim aqua bags.
+mirrored green bags contain 1 dim coral bag, 5 muted orange bags, 1 dotted purple bag.
+drab indigo bags contain 4 dotted magenta bags, 3 drab lavender bags, 4 dotted lime bags, 5 wavy aqua bags.
+faded black bags contain 4 plaid gold bags.
+muted violet bags contain 2 drab aqua bags, 2 light crimson bags, 2 posh tomato bags.
+posh orange bags contain 3 shiny salmon bags.
+bright gray bags contain 1 mirrored gray bag, 3 mirrored magenta bags, 1 clear salmon bag.
+plaid plum bags contain 3 striped magenta bags, 1 drab fuchsia bag.
+posh black bags contain 5 dotted orange bags, 2 muted beige bags.
+striped maroon bags contain 5 clear gold bags, 5 clear tomato bags, 4 muted cyan bags, 1 pale coral bag.
+dim indigo bags contain 1 shiny lavender bag, 2 posh blue bags, 3 drab silver bags.
+clear magenta bags contain 3 dark magenta bags, 2 drab gold bags, 4 dull white bags, 5 light maroon bags.
+plaid red bags contain 4 drab violet bags, 4 vibrant brown bags.
+light gray bags contain no other bags.
+clear red bags contain 3 drab purple bags, 2 pale magenta bags, 2 bright violet bags.
+pale coral bags contain 5 muted chartreuse bags, 4 plaid olive bags.
+dull red bags contain 4 drab lavender bags, 5 bright orange bags, 5 dull white bags.
+clear lavender bags contain 4 wavy brown bags, 1 faded bronze bag.
+dim beige bags contain 3 dotted tomato bags, 4 bright magenta bags.
+striped orange bags contain 4 vibrant lime bags, 1 vibrant tomato bag, 1 faded plum bag.
+drab beige bags contain 1 light lime bag, 1 shiny lavender bag, 2 striped tomato bags, 1 dim orange bag.
+mirrored tomato bags contain 2 posh bronze bags.
+mirrored violet bags contain 3 dotted lime bags, 2 dotted teal bags.
+muted silver bags contain 1 bright salmon bag, 3 shiny crimson bags, 1 dim tomato bag.
+clear gold bags contain 1 dark violet bag.
+faded beige bags contain 1 dull fuchsia bag, 4 shiny yellow bags.
+mirrored red bags contain 5 wavy lavender bags, 2 wavy silver bags.
+wavy coral bags contain 4 drab yellow bags.
+shiny yellow bags contain 1 shiny lavender bag, 5 drab silver bags, 4 drab gold bags.
+shiny chartreuse bags contain 5 faded brown bags.
+light black bags contain 1 plaid cyan bag, 5 dark chartreuse bags, 5 muted bronze bags.
+bright blue bags contain 3 drab silver bags, 5 dim orange bags.
+mirrored gray bags contain 4 pale indigo bags.
+shiny gold bags contain 1 dim lavender bag, 5 mirrored gray bags, 1 light maroon bag.
+faded plum bags contain 2 shiny orange bags, 1 pale plum bag, 2 posh coral bags, 3 shiny white bags.
+dotted olive bags contain 1 drab aqua bag, 4 posh black bags, 3 pale salmon bags, 2 dotted yellow bags.
+vibrant tomato bags contain 3 muted brown bags, 4 faded teal bags, 4 dotted brown bags.
+vibrant yellow bags contain 1 drab coral bag, 3 dark purple bags, 1 wavy crimson bag.
+muted coral bags contain 1 dark plum bag, 3 wavy blue bags, 3 bright yellow bags, 4 dark maroon bags.
+dark white bags contain 1 dim brown bag, 2 drab gray bags, 3 clear cyan bags.
+light salmon bags contain 4 dim violet bags, 2 shiny gold bags, 5 pale turquoise bags.
+dark green bags contain 1 pale yellow bag, 5 shiny gold bags.
+dark lime bags contain 2 plaid red bags, 4 dotted tomato bags, 4 posh bronze bags.
+light tan bags contain 5 light coral bags.
+striped gold bags contain 3 vibrant maroon bags, 4 clear lime bags.
+dotted silver bags contain 3 striped aqua bags, 2 mirrored aqua bags, 1 vibrant brown bag.
+dull aqua bags contain 4 pale gray bags, 4 mirrored cyan bags, 2 shiny turquoise bags, 5 striped crimson bags.
+shiny plum bags contain 2 plaid green bags, 3 light crimson bags.
+faded indigo bags contain 5 light tomato bags, 3 pale indigo bags, 1 shiny magenta bag, 5 muted tomato bags.
+striped blue bags contain 2 shiny crimson bags, 3 wavy crimson bags, 4 dotted red bags.
+muted salmon bags contain 1 faded red bag, 1 dim gray bag, 2 dotted gray bags.
+pale aqua bags contain 5 clear magenta bags, 3 dim beige bags.
+pale plum bags contain 5 bright indigo bags, 2 light crimson bags, 1 muted white bag.
+pale green bags contain 5 bright aqua bags, 1 dull fuchsia bag.
+wavy tan bags contain 2 posh tomato bags.
+wavy teal bags contain 2 mirrored violet bags.
+dim maroon bags contain 3 drab fuchsia bags.
+bright silver bags contain 5 dull black bags.
+plaid magenta bags contain 2 muted olive bags, 5 mirrored plum bags, 1 posh lavender bag.
+wavy lavender bags contain 3 pale salmon bags, 4 wavy green bags, 5 posh yellow bags.
+striped olive bags contain 2 pale fuchsia bags, 1 pale silver bag, 4 dull brown bags, 4 dim blue bags.
+shiny cyan bags contain 2 light tomato bags, 2 faded indigo bags, 3 drab lime bags.
+bright white bags contain 4 dark orange bags.
+mirrored lavender bags contain 3 drab gold bags, 4 mirrored white bags, 4 bright orange bags, 1 pale gray bag.
+dark brown bags contain 1 dark chartreuse bag, 2 muted bronze bags, 3 bright magenta bags, 5 striped chartreuse bags.
+dark blue bags contain 5 vibrant brown bags, 4 drab maroon bags, 5 wavy brown bags, 3 drab silver bags.
+bright gold bags contain 5 dark silver bags.
+dotted gray bags contain 1 posh bronze bag, 5 drab fuchsia bags, 3 mirrored gray bags, 1 clear cyan bag.
+clear teal bags contain 1 dim beige bag.
+drab yellow bags contain 3 bright blue bags.
+bright purple bags contain 2 posh lavender bags.
+shiny bronze bags contain 1 faded red bag.
+dark black bags contain 2 mirrored beige bags, 3 wavy silver bags.
+mirrored coral bags contain 3 drab beige bags, 3 wavy silver bags, 4 dim lavender bags, 4 drab silver bags.
+dim white bags contain 4 posh bronze bags.
+dim brown bags contain 1 muted bronze bag, 2 drab gold bags, 4 striped tomato bags, 5 drab silver bags.
+striped white bags contain 1 dotted crimson bag, 4 pale indigo bags, 2 dark chartreuse bags, 1 dotted brown bag.
+dark coral bags contain 2 dark brown bags, 4 mirrored plum bags, 4 bright tan bags, 5 posh blue bags.
+faded bronze bags contain 4 drab fuchsia bags, 1 plaid yellow bag.
+dim fuchsia bags contain 3 plaid yellow bags, 1 wavy coral bag, 2 dotted blue bags.
+mirrored blue bags contain 5 dull crimson bags, 1 pale chartreuse bag, 3 vibrant plum bags.
+wavy plum bags contain 1 pale olive bag, 1 bright red bag, 3 clear tan bags, 2 drab gray bags.
+plaid bronze bags contain 5 wavy silver bags, 4 bright magenta bags, 1 dim orange bag.
+dotted tomato bags contain 1 vibrant brown bag, 5 mirrored gray bags.
+dim yellow bags contain 1 vibrant teal bag, 5 plaid white bags.
+faded olive bags contain 4 wavy beige bags.
+bright coral bags contain 2 muted maroon bags, 2 posh indigo bags.
+mirrored aqua bags contain 1 light gray bag.
+faded blue bags contain 1 vibrant tomato bag, 1 mirrored salmon bag.
+mirrored fuchsia bags contain 5 plaid beige bags, 5 clear violet bags.
+bright orange bags contain 3 dull turquoise bags, 3 striped blue bags, 3 posh maroon bags, 5 dotted brown bags.
+drab white bags contain 5 drab maroon bags, 3 shiny coral bags, 1 drab gray bag.
+plaid blue bags contain 5 light turquoise bags, 4 dark violet bags, 1 bright indigo bag, 3 dull fuchsia bags.
+bright tomato bags contain 4 vibrant tomato bags, 1 dull purple bag, 4 clear tomato bags, 2 dotted yellow bags.
+dark gray bags contain 3 light green bags, 3 dull teal bags, 2 wavy chartreuse bags, 1 vibrant coral bag.
+light lime bags contain no other bags.
+dim magenta bags contain 2 light gold bags, 4 dotted teal bags, 3 dull crimson bags.
+vibrant cyan bags contain 2 dark brown bags, 1 dim crimson bag.
+dotted salmon bags contain 2 shiny magenta bags, 4 dark orange bags, 3 striped lavender bags, 3 mirrored violet bags.
+plaid chartreuse bags contain 3 dull crimson bags, 1 dull red bag, 4 posh white bags, 5 bright indigo bags.
+muted plum bags contain 1 clear salmon bag, 3 mirrored lime bags.
+dark bronze bags contain 4 clear chartreuse bags.
+dim blue bags contain 4 light yellow bags, 5 mirrored beige bags.
+vibrant gold bags contain 4 muted bronze bags, 4 plaid gold bags.
+drab gray bags contain 1 dark chartreuse bag.
+dotted lime bags contain 1 dotted indigo bag, 4 dull gray bags, 3 drab gray bags, 4 shiny bronze bags.
+mirrored orange bags contain 5 mirrored tan bags.
+dark lavender bags contain 3 dim chartreuse bags, 4 posh black bags, 1 clear beige bag.
+muted lime bags contain 1 vibrant violet bag.
+dull indigo bags contain 3 faded indigo bags, 5 bright orange bags, 4 posh turquoise bags, 1 dim gray bag.
+pale magenta bags contain 5 dotted gray bags, 3 drab silver bags, 2 wavy salmon bags.
+plaid lavender bags contain 5 vibrant tomato bags.
+clear bronze bags contain 3 shiny crimson bags.
+bright salmon bags contain 5 mirrored bronze bags, 2 clear black bags, 4 plaid green bags, 5 faded red bags.
+wavy indigo bags contain 3 shiny lavender bags, 3 vibrant brown bags, 2 dotted beige bags, 4 wavy brown bags.
+light maroon bags contain 3 light black bags, 3 plaid maroon bags, 2 wavy silver bags, 5 vibrant brown bags.
+muted gold bags contain 5 posh black bags.
+dull lavender bags contain 3 plaid beige bags, 4 clear cyan bags, 5 striped aqua bags, 4 dotted gray bags.
+muted brown bags contain 1 faded olive bag, 2 drab gray bags, 5 wavy salmon bags.
+dotted orange bags contain 2 dotted red bags.
+dim plum bags contain 5 drab lime bags, 1 plaid tan bag.
+muted orange bags contain 3 plaid green bags.
+dull chartreuse bags contain 4 dark maroon bags, 5 vibrant tan bags, 1 mirrored coral bag, 5 dull lime bags.
+striped gray bags contain 2 vibrant crimson bags.
+posh gray bags contain 3 dark orange bags.
+shiny lime bags contain 4 muted yellow bags, 2 wavy cyan bags.
+dull lime bags contain 1 drab purple bag.
+striped bronze bags contain 2 dim white bags, 1 dim coral bag, 3 light maroon bags, 5 dim blue bags.
+wavy orange bags contain 2 pale blue bags, 3 muted violet bags.
+pale brown bags contain 3 wavy indigo bags, 1 bright green bag.
+dull silver bags contain 5 wavy aqua bags, 5 shiny maroon bags, 5 dotted chartreuse bags.
+bright red bags contain 2 dark gold bags, 5 dark tan bags.
+dotted brown bags contain 1 striped turquoise bag.
+plaid crimson bags contain 3 posh white bags, 4 pale plum bags, 3 dark orange bags, 3 shiny magenta bags.
+dotted plum bags contain 5 posh blue bags, 5 dark indigo bags, 5 wavy silver bags.
+light tomato bags contain 3 light purple bags, 5 clear plum bags.
+dull bronze bags contain 3 clear magenta bags, 1 faded tan bag.
+drab turquoise bags contain 2 posh lavender bags, 2 faded tomato bags, 5 mirrored tomato bags.
+striped lavender bags contain 2 dotted turquoise bags, 5 plaid indigo bags.
+pale violet bags contain 5 light red bags, 1 striped chartreuse bag, 1 drab chartreuse bag, 1 bright silver bag.
+posh gold bags contain 2 bright blue bags.
+dull maroon bags contain 4 dotted teal bags, 2 faded silver bags, 3 posh gray bags.
+shiny beige bags contain 3 light orange bags, 4 drab fuchsia bags, 3 muted beige bags.
+dim silver bags contain 1 dotted gold bag.
+pale orange bags contain 5 dotted orange bags, 3 dim white bags.
+wavy aqua bags contain 5 vibrant purple bags.
+posh salmon bags contain 2 drab red bags.
+clear tan bags contain 4 bright plum bags, 4 faded fuchsia bags, 1 mirrored crimson bag, 1 faded salmon bag.
+clear orange bags contain 1 drab aqua bag.
+posh violet bags contain 2 vibrant magenta bags, 3 mirrored plum bags, 5 light orange bags.
+dull crimson bags contain 5 faded violet bags, 3 dim indigo bags, 2 light red bags, 2 clear red bags.
+mirrored teal bags contain 1 drab teal bag.
+drab violet bags contain 2 mirrored plum bags, 4 drab red bags.
+shiny violet bags contain 5 shiny aqua bags, 1 striped brown bag, 1 dark blue bag, 5 wavy white bags.</value>
+  </data>
+  <data name="day8" xml:space="preserve">
+    <value>acc +28
+jmp +481
+nop +87
+acc -10
+acc +21
+jmp +548
+jmp +250
+acc -9
+acc +19
+acc -3
+nop +85
+jmp +84
+acc +43
+acc +34
+acc -5
+jmp +602
+nop +416
+acc +19
+acc +46
+acc +33
+jmp +133
+acc -3
+acc +5
+jmp +143
+nop -18
+acc +50
+acc +0
+acc -6
+jmp +243
+acc +11
+acc -18
+jmp +501
+acc +45
+jmp +449
+acc +0
+acc -10
+acc +20
+nop +516
+jmp +544
+jmp +551
+nop +59
+nop +247
+acc -1
+jmp +589
+acc +41
+jmp +457
+jmp +102
+acc +22
+jmp +195
+acc +30
+jmp -38
+acc +21
+nop -3
+jmp +466
+acc +47
+acc +4
+jmp +226
+jmp +404
+acc -19
+acc +13
+acc +37
+acc -6
+jmp +240
+nop +272
+acc +41
+acc -12
+acc +41
+jmp +159
+acc +26
+jmp +363
+acc +33
+jmp +1
+jmp +76
+acc -15
+acc -6
+jmp +1
+jmp +259
+nop +149
+jmp +1
+jmp +20
+acc +31
+jmp +131
+acc +47
+acc +18
+jmp +355
+acc +9
+acc +42
+jmp +28
+jmp +138
+acc +29
+acc +7
+nop +270
+acc +6
+jmp +445
+jmp +282
+jmp +266
+acc +30
+nop +283
+jmp +134
+acc -16
+acc +50
+acc +30
+jmp +344
+acc +25
+acc +42
+acc -8
+jmp +274
+acc +27
+acc +33
+acc -18
+acc +21
+jmp +448
+acc -7
+nop +342
+jmp -65
+acc +43
+nop +407
+nop +122
+jmp +170
+acc +34
+jmp +1
+acc +1
+acc +11
+jmp +436
+acc -1
+jmp +346
+jmp +250
+acc +17
+acc +21
+nop +482
+jmp -90
+acc +45
+jmp +244
+acc +29
+acc +23
+nop +241
+acc +34
+jmp +168
+acc +28
+acc -6
+jmp +299
+nop +441
+jmp +304
+nop +41
+acc +49
+acc -18
+acc +7
+jmp +244
+acc +45
+jmp -95
+acc -9
+acc -18
+jmp +14
+acc +35
+acc +47
+jmp +297
+acc +34
+acc +33
+jmp +1
+jmp +210
+nop +128
+jmp +305
+acc +29
+acc +17
+acc +47
+jmp -24
+nop -86
+jmp +97
+acc -7
+acc +14
+nop +118
+jmp +411
+acc +42
+acc -8
+acc -15
+jmp +232
+jmp +1
+acc -6
+jmp +20
+acc -15
+acc +3
+acc +50
+jmp +1
+jmp +430
+acc -18
+acc +35
+acc +46
+acc +1
+jmp +51
+acc +13
+nop +209
+jmp +114
+nop +319
+acc +35
+jmp +194
+acc +6
+acc +42
+jmp -44
+jmp +1
+nop +208
+acc -13
+jmp +412
+acc -12
+nop +327
+nop -27
+acc +34
+jmp +324
+acc +21
+acc +16
+jmp +273
+acc -14
+jmp +363
+acc +4
+jmp +140
+acc +6
+acc +28
+jmp +110
+jmp +432
+nop -20
+acc +4
+acc +1
+jmp +392
+jmp -164
+acc +23
+acc +10
+jmp +57
+jmp +385
+acc +5
+acc +28
+acc +25
+acc +0
+jmp +251
+acc -17
+jmp +38
+nop -2
+acc +35
+acc -3
+acc +40
+jmp +123
+acc +19
+jmp +271
+acc -7
+jmp +40
+acc -7
+acc +0
+acc +46
+jmp -161
+acc +33
+acc +1
+jmp +341
+acc -12
+acc +45
+nop -145
+jmp +116
+acc +49
+jmp +20
+jmp -34
+acc +41
+acc +35
+jmp -132
+acc +45
+jmp +119
+acc +25
+jmp +12
+acc +8
+jmp -15
+acc +14
+acc +43
+acc +17
+acc +35
+jmp -98
+jmp -182
+nop +260
+nop +338
+jmp +31
+acc +23
+nop -64
+acc +36
+acc +47
+jmp +318
+acc +10
+jmp +180
+acc +37
+acc -13
+acc -6
+nop -29
+jmp -179
+jmp -5
+jmp +1
+acc +43
+jmp -34
+nop -218
+acc -10
+jmp -5
+nop +67
+acc +9
+acc +47
+jmp -276
+acc +28
+nop +260
+acc +38
+jmp -280
+jmp +303
+acc +42
+jmp -209
+acc -2
+acc +13
+acc -1
+acc +43
+jmp +244
+acc -15
+acc +47
+jmp +149
+jmp +1
+nop +233
+acc +14
+jmp -287
+jmp -110
+acc -12
+jmp -159
+nop -94
+jmp -188
+nop +20
+jmp +53
+nop -64
+jmp -296
+acc +20
+jmp +134
+acc +8
+jmp +47
+acc -15
+jmp -37
+acc -14
+acc -15
+jmp +163
+nop -22
+acc -3
+jmp -210
+acc +37
+acc -11
+nop +179
+jmp -193
+acc +27
+jmp +81
+acc +46
+acc +21
+jmp +93
+acc -9
+nop -131
+nop -177
+jmp -173
+acc -19
+jmp +55
+nop +16
+acc +45
+acc +10
+jmp +83
+acc +15
+acc +17
+acc +28
+jmp -121
+nop -19
+acc +47
+jmp +184
+acc +45
+acc +15
+acc +6
+acc -3
+jmp +164
+acc +1
+acc +30
+nop +226
+acc +20
+jmp -339
+nop +223
+jmp +266
+acc +0
+jmp -253
+acc -8
+jmp -26
+nop -326
+nop -106
+jmp +73
+acc +2
+acc -7
+acc +4
+acc -1
+jmp -61
+jmp +186
+acc -14
+jmp +221
+nop +111
+acc -7
+acc +46
+jmp -345
+acc +2
+nop -212
+acc +23
+jmp -159
+nop -258
+acc +3
+acc +40
+jmp -142
+acc +49
+acc +27
+acc +45
+jmp -214
+acc +1
+acc +5
+acc +23
+acc -7
+jmp +119
+nop +201
+nop -215
+nop -197
+jmp +115
+acc -9
+acc +38
+jmp -211
+acc +40
+acc -1
+acc +16
+acc +35
+jmp -70
+acc -18
+acc -10
+jmp +93
+acc +14
+nop -216
+acc -12
+nop -223
+jmp -342
+acc -19
+acc +43
+acc -6
+acc +11
+jmp -106
+acc +2
+jmp +73
+acc +48
+acc +20
+acc +18
+acc +44
+jmp +162
+acc -7
+jmp -202
+acc -2
+acc +34
+acc -17
+jmp -443
+acc +40
+jmp -129
+jmp -181
+acc +30
+jmp -400
+acc +42
+nop -185
+acc +34
+acc -5
+jmp -275
+jmp -406
+acc -16
+jmp -270
+acc -4
+acc +40
+jmp -299
+acc -7
+jmp -76
+acc +10
+acc +11
+jmp -4
+acc +0
+acc +33
+acc -8
+acc +8
+jmp +166
+nop +62
+jmp +1
+nop +13
+jmp +23
+jmp -167
+jmp -469
+acc +32
+nop -403
+acc +7
+acc -3
+jmp -345
+acc -9
+acc -2
+acc +48
+jmp +57
+acc +9
+acc +3
+nop -32
+acc +25
+jmp -177
+jmp -369
+nop -167
+acc -9
+jmp -453
+acc -6
+jmp -360
+acc +11
+nop -457
+acc +50
+nop +121
+jmp -231
+nop -83
+acc -4
+nop -253
+jmp +28
+acc +29
+acc +0
+jmp -11
+nop -373
+acc -19
+acc +26
+acc +0
+jmp -7
+jmp +71
+acc +18
+acc +50
+jmp -234
+nop -399
+acc -7
+acc +32
+jmp -294
+nop -481
+acc +8
+jmp -113
+jmp -183
+jmp -333
+acc -7
+acc +10
+acc +31
+jmp -501
+nop +75
+jmp -219
+acc +2
+acc +43
+acc +19
+acc -2
+jmp -443
+acc +16
+acc +6
+acc +40
+jmp -461
+jmp +79
+acc +32
+acc +20
+acc -7
+nop -71
+jmp -498
+jmp -231
+acc +37
+nop -526
+acc +38
+acc +41
+jmp -509
+acc +26
+acc +45
+acc +33
+acc +37
+jmp -410
+nop -289
+acc +46
+acc +39
+jmp -44
+jmp -169
+jmp +1
+acc +33
+jmp +1
+acc +39
+jmp -446
+acc -9
+nop -187
+acc +41
+jmp -444
+acc +20
+acc +9
+nop -500
+jmp -43
+acc +23
+acc +28
+acc +35
+jmp -94
+acc +47
+nop -514
+acc +38
+jmp -577
+nop -31
+nop -348
+acc -18
+jmp -202
+nop -162
+nop -373
+jmp +45
+acc +45
+acc -16
+acc -15
+jmp -532
+acc +29
+acc -14
+acc -11
+jmp -509
+jmp -279
+acc -18
+acc +42
+acc +12
+jmp +1
+jmp -450
+jmp -88
+jmp -505
+acc +0
+jmp -397
+nop -438
+jmp -86
+acc +14
+acc +27
+nop -66
+nop -278
+jmp -548
+acc +19
+nop -305
+nop -440
+jmp -441
+acc +35
+acc +36
+acc +45
+jmp -505
+acc -8
+jmp -313
+nop -517
+acc +38
+acc +12
+nop -511
+jmp -354
+acc +29
+acc -7
+acc +29
+jmp -201
+acc -2
+acc -3
+jmp -75
+acc +24
+acc -2
+jmp +1
+acc +19
+jmp -58
+nop -432
+acc +1
+acc +33
+acc +1
+jmp +1</value>
+  </data>
+</root>
