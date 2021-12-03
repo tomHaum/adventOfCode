@@ -4,3 +4,4 @@ using AdventOfCode2021;
 Console.WriteLine("Hello, World!");
 Day1.Run();
 Day2.Run();
+Day3.Run();
