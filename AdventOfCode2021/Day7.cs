@@ -40,20 +40,9 @@ namespace AdventOfCode2021
             Console.WriteLine("Day 7 - Part 2: " + minCost);
         }
         
-        private static Dictionary<int, int> dict = new Dictionary<int, int>();
         private static int Triangle(int x)
         {
-            if (!dict.ContainsKey(x))
-            {
-                var accum = 0;
-                for(int i = 1; i <= x; i++)
-                {
-                    accum += i;
-                }
-                dict[x] = accum;
-            }
-
-            return dict[x];
+            return (x * (x + 1)) / 2;
         }
     }
 }
