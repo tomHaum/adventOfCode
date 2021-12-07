@@ -458,5 +458,23 @@ namespace AdventOfCode2021 {
                 return ResourceManager.GetString("day6Alternate", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1101,1,29,67,1102,0,1,65,1008,65,35,66,1005,66,28,1,67,65,20,4,0,1001,65,1,65,1106,0,8,99,35,67,101,99,105,32,110,39,101,115,116,32,112,97,115,32,117,110,101,32,105,110,116,99,111,100,101,32,112,114,111,103,114,97,109,10,807,891,601,565,31,61,126,1220,923,21,750,38,834,1494,1187,235,138,344,438,1078,1664,936,451,86,34,292,782,923,154,1060,286,713,1557,1693,95,7,263,1100,402,472,342,384,95,968,319,193,1130,983,100,88,1020,720,693,790,113,30,30,759,151,1039,111,172,46,478,341,182,229,96,750,88,254,105,599,107 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string day7 {
+            get {
+                return ResourceManager.GetString("day7", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 16,1,2,0,4,2,7,1,2,14.
+        /// </summary>
+        internal static string day7Alternate {
+            get {
+                return ResourceManager.GetString("day7Alternate", resourceCulture);
+            }
+        }
     }
 }
