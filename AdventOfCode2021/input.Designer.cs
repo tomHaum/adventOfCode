@@ -476,5 +476,53 @@ namespace AdventOfCode2021 {
                 return ResourceManager.GetString("day7Alternate", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to dbcfeag cgaed fe bfgad aefcdb efa efgda gcef dcaebg dfeagc | fae cfge fae baefdc
+        ///ea bfecadg bgafcd deac ebcag eab debfag eabgdc bcgfe bagdc | cdbagf fagbcd bae fcegb
+        ///fbgdec cbgeaf cbfag bd bgda cgbfda dbf fecda bfadc cbedagf | gecfdb cbfga bacgef dfb
+        ///geabdf cfbge dcbeaf aebdf dgea acdgfbe fag gfbea ag cabdfg | dfeabc dbaefc fdaebc fga
+        ///gcae cefdg abdcgfe cg fcg afcegd dbgfea agdfe dcafbg bcdef | gc caefdg gcf egdcf
+        ///efgcb fbac dbefg bce efacg fbgcdae cb egfbca dgfaec dcgbea | fgecb bcfa bc efcag
+        ///efcgdb  [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string day8 {
+            get {
+                return ResourceManager.GetString("day8", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb | fdgacbe cefdb cefbgd gcbe
+        ///edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec | fcgedb cgb dgebacf gc
+        ///fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef | cg cg fdcagb cbg
+        ///fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega | efabcd cedba gadfec cb
+        ///aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga | gecf egdcabf bgf bfgea
+        ///fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf | gebdcfa ecba ca fadegcb
+        ///dbcfg [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string day8Alternate {
+            get {
+                return ResourceManager.GetString("day8Alternate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf.
+        /// </summary>
+        internal static string day8Simple {
+            get {
+                return ResourceManager.GetString("day8Simple", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string String1 {
+            get {
+                return ResourceManager.GetString("String1", resourceCulture);
+            }
+        }
     }
 }
