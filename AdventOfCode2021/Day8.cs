@@ -9,27 +9,6 @@ namespace AdventOfCode2021
     internal class Day8
     {
 
-        /*
-          
-  0:      1:      2:      3:      4:   
- aaaa    ....    aaaa    aaaa    ....
-b    c  .    c  .    c  .    c  b    c
-b    c  .    c  .    c  .    c  b    c
- ....    ....    dddd    dddd    dddd
-e    f  .    f  e    .  .    f  .    f
-e    f  .    f  e    .  .    f  .    f
- gggg    ....    gggg    gggg    ....
-
-  5:      6:      7:      8:      9:
- aaaa    aaaa    aaaa    aaaa    aaaa
-b    .  b    .  .    c  b    c  b    c
-b    .  b    .  .    c  b    c  b    c
- dddd    dddd    ....    dddd    dddd
-.    f  e    f  .    f  e    f  .    f
-.    f  e    f  .    f  e    f  .    f
- gggg    gggg    ....    gggg    gggg
-          
-         **/
 
         internal static void Run()
         {
@@ -79,20 +58,6 @@ b    .  b    .  .    c  b    c  b    c
                 var zero = unique.Where(x => x.Length == 6 && x != six).Single(x => x.Contains(bottomLeft));
                 var nine = unique.Single(x => x.Length == 6 && x != six && x != zero);
 
-
-                //Console.WriteLine("zero  | " + zero);
-                //Console.WriteLine("one   | " + one);
-                //Console.WriteLine("two   | " + two);
-                //Console.WriteLine("three | " + three);
-                //Console.WriteLine("four  | " + four);
-                //Console.WriteLine("five  | " + five);
-                //Console.WriteLine("six   | " + six);
-                //Console.WriteLine("seven | " + seven);
-                //Console.WriteLine("eight | " + eight);
-                //Console.WriteLine("nine  | " + nine);
-
-
-                
                 var lineNumber = 0;
                 foreach (string digit in output.Where(x => x != null))
                 {
