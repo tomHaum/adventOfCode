@@ -517,11 +517,29 @@ namespace AdventOfCode2021 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 9656799999432123456997667932987634348988901234569972123973212398999898743234578999878965345989412345
+        ///8746789898543235689879457891396521236567892347698763299865101987898789652123459998767893239874323458
+        ///7657896797654348798968346799987430123456943458987654987654219876747688943435698967656789098765434567
+        ///8767945698967859987653235678976521234567894569998785698765345965434567894566987654345678999886548698
+        ///9878936989898967998842123799988432345678965679989976789876459876123998999879876543234567999998657789
+        ///99 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string String1 {
+        internal static string day9 {
             get {
-                return ResourceManager.GetString("String1", resourceCulture);
+                return ResourceManager.GetString("day9", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 2199943210
+        ///3987894921
+        ///9856789892
+        ///8767896789
+        ///9899965678.
+        /// </summary>
+        internal static string day9Alternate {
+            get {
+                return ResourceManager.GetString("day9Alternate", resourceCulture);
             }
         }
     }
