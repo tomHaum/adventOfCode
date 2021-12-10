@@ -64,7 +64,7 @@ namespace AdventOfCode2021
                 }
             }
 
-            var basins = new Dictionary<Point, List<Point>>();
+            var basins = new List<HashSet<Point>>();
             foreach (var basin in basinOrgins)
             {
                 var visited = new HashSet<Point>();
@@ -81,7 +81,7 @@ namespace AdventOfCode2021
                     //checkLeft
                     if (x != 0 && 9 != map[x - 1][y])
                     {
-                        var p  = new Point(x - 1, y);
+                        var p = new Point(x - 1, y);
                         if (!visited.Contains(p))
                         {
                             active.Enqueue(p);
@@ -99,7 +99,7 @@ namespace AdventOfCode2021
                     //checkTop
                     if (y != 0 && 9 != map[x][y - 1])
                     {
-                        var p = new Point(x, y -1);
+                        var p = new Point(x, y - 1);
                         if (!visited.Contains(p))
                         {
                             active.Enqueue(p);
@@ -108,16 +108,16 @@ namespace AdventOfCode2021
                     //checkBot
                     if (y != map[0].Length - 1 && 9 != map[x][y + 1])
                     {
-                        var p = new Point(x, y +1);
+                        var p = new Point(x, y + 1);
                         if (!visited.Contains(p))
                         {
                             active.Enqueue(p);
                         }
                     }
                 }
-                basins.Add(basin, visited.ToList());
+                basins.Add(visited);
             }
-            var product = basins.Values.OrderByDescending(x => x.Count).Take(3).Aggregate(1, (accum, x) => accum * x.Count);
+            var product = basins.OrderByDescending(x => x.Count).Take(3).Aggregate(1, (accum, x) => accum * x.Count);
             Console.WriteLine($"Day 9 - Part 2: {product}");
         }
 
