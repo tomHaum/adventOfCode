@@ -544,7 +544,12 @@ namespace AdventOfCode2021 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to {[[&lt;[({{[&lt;[[[[&lt;&gt;()]{[][]}][[&lt;&gt;[]]([])]]]{({[[]()]&lt;()&lt;&gt;&gt;}[[()()]&lt;{}()&gt;])&lt;{&lt;[]&lt;&gt;&gt;&lt;{}{}&gt;}[&lt;()&lt;&gt;&gt;{[]()}]&gt;}
+        ///[[&lt;{(&lt;{(&lt;&lt;{[[[{}[]]({}&lt;&gt;)]([[]&lt;&gt;][()()])](({&lt;&gt;}[&lt;&gt;&lt;&gt;]))}&gt;&lt;{({(&lt;&gt;{})&lt;&lt;&gt;{}&gt;}[[{}{}]&lt;()&lt;&gt;&gt;])(((()&lt;&gt;)({}{})){
+        ///(&lt;[&lt;[[[&lt;(&lt;{[{&lt;[][]&gt;({}())}({&lt;&gt;{}})]({{&lt;&gt;{}}{{}[]}}&lt;[{}()](&lt;&gt;)&gt;)}(&lt;[[{}{}]({}{})]{{{}&lt;&gt;}}&gt;{{{()
+        ///&lt;([({(&lt;[{{{&lt;[&lt;&lt;&gt;[]&gt;[&lt;&gt;]]&lt;{[]&lt;&gt;}&lt;{}&gt;&gt;&gt;}[&lt;&lt;{&lt;&gt;()}&lt;&lt;&gt;{}&gt;&gt;[([]&lt;&gt;)&lt;&lt;&gt;()&gt;]&gt;{(&lt;[]{}&gt;({}()))([[][]]({}())
+        ///&lt;[{{(((([[&lt;[{{[]()}[[][]]}[&lt;&lt;&gt;()&gt;{&lt;&gt;}]][{[{}{}]&lt;()()&gt;}({()[]}({}()))]&gt;[(&lt;(&lt;&gt;{}]&gt;&lt;[()&lt;&gt;]{()[]}&gt;)]]&lt;(
+        ///[&lt;[([ [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string day10 {
             get {
@@ -553,7 +558,16 @@ namespace AdventOfCode2021 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to [({(&lt;(())[]&gt;[[{[]{&lt;()&lt;&gt;&gt;
+        ///[(()[&lt;&gt;])]({[&lt;{&lt;&lt;[]&gt;&gt;(
+        ///{([(&lt;{}[&lt;&gt;[]}&gt;{[]{[(&lt;()&gt;
+        ///(((({&lt;&gt;}&lt;{&lt;{&lt;&gt;}{[]{[]{}
+        ///[[&lt;[([]))&lt;([[{}[[()]]]
+        ///[{[{({}]{}}([{[{{{}}([]
+        ///{&lt;[[]]&gt;}&lt;{[{[{[]{()[[[]
+        ///[&lt;(&lt;(&lt;(&lt;{}))&gt;&lt;([]([]()
+        ///&lt;{([([[(&lt;&gt;()){}]&gt;(&lt;&lt;{{
+        ///&lt;{([{{}}[&lt;[[[&lt;&gt;{}]]]&gt;[]].
         /// </summary>
         internal static string day10Alternate {
             get {
