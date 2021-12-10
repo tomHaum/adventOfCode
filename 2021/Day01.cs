@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day1
+    internal class Day01
     {
         private static int SET_SIZE = 3;
         internal static void Run()
         {
-            var depths = input.day1.Split("\r\n").Select(x => int.Parse(x)).ToArray();
+            var depths = input.day01.Split("\r\n").Select(x => int.Parse(x)).ToArray();
             int increadingCount = 0;
             for(int i = 1; i < depths.Length; i++)
             {
                 if (depths[i] > depths[i - 1])
                     increadingCount++;
             }
-            Console.WriteLine($"Day 1 - Part 1: {increadingCount} increasing scans");
+            Console.WriteLine($"Day 01 - Part 1: {increadingCount} increasing scans");
 
             int setSize = 3;
             int windowA = 0;
@@ -34,7 +34,7 @@ namespace AdventOfCode2021
                     increadingCount++;
                 windowA = windowB;
             }
-            Console.WriteLine($"Day 1 - Part 2: {increadingCount} increasing windows");
+            Console.WriteLine($"Day 01 - Part 2: {increadingCount} increasing windows");
         }
 
         private static int calculateWindowSum(int[] depths, int index)

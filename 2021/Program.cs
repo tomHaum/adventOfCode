@@ -12,13 +12,13 @@ using System.Diagnostics;
 ////prevent "Normal" Threads from interrupting this thread
 //Thread.CurrentThread.Priority = ThreadPriority.Highest;
 
-//Day1.Run();
-//Day2.Run();
-//Day3.Run();
-//Day4.Run();
-//Day5.Run();
-//Day6.Run();
-//Day7.Run();
-//Day8.Run();
-Day9.Run();
+Day01.Run();
+Day02.Run();
+Day03.Run();
+Day04.Run();
+Day05.Run();
+Day06.Run();
+Day07.Run();
+Day08.Run();
+Day09.Run();
 //var summary = BenchmarkRunner.Run<Day6>();

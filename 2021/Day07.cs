@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day7
+    internal class Day07
     {
         internal static void Run()
         {
             var min = int.MaxValue;
             var max = int.MinValue;
-            var crabs = input.day7.Split(",").Select(x =>
+            var crabs = input.day07.Split(",").Select(x =>
             {
                 var y = int.Parse(x);
                 min = Math.Min(min, y);
@@ -29,7 +29,7 @@ namespace AdventOfCode2021
             {
                 minCost = Math.Min(minCost, crabs.Aggregate(0, (accum, x) => accum + Math.Abs(i - x)));
             }
-            Console.WriteLine("Day 7 - Part 1: " + minCost);
+            Console.WriteLine("Day 07 - Part 1: " + minCost);
 
             minCost = int.MaxValue;
             for (int i = min; i <= max; i++)
@@ -37,7 +37,7 @@ namespace AdventOfCode2021
                 minCost = Math.Min(minCost, crabs.Aggregate(0, (accum, x) => accum + Triangle(Math.Abs(i - x))));
             }
 
-            Console.WriteLine("Day 7 - Part 2: " + minCost);
+            Console.WriteLine("Day 07 - Part 2: " + minCost);
         }
         
         private static int Triangle(int x)

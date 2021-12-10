@@ -165,9 +165,9 @@ namespace AdventOfCode2021 {
         ///609
         ///61 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day1 {
+        internal static string day01 {
             get {
-                return ResourceManager.GetString("day1", resourceCulture);
+                return ResourceManager.GetString("day01", resourceCulture);
             }
         }
         
@@ -183,9 +183,9 @@ namespace AdventOfCode2021 {
         ///260
         ///263.
         /// </summary>
-        internal static string day1Alternate {
+        internal static string day01Alternate {
             get {
-                return ResourceManager.GetString("day1Alternate", resourceCulture);
+                return ResourceManager.GetString("day01Alternate", resourceCulture);
             }
         }
         
@@ -250,9 +250,9 @@ namespace AdventOfCode2021 {
         ///down 3
         ///up [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day2 {
+        internal static string day02 {
             get {
-                return ResourceManager.GetString("day2", resourceCulture);
+                return ResourceManager.GetString("day02", resourceCulture);
             }
         }
         
@@ -264,9 +264,9 @@ namespace AdventOfCode2021 {
         ///down 8
         ///forward 2.
         /// </summary>
-        internal static string day2Alternate {
+        internal static string day02Alternate {
             get {
-                return ResourceManager.GetString("day2Alternate", resourceCulture);
+                return ResourceManager.GetString("day02Alternate", resourceCulture);
             }
         }
         
@@ -309,9 +309,9 @@ namespace AdventOfCode2021 {
         ///110110000111
         ///01101001 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day3 {
+        internal static string day03 {
             get {
-                return ResourceManager.GetString("day3", resourceCulture);
+                return ResourceManager.GetString("day03", resourceCulture);
             }
         }
         
@@ -329,9 +329,9 @@ namespace AdventOfCode2021 {
         ///00010
         ///01010.
         /// </summary>
-        internal static string day3Alternate {
+        internal static string day03Alternate {
             get {
-                return ResourceManager.GetString("day3Alternate", resourceCulture);
+                return ResourceManager.GetString("day03Alternate", resourceCulture);
             }
         }
         
@@ -355,9 +355,9 @@ namespace AdventOfCode2021 {
         ///56 96 36 28 43
         /// 2  7 1 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day4 {
+        internal static string day04 {
             get {
-                return ResourceManager.GetString("day4", resourceCulture);
+                return ResourceManager.GetString("day04", resourceCulture);
             }
         }
         
@@ -382,9 +382,9 @@ namespace AdventOfCode2021 {
         ///22 11 13  6  5
         /// 2  0 12  3  7.
         /// </summary>
-        internal static string day4Alternate {
+        internal static string day04Alternate {
             get {
-                return ResourceManager.GetString("day4Alternate", resourceCulture);
+                return ResourceManager.GetString("day04Alternate", resourceCulture);
             }
         }
         
@@ -417,9 +417,9 @@ namespace AdventOfCode2021 {
         ///924,58 -&gt; 924,890
         ///7 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day5 {
+        internal static string day05 {
             get {
-                return ResourceManager.GetString("day5", resourceCulture);
+                return ResourceManager.GetString("day05", resourceCulture);
             }
         }
         
@@ -435,45 +435,45 @@ namespace AdventOfCode2021 {
         ///0,0 -&gt; 8,8
         ///5,5 -&gt; 8,2.
         /// </summary>
-        internal static string day5Alternate {
+        internal static string day05Alternate {
             get {
-                return ResourceManager.GetString("day5Alternate", resourceCulture);
+                return ResourceManager.GetString("day05Alternate", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 4,3,3,5,4,1,2,1,3,1,1,1,1,1,2,4,1,3,3,1,1,1,1,2,3,1,1,1,4,1,1,2,1,2,2,1,1,1,1,1,5,1,1,2,1,1,1,1,1,1,1,1,1,3,1,1,1,1,1,1,1,1,5,1,4,2,1,1,2,1,3,1,1,2,2,1,1,1,1,1,1,1,1,1,1,4,1,3,2,2,3,1,1,1,4,1,1,1,1,5,1,1,1,5,1,1,3,1,1,2,4,1,1,3,2,4,1,1,1,1,1,5,5,1,1,1,1,1,1,4,1,1,1,3,2,1,1,5,1,1,1,1,1,1,1,5,4,1,5,1,3,4,1,1,1,1,2,1,2,1,1,1,2,2,1,2,3,5,1,1,1,1,3,5,1,1,1,2,1,1,4,1,1,5,1,4,1,2,1,3,1,5,1,4,3,1,3,2,1,1,1,2,2,1,1,1,1,4,5,1,1,1,1,1,3,1,3,4,1,1,4,1,1,3,1,3,1,1,4,5,4,3,2,5,1,1,1,1,1,1,2,1,5,2,5,3,1,1,1,1,1,3,1,1,1,1, [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day6 {
+        internal static string day06 {
             get {
-                return ResourceManager.GetString("day6", resourceCulture);
+                return ResourceManager.GetString("day06", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 3,4,3,1,2.
         /// </summary>
-        internal static string day6Alternate {
+        internal static string day06Alternate {
             get {
-                return ResourceManager.GetString("day6Alternate", resourceCulture);
+                return ResourceManager.GetString("day06Alternate", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 1101,1,29,67,1102,0,1,65,1008,65,35,66,1005,66,28,1,67,65,20,4,0,1001,65,1,65,1106,0,8,99,35,67,101,99,105,32,110,39,101,115,116,32,112,97,115,32,117,110,101,32,105,110,116,99,111,100,101,32,112,114,111,103,114,97,109,10,807,891,601,565,31,61,126,1220,923,21,750,38,834,1494,1187,235,138,344,438,1078,1664,936,451,86,34,292,782,923,154,1060,286,713,1557,1693,95,7,263,1100,402,472,342,384,95,968,319,193,1130,983,100,88,1020,720,693,790,113,30,30,759,151,1039,111,172,46,478,341,182,229,96,750,88,254,105,599,107 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day7 {
+        internal static string day07 {
             get {
-                return ResourceManager.GetString("day7", resourceCulture);
+                return ResourceManager.GetString("day07", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to 16,1,2,0,4,2,7,1,2,14.
         /// </summary>
-        internal static string day7Alternate {
+        internal static string day07Alternate {
             get {
-                return ResourceManager.GetString("day7Alternate", resourceCulture);
+                return ResourceManager.GetString("day07Alternate", resourceCulture);
             }
         }
         
@@ -486,9 +486,9 @@ namespace AdventOfCode2021 {
         ///efgcb fbac dbefg bce efacg fbgcdae cb egfbca dgfaec dcgbea | fgecb bcfa bc efcag
         ///efcgdb  [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day8 {
+        internal static string day08 {
             get {
-                return ResourceManager.GetString("day8", resourceCulture);
+                return ResourceManager.GetString("day08", resourceCulture);
             }
         }
         
@@ -501,18 +501,18 @@ namespace AdventOfCode2021 {
         ///fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf | gebdcfa ecba ca fadegcb
         ///dbcfg [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day8Alternate {
+        internal static string day08Alternate {
             get {
-                return ResourceManager.GetString("day8Alternate", resourceCulture);
+                return ResourceManager.GetString("day08Alternate", resourceCulture);
             }
         }
         
         /// <summary>
         ///   Looks up a localized string similar to acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf.
         /// </summary>
-        internal static string day8Simple {
+        internal static string day08Simple {
             get {
-                return ResourceManager.GetString("day8Simple", resourceCulture);
+                return ResourceManager.GetString("day08Simple", resourceCulture);
             }
         }
         
@@ -524,9 +524,9 @@ namespace AdventOfCode2021 {
         ///9878936989898967998842123799988432345678965679989976789876459876123998999879876543234567999998657789
         ///99 [rest of string was truncated]&quot;;.
         /// </summary>
-        internal static string day9 {
+        internal static string day09 {
             get {
-                return ResourceManager.GetString("day9", resourceCulture);
+                return ResourceManager.GetString("day09", resourceCulture);
             }
         }
         
@@ -537,9 +537,27 @@ namespace AdventOfCode2021 {
         ///8767896789
         ///9899965678.
         /// </summary>
-        internal static string day9Alternate {
+        internal static string day09Alternate {
             get {
-                return ResourceManager.GetString("day9Alternate", resourceCulture);
+                return ResourceManager.GetString("day09Alternate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day10 {
+            get {
+                return ResourceManager.GetString("day10", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string day10Alternate {
+            get {
+                return ResourceManager.GetString("day10Alternate", resourceCulture);
             }
         }
     }

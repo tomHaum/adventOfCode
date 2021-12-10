@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day4
+    internal class Day04
     {
         private static Regex numbers = new Regex(@"(\d+)\s+(\d+)\s+(\d+)\s+(\d+)\s+(\d+)");
         internal static void Run()
         {
-            var txt = input.day4.Split("\r\n");
+            var txt = input.day04.Split("\r\n");
 
             var randomOrder = txt[0].Split(',').Select(x => int.Parse(x)).ToArray();
 
@@ -139,7 +139,7 @@ namespace AdventOfCode2021
                                     }
                                 }
                             }
-                            Console.WriteLine($"Day 4 - Part {((winners.Count == 0) ? '1' : '2')} : Sum [{sum}] | last Num [{num}] | product [{num * sum}]");
+                            Console.WriteLine($"Day 04 - Part {((winners.Count == 0) ? '1' : '2')} : Sum [{sum}] | last Num [{num}] | product [{num * sum}]");
                         }
                         winners.Add(b);
                         winner = false;

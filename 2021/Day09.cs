@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using System.Drawing;
 namespace AdventOfCode2021
 {
-    internal class Day9
+    internal class Day09
     {
 
 
         internal static void Run()
         {
 
-            int[][] map = input.day9.Split("\r\n").Select(x => x.Select(y => int.Parse(y.ToString())).ToArray()).ToArray();
+            int[][] map = input.day09.Split("\r\n").Select(x => x.Select(y => int.Parse(y.ToString())).ToArray()).ToArray();
             var mins = new List<int>();
 
             for (int x = 0; x < map.Length; x++)
@@ -38,7 +38,7 @@ namespace AdventOfCode2021
                 }
             }
 
-            Console.WriteLine($"Day 9 - Part 1: {mins.Sum() + mins.Count()}");
+            Console.WriteLine($"Day 09 - Part 1: {mins.Sum() + mins.Count()}");
 
             mins = new List<int>();
             var basinOrgins = new List<Point>();
@@ -118,7 +118,7 @@ namespace AdventOfCode2021
                 basins.Add(visited);
             }
             var product = basins.OrderByDescending(x => x.Count).Take(3).Aggregate(1, (accum, x) => accum * x.Count);
-            Console.WriteLine($"Day 9 - Part 2: {product}");
+            Console.WriteLine($"Day 09 - Part 2: {product}");
         }
 
     }

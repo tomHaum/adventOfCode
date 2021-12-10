@@ -8,7 +8,7 @@ using BenchmarkDotNet.Attributes;
 namespace AdventOfCode2021
 {
     [RPlotExporter] 
-    public class Day6
+    public class Day06
     {
         
         internal static void Run()
@@ -17,7 +17,7 @@ namespace AdventOfCode2021
 
             var fishes = new long[9];
             var fishesTemp = new long[9];
-            var txt = input.day6.Split(',').Select(x => long.Parse(x));
+            var txt = input.day06.Split(',').Select(x => long.Parse(x));
             foreach (var x in txt)
             {
                 fishes[x]++;
@@ -36,17 +36,17 @@ namespace AdventOfCode2021
                 fishes[6] += newFishes;
             }
 
-            Console.WriteLine("Day 6 - Part 1: " + fishes.Aggregate(0L, (accum, x) => accum + x));
+            Console.WriteLine("Day 06 - Part 1: " + fishes.Aggregate(0L, (accum, x) => accum + x));
             Stopwatch sw = new();
-            var part2 = new Day6().Part2();
-            Console.WriteLine("Day 6 - Part 2: " + part2);
+            var part2 = new Day06().Part2();
+            Console.WriteLine("Day 06 - Part 2: " + part2);
 
         }
         [Benchmark]
         public long Part2()
         {
             var fishes = new long[9];
-            var txt = input.day6.Split(',').Select(x => long.Parse(x));
+            var txt = input.day06.Split(',').Select(x => long.Parse(x));
             foreach (var x in txt)
             {
                 fishes[x]++;

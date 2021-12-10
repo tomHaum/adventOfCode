@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Drawing;
 namespace AdventOfCode2021
 {
-    internal class Day5
+    internal class Day05
     {
         internal class Line
         {
@@ -76,7 +76,7 @@ namespace AdventOfCode2021
 
         public static void Run()
         {
-            var txt = input.day5.Split("\r\n");
+            var txt = input.day05.Split("\r\n");
             int xMax = 0, yMax = 0;
 
             var lines = txt.Select(x => new Line(x)).ToList();
@@ -102,7 +102,7 @@ namespace AdventOfCode2021
                 }
             }
 
-            Console.WriteLine($"Day 5 - Part 1: twoOrMore [{twoOrMore}]");
+            Console.WriteLine($"Day 05 - Part 1: twoOrMore [{twoOrMore}]");
             pointValues = new Dictionary<Point, int>();
             twoOrMore = 0;
 
@@ -122,7 +122,7 @@ namespace AdventOfCode2021
                     }
                 }
             }
-            Console.WriteLine($"Day 5 - Part 2: twoOrMore [{twoOrMore}]");
+            Console.WriteLine($"Day 05 - Part 2: twoOrMore [{twoOrMore}]");
         }
     }
 }

@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day3
+    internal class Day03
     {
         private static int LINE_WIDTH = 12;
         //private static int LINE_WIDTH = 5;
         internal static void Run()
         {
-            var lines = input.day3.Split("\r\n").ToArray();
+            var lines = input.day03.Split("\r\n").ToArray();
 
 
             int[] accum = new int[LINE_WIDTH];
@@ -33,12 +33,12 @@ namespace AdventOfCode2021
             var mask = Enumerable.Range(0, LINE_WIDTH).Aggregate(0, (acc, x) => (acc << 1) + 1);
             var epsilon = gamma ^ mask;
 
-            Console.WriteLine($"Day 3 - Part 1: gamma [{gamma}] | epsilon [{epsilon}] | product [{gamma * epsilon}]");
+            Console.WriteLine($"Day 03 - Part 1: gamma [{gamma}] | epsilon [{epsilon}] | product [{gamma * epsilon}]");
 
             var oxygenGenRating = GetRating(lines, true);
             var co2ScrubberRating = GetRating(lines, false);
 
-            Console.WriteLine($"Day 3 - Part 2: {nameof(oxygenGenRating)} [{oxygenGenRating}] | {nameof(co2ScrubberRating)} [{co2ScrubberRating}] | product [{oxygenGenRating * co2ScrubberRating}]");
+            Console.WriteLine($"Day 03 - Part 2: {nameof(oxygenGenRating)} [{oxygenGenRating}] | {nameof(co2ScrubberRating)} [{co2ScrubberRating}] | product [{oxygenGenRating * co2ScrubberRating}]");
         }
         private static int GetRating(string[] lines, bool lookForOneOnMoreOnes)
         {

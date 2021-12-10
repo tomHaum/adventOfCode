@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day8
+    internal class Day08
     {
 
 
         internal static void Run()
         {
-            var lines = input.day8.Split("\r\n");
+            var lines = input.day08.Split("\r\n");
 
             int accum = 0;
             foreach (var line in lines)
@@ -31,7 +31,7 @@ namespace AdventOfCode2021
                 }
             }
 
-            Console.WriteLine($"Day 8 - Part 1: {accum}");
+            Console.WriteLine($"Day 08 - Part 1: {accum}");
 
             accum = 0;
             foreach (var line in lines)
@@ -86,10 +86,9 @@ namespace AdventOfCode2021
 
                     lineNumber = lineNumber * 10 + curr;
                 }
-                Console.WriteLine("lineNumber " + lineNumber);
                 accum += lineNumber;
             }
-            Console.WriteLine($"Day 8 - Part 2: {accum}");
+            Console.WriteLine($"Day 08 - Part 2: {accum}");
 
 
         }

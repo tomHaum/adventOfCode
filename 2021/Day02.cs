@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2021
 {
-    internal class Day2
+    internal class Day02
     {
         internal class SubCommand
         {
@@ -20,7 +20,7 @@ namespace AdventOfCode2021
         }
         internal static void Run()
         {
-            var subCommands = input.day2.Split("\r\n").Select(x =>
+            var subCommands = input.day02.Split("\r\n").Select(x =>
             {
                 var parts = x.Split(" ");
 
@@ -67,7 +67,7 @@ namespace AdventOfCode2021
                 }
             }
 
-            Console.WriteLine($"Day 2 - Part 1: hortizontalPosition [{horizontalPosition}] | depth[{depth}] | product [{horizontalPosition * depth}]");
+            Console.WriteLine($"Day 02 - Part 1: hortizontalPosition [{horizontalPosition}] | depth[{depth}] | product [{horizontalPosition * depth}]");
             horizontalPosition = 0;
             depth = 0;
             int aim = 0;
@@ -87,7 +87,7 @@ namespace AdventOfCode2021
                         break;
                 }
             }
-            Console.WriteLine($"Day 2 - Part 1: hortizontalPosition [{horizontalPosition}] | depth[{depth}] | aim[{aim}]|product [{horizontalPosition * depth}]");
+            Console.WriteLine($"Day 02 - Part 1: hortizontalPosition [{horizontalPosition}] | depth[{depth}] | aim[{aim}]|product [{horizontalPosition * depth}]");
         }
     }
 }
