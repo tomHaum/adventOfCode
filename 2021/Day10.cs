@@ -30,15 +30,15 @@ namespace AdventOfCode2021
             part2Scores.Add('{', 3);
             part2Scores.Add('<', 4);
         }
-        
-           
+
+
         internal static void Run()
         {
             var lines = input.day10.Split("\r\n").ToArray();
 
             var part1Score = 0;
             var part2Results = new List<long>();
-            foreach(var line in lines)
+            foreach (var line in lines)
             {
                 Dictionary<char, int> openers = new Dictionary<char, int>();
                 Stack<char> stack = new Stack<char>();
@@ -47,7 +47,8 @@ namespace AdventOfCode2021
                 {
                     if (closers.ContainsKey(c))
                     {
-                        if(stack.Peek() == closers[c]) {
+                        if (stack.Peek() == closers[c])
+                        {
                             stack.Pop();
                         }
                         else
@@ -67,7 +68,7 @@ namespace AdventOfCode2021
                     continue;
                 }
                 long score = 0;
-                while(stack.Count != 0)
+                while (stack.Count != 0)
                 {
                     var c = stack.Pop();
                     score = score * 5;
