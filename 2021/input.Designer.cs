@@ -610,5 +610,51 @@ namespace AdventOfCode2021 {
                 return ResourceManager.GetString("day11Alternate", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to yw-MN
+        ///wn-XB
+        ///DG-dc
+        ///MN-wn
+        ///yw-DG
+        ///start-dc
+        ///start-ah
+        ///MN-start
+        ///fi-yw
+        ///XB-fi
+        ///wn-ah
+        ///MN-ah
+        ///MN-dc
+        ///end-yw
+        ///fi-end
+        ///th-fi
+        ///end-XB
+        ///dc-XB
+        ///yw-XN
+        ///wn-yw
+        ///dc-ah
+        ///MN-fi
+        ///wn-DG.
+        /// </summary>
+        internal static string day12 {
+            get {
+                return ResourceManager.GetString("day12", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to start-A
+        ///start-b
+        ///A-c
+        ///A-b
+        ///b-d
+        ///A-end
+        ///b-end.
+        /// </summary>
+        internal static string day12Simple {
+            get {
+                return ResourceManager.GetString("day12Simple", resourceCulture);
+            }
+        }
     }
 }

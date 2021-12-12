@@ -154,9 +154,6 @@ namespace AdventOfCode2021
                     break;
                 }
             }
-
-
         }
-
     }
 }
