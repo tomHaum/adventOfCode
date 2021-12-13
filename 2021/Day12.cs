@@ -24,9 +24,7 @@ namespace AdventOfCode2021
             internal static Cave GetOrMakeCave(Dictionary<string, Cave> caves, string caveName)
             {
                 if (caves.ContainsKey(caveName))
-                {
                     return caves[caveName];
-                }
 
                 return caves[caveName] = new Cave(caveName);
             }
