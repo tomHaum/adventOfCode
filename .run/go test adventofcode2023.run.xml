@@ -1,7 +1,7 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="go test adventofcode2023" type="GoTestRunConfiguration" factoryName="Go Test" nameIsGenerated="true">
-    <module name="2023" />
-    <working_directory value="$PROJECT_DIR$" />
+    <module name="adventOfCode" />
+    <working_directory value="$PROJECT_DIR$/2023" />
     <kind value="PACKAGE" />
     <package value="adventofcode2023" />
     <directory value="$PROJECT_DIR$" />

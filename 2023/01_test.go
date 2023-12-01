@@ -188,7 +188,7 @@ func Test_day1part2(t *testing.T) {
 			args: args{
 				input: day1Part1Input,
 			},
-			want: 281,
+			want: 55614,
 		},
 	}
 	for _, tt := range tests {
