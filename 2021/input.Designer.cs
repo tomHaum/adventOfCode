@@ -19,7 +19,7 @@ namespace AdventOfCode2021 {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class input {
@@ -748,6 +748,129 @@ namespace AdventOfCode2021 {
         internal static string day13Alternate {
             get {
                 return ResourceManager.GetString("day13Alternate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NNSOFOCNHBVVNOBSBHCB
+        ///
+        ///HN -&gt; S
+        ///FK -&gt; N
+        ///CH -&gt; P
+        ///VP -&gt; P
+        ///VV -&gt; C
+        ///PB -&gt; H
+        ///CP -&gt; F
+        ///KO -&gt; P
+        ///KN -&gt; V
+        ///NO -&gt; K
+        ///NF -&gt; N
+        ///CO -&gt; P
+        ///HO -&gt; H
+        ///VH -&gt; V
+        ///OV -&gt; C
+        ///VS -&gt; F
+        ///PK -&gt; H
+        ///OS -&gt; S
+        ///BF -&gt; S
+        ///SN -&gt; P
+        ///NK -&gt; N
+        ///SV -&gt; O
+        ///KB -&gt; O
+        ///ON -&gt; O
+        ///FN -&gt; H
+        ///FO -&gt; N
+        ///KV -&gt; S
+        ///CS -&gt; C
+        ///VO -&gt; O
+        ///SP -&gt; O
+        ///VK -&gt; H
+        ///KP -&gt; S
+        ///SK -&gt; N
+        ///NC -&gt; B
+        ///PN -&gt; N
+        ///HV -&gt; O
+        ///HS -&gt; C
+        ///CN -&gt; N
+        ///OO -&gt; V
+        ///FF -&gt; B
+        ///VC -&gt; V
+        ///HK -&gt; K
+        ///CC -&gt; H
+        ///BO -&gt; H
+        ///SC -&gt; O
+        ///HH -&gt; C
+        ///BV -&gt; P
+        ///OB -&gt; O
+        ///FC -&gt; H
+        ///PO -&gt; C
+        ///FV -&gt; C
+        ///BK -&gt; F
+        ///HB -&gt; B
+        ///NH -&gt; P
+        ///KF [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string day14 {
+            get {
+                return ResourceManager.GetString("day14", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to NNCB
+        ///
+        ///CH -&gt; B
+        ///HH -&gt; N
+        ///CB -&gt; H
+        ///NH -&gt; C
+        ///HB -&gt; C
+        ///HC -&gt; B
+        ///HN -&gt; C
+        ///NN -&gt; C
+        ///BH -&gt; H
+        ///NC -&gt; B
+        ///NB -&gt; B
+        ///BN -&gt; B
+        ///BB -&gt; N
+        ///BC -&gt; B
+        ///CC -&gt; N
+        ///CN -&gt; C.
+        /// </summary>
+        internal static string day14Alternate {
+            get {
+                return ResourceManager.GetString("day14Alternate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 8656175343119439947311919179279377257689197682985752287249881788527977345924133329967132199899199876
+        ///4281288396984115627338957853913949146812568775798196289991176529889498798259196976277683981565984526
+        ///8169838335918963371547591999342191683995972519179929683978126291855319511168245582651697938949414963
+        ///9911589184911198759466719191189995157885898771177913669999436998997781742478168921196176418888127932
+        ///2332856729917591158935782911513226531793881992469468248251991718456991551657621249229316797949388969
+        ///64 [rest of string was truncated]&quot;;.
+        /// </summary>
+        internal static string day15 {
+            get {
+                return ResourceManager.GetString("day15", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to 1163751742
+        ///1381373672
+        ///2136511328
+        ///3694931569
+        ///7463417111
+        ///1319128137
+        ///1359912421
+        ///3125421639
+        ///1293138521
+        ///2311944581.
+        /// </summary>
+        internal static string day15Alternate {
+            get {
+                return ResourceManager.GetString("day15Alternate", resourceCulture);
             }
         }
     }

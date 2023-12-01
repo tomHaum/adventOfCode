@@ -7,7 +7,6 @@ import (
 )
 
 func GetData(fileName string) [][]int {
-
 	file, err := os.Open(fileName)
 	if err != nil {
 		panic(err)

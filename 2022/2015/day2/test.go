@@ -1,7 +1,7 @@
 package main
 
 import (
-	"adventOfCode2015/day2/data"
+	"adventOfCode2015/day3/data"
 	"fmt"
 )
 

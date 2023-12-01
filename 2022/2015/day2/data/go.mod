@@ -1,3 +1,3 @@
-module adventOfCode2015/day2/data
+module adventOfCode2015/day3/data
 
 go 1.19

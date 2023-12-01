@@ -24,5 +24,7 @@ using System.Diagnostics;
 //Day10.Run();
 //Day11.Run();
 //Day12.Run();
-Day13.Run();
+//Day13.Run();
+//Day14.Run();
+Day15.Run();
 //var summary = BenchmarkRunner.Run<Day6>();
