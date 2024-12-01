@@ -2,6 +2,16 @@ package adventofcode2023
 
 import "strings"
 
+func run(input []string) (int, int) {
+	sum1 := 0
+	sum2 := 0
+	for _, line := range input {
+		sum1 += calibrationValue(line)
+		sum2 += calibrateValue2(line)
+	}
+
+	return sum1, sum2
+}
 func day1Part1(input []string) int {
 	sum := 0
 	for _, line := range input {

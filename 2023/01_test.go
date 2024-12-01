@@ -4,6 +4,7 @@ import (
 	_ "embed"
 	"strings"
 	"testing"
+	"time"
 )
 
 func Test_calibrationValue(t *testing.T) {
@@ -106,9 +107,14 @@ func Test_day1Part1(t *testing.T) {
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
-			if got := day1Part1(tt.args.input); got != tt.want {
+			start := time.Now()
+			got := day1Part1(tt.args.input)
+			end := time.Now()
+			if got != tt.want {
 				t.Errorf("day1Part1() = %v, want %v", got, tt.want)
 			}
+
+			t.Logf("%v", end.Sub(start))
 		})
 	}
 }
@@ -196,6 +202,41 @@ func Test_day1part2(t *testing.T) {
 			if got := day1part2(tt.args.input); got != tt.want {
 				t.Errorf("day1part2() = %v, want %v", got, tt.want)
 			}
+		})
+	}
+}
+
+func Test_run(t *testing.T) {
+	type args struct {
+		input []string
+	}
+	tests := []struct {
+		name  string
+		args  args
+		want1 int
+		want2 int
+	}{
+		{
+			name: "real",
+			args: args{
+				input: day1Part1Input,
+			},
+			want1: 55488,
+			want2: 55614,
+		},
+	}
+	for _, tt := range tests {
+		t.Run(tt.name, func(t *testing.T) {
+			start := time.Now()
+			got1, got2 := run(tt.args.input)
+			end := time.Now()
+			if got1 != tt.want1 {
+				t.Errorf("run() got1 = %v, want1 %v", got1, tt.want1)
+			}
+			if got2 != tt.want2 {
+				t.Errorf("run() got2 = %v, want2 %v", got2, tt.want2)
+			}
+			t.Logf("execution time: %v", end.Sub(start))
 		})
 	}
 }
