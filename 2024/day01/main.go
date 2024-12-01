@@ -1,19 +1,28 @@
 package main
 
 import (
-	"fmt"
-	"github.com/tbhaum/aoc/2024/data"
 	"slices"
+	"strconv"
+	"strings"
 )
 
-func main() {
+func parse(data string) ([]int, []int) {
 	left := []int{}
 	right := []int{}
-	for x := range data.Day1() {
-		left = append(left, x.One)
-		right = append(right, x.Two)
+
+	for _, l := range strings.Split(data, "\n") {
+		fields := strings.Fields(l)
+		x, _ := strconv.Atoi(fields[0])
+		y, _ := strconv.Atoi(fields[1])
+
+		left = append(left, x)
+		right = append(right, y)
 	}
 
+	return left, right
+}
+
+func Day1(left, right []int) (int, int) {
 	slices.Sort(left)
 	slices.Sort(right)
 
@@ -27,16 +36,12 @@ func main() {
 		totalDiff += diff
 	}
 
-	fmt.Println(totalDiff)
-
 	totalFreq := 0
 	for i := 0; i < len(left); i++ {
 		c := 0
 		for j := 0; j < len(right); j++ {
-			//fmt.Printf("%v %v\n", left[i], right[j])
 			if left[i] == right[j] {
 				c++
-				fmt.Println("same")
 			} else if left[i] < right[j] {
 				break
 			}
@@ -45,6 +50,5 @@ func main() {
 		totalFreq += c * left[i]
 	}
 
-	fmt.Println(totalFreq)
-
+	return totalDiff, totalFreq
 }
